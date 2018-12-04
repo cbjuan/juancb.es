@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/cbjuan/cbjuan.github.io.git
+	branch = master
