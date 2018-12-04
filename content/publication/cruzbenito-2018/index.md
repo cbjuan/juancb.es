@@ -9,4 +9,5 @@ publication = "*Telematics and Informatics* (in press)"
 tags = ["Human-Computer Interaction", "Human-Machine Interaction", "Software Architectures", "Systematic Literature Review"]
 url_source = "http://www.sciencedirect.com/science/article/pii/S0736585318305392"
 doi = "10.1016/j.tele.2018.09.006"
+selected=true
 +++
