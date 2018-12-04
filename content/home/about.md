@@ -32,7 +32,7 @@ weight = 5
   year = 2012
 
 [[education.courses]]
-  course = "Technical Engineering in Computer Systems"
+  course = "Technical Engineering Degree in Computer Systems"
   institution = "University of Salamanca, Spain"
   year = 2011
 
@@ -41,4 +41,4 @@ weight = 5
 
 # Biography
 
-Juan Cruz-Benito received the Ph.D. in Computing Engineering from the University of Salamanca, Spain, in 2018. Previously, he received the M.Sc. degree in Intelligent Systems and the B.Sc. in Computer Systems from the same university in 2013 and 2012 respectively. He is currently Senior Software Engineer at the IBM Research's T.J. Watson Research Center, NY, USA. Before it, he worked for five years in research & development projects at the GRIAL Research Group, University of Salamanca, Spain; where he participated, as software engineer, researcher, and developer, in many European and Spanish R&D projects (public and private), such as VALS, USALSIM Virtual Campus, TRAILER, or the Spanish Observatory for University Employability and Employment. As a researcher, his research interests involve the Human-Computer Interaction, Artificial Intelligence, Data Science and technologies for educational purposes. He is the co-author of more than 100 publications, serves as Editorial Board for many high-respected journals and conferences and is Associate Editor of the Journal of Global Information Management (JGIM). As a software engineer and developer, he is involved in many different technical communities (GDG, DataLab, etc.) and Open Source initiatives.
+Juan Cruz-Benito received the Ph.D. in Computing Engineering from the University of Salamanca, Spain, in 2018. Previously, he received the M.Sc. degree in Intelligent Systems, the B.Sc. in Computer Systems and the Technical Engineering Degree in Computer Systems from the same university in 2013, 2012, and 2011, respectively. He is currently Senior Software Engineer at the IBM Research's T.J. Watson Research Center, NY, USA. Before it, he worked for five years in research & development projects at the GRIAL Research Group, University of Salamanca, Spain; where he participated, as software engineer, researcher, and developer, in many European and Spanish R&D projects (public and private), such as VALS, USALSIM Virtual Campus, TRAILER, or the Spanish Observatory for University Employability and Employment. As a researcher, his research interests involve the Human-Computer Interaction, Artificial Intelligence, Data Science and technologies for educational purposes. He is the co-author of more than 100 publications, serves as Editorial Board for many high-respected journals and conferences and is Associate Editor of the Journal of Global Information Management (JGIM). As a software engineer and developer, he is involved in many different technical communities (GDG, DataLab, etc.) and Open Source initiatives.
