@@ -23,7 +23,7 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 
-publication = "_Learning and Collaboration Technologies. Learning and Teaching_"
+publication = "In _International Conference on Learning and Collaboration Technologies_. HCI International 2018. _Learning and Collaboration Technologies. Learning and Teaching_ (pp. 421-430). Springer, Cham"
 
 # publication*short = "In \_CIMIE'17*"
 

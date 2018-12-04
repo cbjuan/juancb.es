@@ -23,7 +23,7 @@ publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 
-publication = "_IEEE Access_"
+publication = "_IEEE Access, 6_, 2251-2265"
 
 # publication*short = "In \_CIMIE'17*"
 

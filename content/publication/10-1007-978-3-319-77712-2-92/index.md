@@ -23,9 +23,9 @@ publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
 
-publication = "_Trends and Advances in Information Systems and Technologies_"
+publication = "In _World Conference on Information Systems and Technologies_. WorldCIST 2018. _Trends and Advances in Information Systems and Technologies_ (pp. 971-979). Springer, Cham"
 
-# publication*short = "In \_CIMIE'17*"
+#publication_short = "In _CIMIE'17_"
 
 # Abstract and optional shortened version.
 
@@ -39,19 +39,14 @@ selected = false
 # Projects (optional).
 
 # Associate this publication with one or more of your projects.
-
 # Simply enter your project's folder or file name without extension.
-
 # E.g. `projects = ["deep-learning"]` references
-
 # `content/project/deep-learning/index.md`.
 
 # Otherwise, set `projects = []`.
-
 # projects = ["internal-project"]
 
 # Tags (optional).
-
 # Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 
 tags = []
