@@ -1,0 +1,12 @@
++++
+title = "Virtual placements for informatics students in open source business across Europe"
+date = 2014-10-01
+authors = ["F. J. García-Peñalvo", "J. Cruz-Benito", "M. Á. Conde", "D. Griffiths"]
+publication_types = ["1"]
+abstract = "VALS (Virtual Alliances for Learning Society) European Project has the aim of establishing sustainable processes to build knowledge partnerships between Higher Education and companies to collaborate on resolving authentic business problems through open innovation mediated by the use of Open Source Software. To achieve this, VALS builds knowledge partnerships between Higher Education and companies who work together on resolving authentic business problems through open innovation. The innovative approach is to leverage virtual placements of informatics students in companies in order to foster entrepreneurial skills and attitudes, and to make use of the results to establish new learning and teaching methods. This results in the Semester of Code initiative, a set of methods and processes for creating and managing a real virtual placement, and for integrating this into innovative teaching and learning strategy. To show these methods and processes, this paper describes the general methodology designed to perform the Semester of Code, as well as several guidelines on how to develop the software that will support this process. Also describes a real adaptation of theoretical approach of this whole process in the case of an Academic Institution, including comprehensively all the issues affecting the process implementation in a real context."
+selected = false
+publication = "*2014 IEEE Frontiers in Education Conference (FIE) Proceedings*"
+tags = ["business data processing;educational administrative data processing;educational institutions;further education;information science education;organisational aspects;public domain software;teaching;virtual placements;informatics students;open source business;VALS European Project;Virtual Alliances for Learning Society project;knowledge partnerships;higher education;companies;business problem solving;open innovation;open source software;entrepreneurial skills;entrepreneurial attitudes;teaching method;learning method;Semester of Code initiative;academic institution;Companies;Educational institutions;Europe;Technological innovation;Software;Virtual placements;Higher Education;Business;Open Source Software;Semester of Code"]
+doi = "10.1109/FIE.2014.7044411"
++++
+
