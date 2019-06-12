@@ -30,7 +30,7 @@ date_format = "Jan 2006"
 [[item]]
   title = "Best conference paper award"
   organization = "8th International Workshop on Software Engineering for E-learning (ISELEAR’17) / 5th International Conference Technological Ecosystems for Enhancing Multiculturality (TEEM) 2017"
-  certificate_url = "https://dl.acm.org/citation.cfm?doid=3144826.3145437"
+  certificate_url = "https://doi.org/10.1145/3144826.3145437"
   date_start = "2017-10-20"
   date_end = ""
   description = ""
