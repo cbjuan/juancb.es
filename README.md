@@ -2,6 +2,20 @@
 
 This repository contains the files to generate a website using [Hugo.io](https://gohugo.io/) and the [Academic theme](https://sourcethemes.com/academic/).
 
+## Running the website in local
+
+Install Hugo
+
+```
+brew install hugo
+```
+
+and from the website folder, run
+
+```
+hugo server
+```
+
 ## Updating the website
 
 Make the changes following the templates and different instructions placed as comments in the different files.
