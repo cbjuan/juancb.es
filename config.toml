@@ -268,6 +268,11 @@ enableGitInfo = false
     link = "https://github.com/cbjuan"
 
   [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fab"
+    link = "https://www.linkedin.com/in/juancb/"
+
+  [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
     link = "https://scholar.google.es/citations?user=_mLnQPgAAAAJ"
@@ -281,6 +286,11 @@ enableGitInfo = false
     icon = "publons"
     icon_pack = "ai"
     link = "https://publons.com/author/1380426/juan-cruz-benito"
+  
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "https://www.researchgate.net/profile/Juan_Cruz-Benito"
 
 
   # Link to a PDF of your resume/CV from the About widget.
