@@ -6,13 +6,13 @@ This repository contains the files to generate a website using [Hugo.io](https:/
 
 Install Hugo
 
-```
+```shell
 brew install hugo
 ```
 
 and from the website folder, run
 
-```
+```shell
 hugo server
 ```
 
@@ -30,4 +30,4 @@ To [use it](https://sourcethemes.com/academic/docs/managing-content/#create-a-pu
 
 The automatic deployment using [GitHub Pages](https://pages.github.com/) has been implemented using [these instructions](https://gohugo.io/hosting-and-deployment/hosting-on-github/#github-user-or-organization-pages).
 
-The folder `public` is a Git submodule which is pushed to the repository https://github.com/cbjuan/cbjuan.github.io. This folder is populated using the `deploy-web.sh` script. Execute the script using the bash: `./deploy-web.sh`
+The folder `public` is a Git submodule which is pushed to the repository <https://github.com/cbjuan/cbjuan.github.io.> This folder is populated using the `deploy-web.sh` script. Execute the script using the bash: `./deploy-web.sh`
