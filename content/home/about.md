@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Human-Computer Interaction",
-    "Applied Artificial Intelligence",
+    "Applied Machine Learning",
     "Data Science"
   ]
 
