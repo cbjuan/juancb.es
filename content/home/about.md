@@ -11,8 +11,8 @@ weight = 5
 [interests]
   interests = [
     "Human-Computer Interaction",
-    "Applied Machine Learning",
-    "Data Science"
+    "Machine Learning",
+    "Open Source"
   ]
 
 # List your qualifications (such as academic degrees).
