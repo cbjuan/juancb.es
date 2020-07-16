@@ -17,7 +17,7 @@ abstract_short = "In this talk, we give a practical overview of the different fe
 
 # Name of event and optional event URL.
 event = "Fly with Python. PyData Salamanca"
-event_url = "hhttps://www.meetup.com/es-ES/PyData-Salamanca/events/267803955/"
+event_url = "https://www.meetup.com/es-ES/PyData-Salamanca/events/267803955/"
 
 # Location of event.
 location = "Salamanca, Spain"
