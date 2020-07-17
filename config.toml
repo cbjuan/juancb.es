@@ -52,7 +52,7 @@ enableGitInfo = false
 
   # Your details.
   name = "Juan Cruz-Benito"
-  role = "Senior Software Engineer @ IBM Quantum, IBM Research"
+  role = "Senior Software Engineer"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
