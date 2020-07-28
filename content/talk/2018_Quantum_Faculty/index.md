@@ -12,8 +12,8 @@ time_end = 2018-03-16T18:40:00
 authors = []
 
 # Abstract and optional shortened version.
-abstract = "(Talk in Spanish) Brief introduction to Quantum Computing. Talk given in the Faculty of Sciences, University of Salamanca during the event #GeekUSAL 2018"
-abstract_short = "Brief introduction to Quantum Computing. Talk given in the Faculty of Sciences, University of Salamanca during the event #GeekUSAL 2018"
+abstract = "(Talk in Spanish) Brief introduction to Quantum Computing for students of Computers Engineering. Talk given in the Faculty of Sciences, University of Salamanca during the event #GeekUSAL 2018"
+abstract_short = "Brief introduction to Quantum Computing for students of Computers Engineering. Talk given in the Faculty of Sciences, University of Salamanca during the event #GeekUSAL 2018"
 
 # Name of event and optional event URL.
 event = "Geek USAL 2018"
