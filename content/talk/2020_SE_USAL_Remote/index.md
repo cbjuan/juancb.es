@@ -12,7 +12,7 @@ time_end = 2019-04-11T10:00:00
 authors = []
 
 # Abstract and optional shortened version.
-abstract = "Practical overview about what is working remotely and what to expect. Talk given to students of Computers Engineering degree"
+abstract = "(Talk in Spanish) Practical overview about what is working remotely and what to expect. Talk given to students of Computers Engineering degree"
 abstract_short = "Practical overview about what is working remotely and what to expect. Talk given to students of Computers Engineering degree"
 
 # Name of event and optional event URL.
