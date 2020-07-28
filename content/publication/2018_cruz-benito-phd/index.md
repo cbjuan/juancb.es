@@ -19,7 +19,7 @@ authors = ["Juan Cruz-Benito"]
 # 5 = Book
 # 6 = Book section
 
-publication_types = ["4"]
+publication_types = ["7"]
 
 # Publication name and optional abbreviated version.
 
