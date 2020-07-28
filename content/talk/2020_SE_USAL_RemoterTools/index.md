@@ -1,22 +1,22 @@
 +++
-title = "Trabajo en remoto. What?"
-date = 2019-04-11T00:00:00  # Schedule page publish date.
+title = "Trabajando en remoto. Herramientas"
+date = 2020-03-04T00:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2019-04-11T09:00:00
-time_end = 2019-04-11T10:00:00
+time_start = 2020-03-04T09:00:00
+time_end = 2020-03-04T10:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
 
 # Abstract and optional shortened version.
-abstract = "(Talk in Spanish) Practical overview about what is working remotely and what to expect. Talk given to students of Computers Engineering degree"
-abstract_short = "Practical overview about what is working remotely and what to expect. Talk given to students of Computers Engineering degree"
+abstract = "(Talk in Spanish) Practical overview about some tools I use when working on remote. Talk given to students of Computers Engineering degree at the University of Salamanca, Spain"
+abstract_short = "Practical overview about some tools I use when working on remote. Talk given to students of Computers Engineering degree at the University of Salamanca, Spain"
 
 # Name of event and optional event URL.
-event = "Software Engineering subject. Degree on Computers Engineering. University of Salamanca"
+event = "Software Engineering class. Degree on Computers Engineering. University of Salamanca"
 event_url = ""
 
 # Location of event.
