@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Juan Cruz-Benito
+name: Juan Cruz-Benito
 
 # Username (this should match the folder name)
 authors:
@@ -19,7 +20,7 @@ organizations:
     url: "https://www.research.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Senior Software Engineer @ IBM Quantum, IBM Research
+bio: I do things with data @ IBM Quantum, IBM Research
 
 interests:
   - Human-Computer Interaction
