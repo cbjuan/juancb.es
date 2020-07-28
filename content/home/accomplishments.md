@@ -3,7 +3,7 @@
 widget = "accomplishments"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 
-title = "Awards"
+title = "Awards & Accomplishments"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -18,6 +18,14 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[item]]
+  title = "Qiskit Advocate"
+  organization = "Qiskit Community"
+  certificate_url = "https://www.youracclaim.com/badges/988fca13-eb41-4db7-999a-9f3c994c9e22/linked_in_profile"
+  date_start = "2019-10-28"
+  date_end = ""
+  description = "This badge earner has gathered a deep level of understanding with Qiskit including circuits, algorithms, simulators, qubits and noise. Through their contributions to the Qiskit and the quantum community, this individual has demonstrated an ability and commitment to educate and influence others by sharing ideas, knowledge and expertise in the field of quantum computing."
 
 [[item]]
   title = "Research Award: best young researchers in Computer Science in Spain"
