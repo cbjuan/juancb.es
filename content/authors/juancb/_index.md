@@ -6,7 +6,6 @@ name: Juan Cruz-Benito
 # Username (this should match the folder name)
 authors:
   - juancb
-  - juan-cruz-benito
 
 # Is this the primary user of the site?
 superuser: true
@@ -78,7 +77,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "cruzbenitojuan@gmail.com"
+# email: "cruzbenitojuan@gmail.com"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
