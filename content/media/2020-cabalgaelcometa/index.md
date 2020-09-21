@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: Feb 06, 2020. Cabalga El Cometa EP-18 "El grial de la computación cuántica con Juan Cruz-Benito"
-summary: "[ES] Conversation and interview in the podcast Cabalga el Cometa by [Marc Alier](https://twitter.com/granludo). We talk about Quantum Computing, AI, and tools for scientific research in a open-minded environment"
+summary: "[ES] Conversation and interview in the podcast Cabalga el Cometa by [Marc Alier](https://twitter.com/granludo). We talk about Quantum Computing, AI, and tools for scientific research in an open-minded environment"
 authors: []
 tags: ["media"]
 categories: ["Interview"]
