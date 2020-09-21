@@ -1,7 +1,7 @@
 +++
 title = "Usalpharma: Una arquitectura software al servicio del aprendizaje en Mundos Virtuales"
 date = 2015-09-01
-authors = ["Juan Cruz-Benito", "Cristina Maderuelo", "Francisco J García-Peñalvo", "Roberto Theron", "Jonás Samuel", "Hinojal Zazo Pérez-Blanco", "Ana Martín-Suárez"]
+authors = ["Juan Cruz-Benito", "Cristina Maderuelo", "Francisco J García-Peñalvo", "Roberto Therón", "Jonás Samuel", "Hinojal Zazo Pérez-Blanco", "Ana Martín-Suárez"]
 publication_types = ["2"]
 abstract = ""
 selected = false

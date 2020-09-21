@@ -1,7 +1,7 @@
 +++
 title = "Monitoring and feedback of learning processes in virtual worlds through analytics architectures: A real case"
 date = 2014-06-01
-authors = ["J. Cruz-Benito", "R. Therón", "F. J. García-Peñalvo", "C. Maderuelo", "J. S. Pérez-Blanco", "H. Zazo", "A. Martín-Suárez"]
+authors = ["Juan Cruz-Benito", "Roberto Therón", "Francisco J. García-Peñalvo", "Cristina Maderuelo", "Jonás Samuel Pérez-Blanco", "Hinojal Zazo", "Ana Martín-Suárez"]
 publication_types = ["1"]
 abstract = "The application of techniques related to Learning Analytics, including the recovery and processing of data and evidences related with the learning tasks, might result capital to improve educational processes that occurs within the virtual worlds. This paper aims to show a real example of application of a learning analytics framework which supports a real case of practical learning in a 3D virtual environment, analyzing in depth the problems that arises there from. As remarkable outcomes, this paper shows a whole system that comprises several tools, which make possible the automatization of a learning process inside a virtual world with the subject of quality assurance in pharmacy laboratories."
 selected = false

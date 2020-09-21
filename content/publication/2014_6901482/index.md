@@ -1,7 +1,7 @@
 +++
 title = "Defining Generic Data Collectors for Learning Analytics: Facing Up the Heterogeneous Data from Heterogeneous Environments"
 date = 2014-07-01
-authors = ["J. Cruz-Benito", "F. J. García-Peñalvo", "R. Therón"]
+authors = ["Juan Cruz-Benito", "Francisco J. García-Peñalvo", "Roberto Therón"]
 publication_types = ["1"]
 abstract = "This proposes how to face up, from a technological point of view, the collection and storage of heterogeneous data coming from heterogeneous environments related to the Learning process in order to take advantage in tasks related to Learning Analytics. It introduces the problem with the heterogeneous data over the time and deals how to resolve this issue giving up a theoretical approach and a proof of concept."
 selected = false

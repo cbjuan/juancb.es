@@ -5,7 +5,7 @@ draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 
-authors = ["J. Cruz-Benito", "A. Vázquez-Ingelmo", "J. C. Sánchez-Prieto", "R. Therón", "F. J. García-Peñalvo", "M. Martín-González"]
+authors = ["Juan Cruz-Benito", "Andrea Vázquez-Ingelmo", "José Carlos Sánchez-Prieto", "Roberto Therón", "Francisco J. García-Peñalvo", "Martín Martín-González"]
 
 # Publication type.
 
