@@ -1,7 +1,7 @@
 +++
 title = "Semester of Code: Piloting virtual placements for informatics across Europe"
 date = 2015-03-01
-authors = ["Francisco J. García Peñalvo", "Juan Cruz-Benito", "Miguel Á. Conde", "Dai Griffiths"]
+authors = ["Francisco J. García-Peñalvo", "Juan Cruz-Benito", "Miguel Á. Conde", "Dai Griffiths"]
 publication_types = ["1"]
 abstract = "VALS (Virtual Alliances for Learning Society) European Project intends to build knowledge partnerships between European Higher Education Institutions and Business stakeholders across the World to collaborate on resolving authentic business problems through Open Innovation and Open Source Software. To conduct these knowledge partnerships, the VALS project leverages the virtual placements, in which students from all European countries can be involved in the resolution of real business problems, developing by this way professional skills, and other business-related attitudes that will help them to enhance their (future) professional career. These virtual placements result in the Semester of Code, which is a set of practices, methods and processes for creating and managing real virtual placements. Following these ideas, this paper is focused in the description of how is designed this Semester of Code, how the VALS partners have developed different tools, guidelines and processes to manage and track the virtual placements and how are performed this set of tools and guidelines in order to achieve the success in the pilot tests of the Semester of Code and its virtual placements."
 selected = false
