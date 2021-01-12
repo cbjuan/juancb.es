@@ -1,5 +1,5 @@
 +++
-title = "Using Jupyter: From simple personal notebooks to large deployments with thousands of users"
+title = "IBM Quantum Experience Notebooks. Serving JupyterHub at scale for the Quantum Computing Community"
 date = 2020-10-14T00:00:00  # Schedule page publish date.
 draft = false
 
