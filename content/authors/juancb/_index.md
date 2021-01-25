@@ -11,15 +11,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Senior Software Engineer
+role: Research Developer
 
 # Organizations/Affiliations
 organizations:
-  - name: IBM Quantum, IBM Research
+  - name: IBM Quantum
     url: "https://www.research.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I do things with data @ IBM Quantum, IBM Research
+bio: I do things with data @ IBM Quantum
 
 interests:
   - Human-Computer Interaction
