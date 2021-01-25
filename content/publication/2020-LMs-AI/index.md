@@ -9,4 +9,5 @@ publication = "_AI 2021, 2_(1), 1-16"
 tags = ["Computation and Language","Machine Learning","Programming Languages","Software Engineering"]
 url_pdf = "https://www.mdpi.com/2673-2688/2/1/1/pdf"
 url_source = "https://www.mdpi.com/2673-2688/2/1/1"
+doi = "10.3390/ai2010001"
 +++
