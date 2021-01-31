@@ -15,7 +15,7 @@ role: Research Developer
 
 # Organizations/Affiliations
 organizations:
-  - name: IBM Quantum
+  - name: IBM Quantum, IBM Research
     url: "https://www.research.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
