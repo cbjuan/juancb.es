@@ -1,25 +1,25 @@
 +++
-title = "Modern tools to work in AI & Quantum computing"
-date = 2021-05-28T11:30:00  # Schedule page publish date.
+title = "What does an engineer like you do in a quantum place like this?"
+date = 2023-04-11T16:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-time_start = 2021-05-28T11:30:00
-time_end = 2021-05-28T13:30:00
+time_start = 2023-04-11T16:00:00
+time_end = 2023-04-11T17:30:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
 
 # Abstract and optional shortened version.
-abstract = "El objetivo de este curso es proporcionar a los asistentes una visiónpráctica,  moderna  y  actualizada  del  panorama  actual  deherramientas para trabajar e investigar en el ámbito de laInteligencia Artificial y la Computación Cuántica. Durante el cursose hará una introducción de ambos campos de investigación,explicando alguno de los retos actuales y mostrando algunas delas herramientas más potentes y accesibles que están disponiblespara investigadores y desarrolladores.Durante el curso, se realizarán demostraciones y pequeñaspruebas de concepto que ilustren los conceptos explicados y lasherramientas mencionadas."
+abstract = "Quantum computing has the potential to be one of the next big things in computing. This talk will discuss how quantum computers work and review some parts of the software stack that enable a quantum computing platform. In addition, we will examine the existing challenges from a software perspective and what opportunities exist in the field for classical software engineers."
 
 # Name of event and optional event URL.
-event = "Talk @ SCAYLE 2021"
-event_url = "https://www.scayle.es/wp-content/uploads/Formaci%C3%B3n/2021/Curso-AI-and-Quantum-Computing.pdf"
+event = "Talk @ Master Sistemas Inteligentes 2023"
+event_url = ""
 
 # Location of event.
-location = "Hybrid (physical/online) event. León, Spain"
+location = "Hybrid (physical/online) event. Salamanca, Spain"
 
 # Is this a selected talk? (true/false)
 selected = true
@@ -48,7 +48,7 @@ slides = ""
 url_pdf = ""
 url_slides = ""
 url_video = ""
-url_code = "https://github.com/cbjuan/2021-scayle-talk"
+url_code = ""
 
 # Does the content use math formatting?
 math = true
@@ -57,7 +57,7 @@ math = true
 # To use, add an image named `featured.jpg/png` to your page's folder.
 [image]
   # Caption (optional)
-  caption = "Image credit: [**SCAYLE 2021**](https://www.scayle.es/)"
+  caption = "Image credit: [**Master Sistemas Inteligentes, USAL 2023**](https://mastersi.usal.es/)"
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
