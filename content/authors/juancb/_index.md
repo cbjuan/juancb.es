@@ -22,8 +22,9 @@ organizations:
 bio: I do things with data. Software Engineering Manager @ IBM Quantum
 
 interests:
-  - Human-Computer Interaction
+  - Quantum Computing
   - Machine Learning
+  - Human-Computer Interaction
   - Open Source
 
 education:
