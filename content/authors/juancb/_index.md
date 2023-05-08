@@ -11,15 +11,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Research Developer
+role: Software Engineering Manager
 
 # Organizations/Affiliations
 organizations:
-  - name: IBM Quantum, IBM Research
-    url: "https://www.research.ibm.com/"
+  - name: IBM Quantum
+    url: "https://quantum-computing.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I do things with data @ IBM Quantum
+bio: I do things with data. Software Engineering Manager @ IBM Quantum
 
 interests:
   - Human-Computer Interaction
