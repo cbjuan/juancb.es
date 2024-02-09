@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Software Engineering Manager"
+  title = "Software Engineering Manager & Chapter Lead"
   company = "IBM Quantum"
   company_url = "https://quantum-computing.ibm.com/"
   location = "Spain / Remote"
