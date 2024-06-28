@@ -1,13 +1,13 @@
 +++
-title = "Systematic Literature Review: Quantum Machine Learning and its applications"
-date = 2024-01-25
+title = "Comparing Natural Language Processing and Quantum Natural Processing approaches in text classification tasks"
+date = 2024-06-06
 authors = ["David Peral-García", "Juan Cruz-Benito", "Francisco José García-Peñalvo"]
 publication_types = ["2"]
 abstract = "Quantum physics has changed the way we understand our environment, and one of its branches, quantum mechanics, has demonstrated accurate and consistent theoretical results. Quantum computing is the process of performing calculations using quantum mechanics. This field studies the quantum behavior of certain subatomic particles (photons, electrons, etc.) for subsequent use in performing calculations, as well as for large-scale information processing. These advantages are achieved through the use of quantum features, such as entanglement or superposition. These capabilities can give quantum computers an advantage in terms of computational time and cost over classical computers. Nowadays, scientific challenges are impossible to perform by classical computation due to computational complexity (more bytes than atoms in the observable universe) or the time it would take (thousands of years), and quantum computation is the only known answer. However, current quantum devices do not have yet the necessary qubits and are not fault-tolerant enough to achieve these goals. Nonetheless, there are other fields like machine learning, finance, or chemistry where quantum computation could be useful with current quantum devices. This manuscript aims to present a review of the literature published between 2017 and 2023 to identify, analyze, and classify the different types of algorithms used in quantum machine learning and their applications. The methodology follows the guidelines related to Systematic Literature Review methods, such as the one proposed by Kitchenham and other authors in the software engineering field. Consequently, this study identified 94 articles that used quantum machine learning techniques and algorithms and shows their implementation using computational quantum circuits or ansatzs. The main types of found algorithms are quantum implementations of classical machine learning algorithms, such as support vector machines or the k-nearest neighbor model, and classical deep learning algorithms, like quantum neural networks. One of the most relevant applications in the machine learning field is image classification. Many articles, especially within the classification, try to solve problems currently answered by classical machine learning but using quantum devices and algorithms. Even though results are promising, quantum machine learning is far from achieving its full potential. An improvement in quantum hardware is required for this potential to be achieved since the existing quantum computers lack enough quality, speed, and scale to allow quantum machine learning to achieve its full potential."
 selected = true
-publication = "*Computer Science Review, Volume 51, 100619*"
-tags = ["Quantum Computing","Machine Learning"]
-url_pdf = "https://www.sciencedirect.com/science/article/pii/S1574013724000030/pdf"
-url_source = "https://www.sciencedirect.com/science/article/pii/S1574013724000030"
-doi = "https://doi.org/10.1016/j.cosrev.2024.100619"
+publication = "*Expert Systems with Applications, 254, 124427*"
+tags = ["Quantum computing", "Quantum Machine Learning", "Quantum natural language processing"]
+url_pdf = "https://www.sciencedirect.com/science/article/pii/S0957417424012934/pdfft?md5=97c5788dcf43d930dd7c41c2ee72d05e&pid=1-s2.0-S0957417424012934-main.pdf"
+url_source = "https://www.sciencedirect.com/science/article/pii/S0957417424012934"
+doi = "https://doi.org/10.1016/j.eswa.2024.124427"
 +++
