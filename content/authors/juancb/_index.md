@@ -24,6 +24,7 @@ bio: I do things with data. AI for Quantum Product Owner @ IBM Quantum
 interests:
   - Quantum Computing
   - Machine Learning
+  - Artificial Intelligence
   - Human-Computer Interaction
   - Open Source
 
