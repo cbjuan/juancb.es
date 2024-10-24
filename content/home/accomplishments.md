@@ -18,10 +18,19 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
+
+[[item]]
+  title = "IBM Master Inventor"
+  organization = "IBM"
+  certificate_url = "https://www.youracclaim.com/badges/988fca13-eb41-4db7-999a-9f3c994c9e22/linked_in_profile"
+  date_start = "2024-12-31"
+  date_end = "2027-12-31"
+  description = "The Master inventor recognition is given to employees who have mastered the patent process, mentored broadly, added value to IBM's portfolio and demonstrated sustained innovation leadership and service. Every year, Master inventors are selected by IBM for their contributions."
+
 [[item]]
   title = "Qiskit Advocate"
   organization = "Qiskit Community"
-  certificate_url = "https://www.youracclaim.com/badges/988fca13-eb41-4db7-999a-9f3c994c9e22/linked_in_profile"
+  certificate_url = "https://www.credly.com/badges/988fca13-eb41-4db7-999a-9f3c994c9e22/linked_in_profile"
   date_start = "2019-10-28"
   date_end = ""
   description = "This badge earner has gathered a deep level of understanding with Qiskit including circuits, algorithms, simulators, qubits and noise. Through their contributions to the Qiskit and the quantum community, this individual has demonstrated an ability and commitment to educate and influence others by sharing ideas, knowledge and expertise in the field of quantum computing."
