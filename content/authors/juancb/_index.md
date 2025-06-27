@@ -10,6 +10,9 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
+# Redirect to home page
+url: "/"
+
 # Role/position
 role: AI for Quantum Product Owner
 
