@@ -22,7 +22,7 @@ date_format = "Jan 2006"
 [[item]]
   title = "IBM Master Inventor"
   organization = "IBM"
-  certificate_url = "https://www.youracclaim.com/badges/988fca13-eb41-4db7-999a-9f3c994c9e22/linked_in_profile"
+  certificate_url = "https://www.credly.com/badges/cf8bd032-f112-4b81-9439-41011b83c090"
   date_start = "2024-12-31"
   date_end = "2027-12-31"
   description = "The Master inventor recognition is given to employees who have mastered the patent process, mentored broadly, added value to IBM's portfolio and demonstrated sustained innovation leadership and service. Every year, Master inventors are selected by IBM for their contributions."
