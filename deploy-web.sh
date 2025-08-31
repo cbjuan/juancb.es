@@ -3,7 +3,7 @@
 echo -e "\033[0;32mDeploying updated website to cbjuan.github.io...\033[0m"
 
 # Build the project.
-hugo --baseURL="https://juancb.es" # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
