@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   company_url = "https://quantum-computing.ibm.com/"
   location = "Spain / Remote"
   date_start = "2023-05-01"
-  date_end = "2026-06-26"
+  date_end = "2024-06-26"
   #description = """
   #Responsibilities include:
 
