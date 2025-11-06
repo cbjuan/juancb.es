@@ -1,6 +1,6 @@
 +++
 title = "¿Hay vida después del doctorado? / Is there life after the PhD?"
-date = 2023-04-11T16:00:00  # Schedule page publish date.
+date = 2025-04-11T16:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
