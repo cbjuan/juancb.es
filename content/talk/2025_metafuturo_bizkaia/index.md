@@ -1,6 +1,6 @@
 +++
 title = "Bring useful quantum computing to the world"
-date = 2023-09-24T12:00:00  # Schedule page publish date.
+date = 2025-09-24T12:00:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
