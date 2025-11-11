@@ -11,7 +11,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI for Quantum Product Owner
+role: AI for Quantum Product Owner & Engineering Manager
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,7 @@ organizations:
     url: "https://quantum-computing.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I do things with data. AI for Quantum Product Owner @ IBM Quantum
+bio: Building the convergence of AI and Quantum Computing. Product Owner & Engineering Manager @ IBM Quantum
 
 interests:
   - AI for Quantum
@@ -91,4 +91,4 @@ user_groups:
   # - Visitors
 ---
 
-Juan Cruz-Benito received a Ph.D. in Computing Engineering from the University of Salamanca, Spain, in 2018. Previously, he received an M.Sc. degree in Intelligent Systems, a B.Sc. in Computer Systems, and a Technical Engineering Degree in Computer Systems from the same university in 2013, 2012, and 2011. He is currently AI for Quantum Product Owner and Software Engineering Manager at IBM Quantum. Before it, he worked as Chapter Lead and Senior Software Engineer at IBM Quantum and IBM Research for six years and as a researcher and developer for another five years at the GRIAL Research Group, University of Salamanca, Spain. As a researcher, he has participated in many European and Spanish R&D projects (public and private ones). As a software engineer, he has been involved in projects used by millions of users and in many Open Source initiatives and communities. His research interests involve Quantum Computing, Machine Learning & Artificial Intelligence, Human-Computer Interaction, and technologies for educational purposes. He is the co-author of more than 80 publications and serves as a reviewer and board member for many high-respected journals and conferences. His research activity conducted him to receive the Research Award "Scientific Computer Society of Spain and BBVA Foundation" as one of the best young researchers in Computer Science in Spain in 2019.
+Juan Cruz-Benito received a Ph.D. in Computing Engineering from the University of Salamanca, Spain, in 2018. Previously, he received an M.Sc. degree in Intelligent Systems, a B.Sc. in Computer Systems, and a Technical Engineering Degree in Computer Systems from the same university in 2013, 2012, and 2011. He is currently AI for Quantum Product Owner and Engineering Manager at IBM Quantum, where he holds IBM Master Inventor status. Before his current roles, he worked as Chapter Lead and Senior Software Engineer at IBM Quantum and IBM Research from 2018 to 2024 and as a researcher and developer for five years at the GRIAL Research Group, University of Salamanca, Spain. As a researcher, he has participated in numerous international R&D projects. As a software engineer, he has been involved in projects used by millions of users and contributed significantly to Open Source initiatives and communities. His research interests span the convergence of Quantum Computing and Artificial Intelligence, including LLM applications for quantum computing, AI-optimized quantum circuits, Machine Learning, Human-Computer Interaction, and technologies for educational purposes. He has co-authored more than 80 publications and serves as a reviewer and board member for many highly-respected journals and conferences. His research activity led him to receive the 2019 Research Award "Scientific Computer Society of Spain and BBVA Foundation" as one of the six best young researchers in Computer Science in Spain.
