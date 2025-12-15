@@ -20,6 +20,14 @@ date_format = "Jan 2006"
 
 
 [[item]]
+  title = "Senior Member"
+  organization = "IEEE"
+  certificate_url = ""
+  date_start = "2025-12-01"
+  date_end = ""
+  description = "Senior Member is the highest grade for which IEEE members can apply. It requires significant professional experience and accomplishments."
+
+[[item]]
   title = "IBM Master Inventor"
   organization = "IBM"
   certificate_url = "https://www.credly.com/badges/cf8bd032-f112-4b81-9439-41011b83c090"
