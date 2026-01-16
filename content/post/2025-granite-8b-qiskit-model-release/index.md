@@ -36,7 +36,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["qiskit-code-assistant"]
 ---
 
 🙌 Thanks to the feedback received, we've released a revised version of the granite-8b-qiskit-rc-0.10! Check out the improved checkpoint at https://huggingface.co/Qiskit/granite-8b-qiskit-rc-0.10 

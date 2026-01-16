@@ -38,7 +38,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["qiskit-code-assistant"]
 ---
 
 🚀 We're thrilled to announce the latest open-source LLM releases from the Qiskit Code Assistant team! 🚀
