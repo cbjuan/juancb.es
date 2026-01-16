@@ -11,7 +11,7 @@ authors:
 superuser: true
 
 # Role/position
-role: AI for Quantum Product Owner & Engineering Manager
+role: AI for Quantum Product Owner & Senior Software Engineering Manager
 
 # Organizations/Affiliations
 organizations:
@@ -19,7 +19,7 @@ organizations:
     url: "https://quantum-computing.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Building the convergence of AI and Quantum Computing. Product Owner & Engineering Manager @ IBM Quantum
+bio: Building the convergence of AI and Quantum Computing. Product Owner & Senior Engineering Manager @ IBM Quantum
 
 interests:
   - Quantum+AI
