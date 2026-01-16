@@ -26,6 +26,12 @@ url_slides: ""
 url_video: ""
 ---
 
-A collection of production-ready MCP servers that let AI assistants interact with quantum computing infrastructure. Enables LLMs to generate quantum code, connect to real hardware, evaluate backends, execute circuits, and provide expert guidance — all autonomously.
+Production-ready Model Context Protocol servers that give AI assistants direct access to quantum computing infrastructure. Built on FastMCP with async-first architecture, full type safety, and 65%+ test coverage.
 
-Includes servers for Qiskit core, Code Assistant, IBM Runtime, and AI Transpiler integration.
+**Four specialized servers:**
+- **Qiskit Server** — Circuit creation, manipulation, and transpilation
+- **Code Assistant Server** — AI-assisted quantum programming via Granite models
+- **IBM Runtime Server** — Hardware access, job execution, and backend selection
+- **AI Transpiler Server** — RL-powered circuit optimization
+
+Enables AI systems to autonomously generate quantum code, select optimal backends, execute circuits on real hardware, and provide expert quantum computing guidance—all through a standardized protocol.
