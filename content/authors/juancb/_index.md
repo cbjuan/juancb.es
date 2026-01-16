@@ -22,12 +22,8 @@ organizations:
 bio: Building the convergence of AI and Quantum Computing. Product Owner & Engineering Manager @ IBM Quantum
 
 interests:
-  - AI for Quantum
-  - Quantum + AI
-  - Quantum Computing
-  - Machine Learning
-  - Artificial Intelligence
-  - Human-Computer Interaction
+  - Quantum+AI
+  - Applied Machine Learning
   - Open Source
 
 education:
@@ -91,7 +87,7 @@ user_groups:
   # - Visitors
 ---
 
-I build AI tools that make quantum computing accessible to developers. As AI for Quantum Product Owner at IBM Quantum, I lead products like qiskit-ibm-transpiler and Qiskit Code Assistant—an LLM trained on quantum code.
+I build AI tools that make quantum computing accessible to developers. As AI for Quantum Product Owner at IBM Quantum, I lead projects like qiskit-ibm-transpiler and Qiskit Code Assistant—an LLM trained on quantum code.
 
 My work sits at the intersection of quantum computing, machine learning, and open source. I hold IBM Master Inventor status and have contributed to tools used by millions of developers worldwide.
 
