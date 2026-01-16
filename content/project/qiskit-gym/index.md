@@ -19,6 +19,10 @@ links:
   icon_pack: fab
   name: GitHub
   url: https://github.com/AI4quantum/qiskit-gym
+- icon: robot
+  icon_pack: fas
+  name: Models
+  url: https://huggingface.co/collections/Qiskit/qiskit-ai-transpiler-models
 
 url_code: ""
 url_pdf: ""

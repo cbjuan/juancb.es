@@ -23,6 +23,10 @@ links:
   icon_pack: fas
   name: Docs
   url: https://docs.quantum.ibm.com/transpile/qiskit-ibm-transpiler
+- icon: robot
+  icon_pack: fas
+  name: Models
+  url: https://huggingface.co/collections/Qiskit/qiskit-ai-transpiler-models
 
 url_code: ""
 url_pdf: ""
