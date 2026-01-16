@@ -25,8 +25,7 @@ date_format = "Jan 2006"
   location = "Spain / Remote"
   date_start = "2025-05-01"
   date_end = ""
-  #description = """
-  #Responsibilities include:
+  description = "Leading and contributing to engineering teams building AI-powered tools for quantum computing. Hands-on management delivering products for the quantum computing community."
 
 [[experience]]
   title = "AI for Quantum Product Owner"
@@ -35,6 +34,7 @@ date_format = "Jan 2006"
   location = "Spain / Remote"
   date_start = "2024-06-26"
   date_end = ""
+  description = "Driving product strategy for qiskit-ibm-transpiler and AI transpiler passes (#3 Unitary Foundation 2025, 929K+ downloads), and Qiskit Code Assistant. 9+ patents filed."
 
 [[experience]]
   title = "Software Engineering Manager"
@@ -43,8 +43,7 @@ date_format = "Jan 2006"
   location = "Spain / Remote"
   date_start = "2023-05-01"
   date_end = "2025-05-01"
-  #description = """
-  #Responsibilities include:
+  description = "Built and led the AI for Quantum engineering team. Shipped RL-based circuit synthesis and LLM-powered code generation tools."
 
 [[experience]]
   title = "Data & Intelligence Chapter Lead"
@@ -53,8 +52,7 @@ date_format = "Jan 2006"
   location = "Spain / Remote"
   date_start = "2023-05-01"
   date_end = "2024-06-26"
-  #description = """
-  #Responsibilities include:
+  description = "Led data and ML initiatives across IBM Quantum platform teams."
 
 
 [[experience]]
