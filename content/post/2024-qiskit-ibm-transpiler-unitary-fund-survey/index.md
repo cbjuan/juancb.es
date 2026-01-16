@@ -37,7 +37,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: ["qiskit-ibm-transpiler"]
 ---
 
 🎉 Exciting news! The qiskit-ibm-transpiler has been recognized as the "4th most used quantum computing development tool globally" in the 2024 Unitary Fund survey under the "Full-stack development platforms, compilers, and simulators" category.
