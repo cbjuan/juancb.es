@@ -7,6 +7,7 @@ abstract = "Systems and techniques that facilitate quantum circuit transpiling a
 selected = false
 publication = "*US Patent App. US18/526120*"
 tags = ["artificial neural network", "neural network model", "reinforcement learning", "quantum circuit", "transpilation"]
+projects = ["qiskit-ibm-transpiler"]
 url_pdf = "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250181988"
 url_source = "https://patentcenter.uspto.gov/applications/18526120"
 +++

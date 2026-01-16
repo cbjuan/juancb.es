@@ -7,6 +7,7 @@ abstract = "This paper demonstrates the integration of Reinforcement Learning (R
 selected = true
 publication = "*arXiv preprint arXiv:2405.13196*"
 tags = ["Quantum Computing","Machine Learning", "Artificial Intelligence", "Reinforcement Learning", "Circuit Synthesis", "Circuit Routing", "Transpiling"]
+projects = ["qiskit-ibm-transpiler", "qiskit-gym"]
 url_source = "https://arxiv.org/abs/2405.13196"
 doi = "10.48550/arXiv.2405.13196"
 +++

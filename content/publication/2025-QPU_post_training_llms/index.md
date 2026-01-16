@@ -7,6 +7,7 @@ abstract = "Qiskit is an open-source quantum computing framework that allows use
 selected = false
 publication = "*arXiv preprint arXiv:2406.14712*"
 tags = ["Qiskit", "Large Language Models", "Post-Training", "Reinforcement Learning", "Qiskit HumanEval", "Qiskit HumanEval Hard", "HumanEval"]
+projects = ["qiskit-code-assistant"]
 url_source = "https://arxiv.org/abs/2508.20907"
 doi = "10.48550/arXiv.2508.20907"
 +++

@@ -7,6 +7,7 @@ abstract = "Systems and techniques that facilitate Clifford circuit synthesis ar
 selected = false
 publication = "*US Patent App. US18/466323*"
 tags = ["artificial neural network", "neural network model", "reinforcement learning", "quantum circuit", "synthesis", "clifford circuit"]
+projects = ["qiskit-ibm-transpiler"]
 url_pdf = "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250021853"
 url_source = "https://patentcenter.uspto.gov/applications/18466323"
 +++

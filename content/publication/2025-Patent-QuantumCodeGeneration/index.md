@@ -7,6 +7,7 @@ abstract = "An approach for assisting in the generation of quantum source code. 
 selected = false
 publication = "*US Patent App. US18/588554*"
 tags = ["quantum program", "generation", "quantum source", "artificial intelligence", "source code"]
+projects = ["qiskit-code-assistant"]
 url_pdf = "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250272594"
 url_source = "https://patentcenter.uspto.gov/applications/18588554"
 +++

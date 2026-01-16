@@ -7,6 +7,7 @@ abstract = "Code Large Language Models (Code LLMs) have emerged as powerful tool
 selected = true
 publication = "In *2024 IEEE LLM Aided Design Workshop (LAD)* pp. 1-4"
 tags = ["Code Large Language Models", "code LLMs", "Qiskit", "Quantum Computing"]
+projects = ["qiskit-code-assistant"]
 url_source = "https://ieeexplore.ieee.org/abstract/document/10691762/"
 pdf_source = "https://arxiv.org/abs/2405.19495"
 doi = "10.1109/LAD62341.2024.10691762"

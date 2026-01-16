@@ -7,6 +7,7 @@ abstract = "This paper investigates artificial intelligence (AI) methodologies f
 selected = true
 publication = "*Proceedings of the AAAI Fall Symposium Series, 7(1)*"
 tags = ["Quantum Computing","Machine Learning", "Artificial Intelligence", "Reinforcement Learning", "Circuit Synthesis", "Permutation Circuit"]
+projects = ["qiskit-ibm-transpiler", "qiskit-gym"]
 url_source = "https://ojs.aaai.org/index.php/AAAI-SS/article/view/36912"
 url_pdf = "https://ojs.aaai.org/index.php/AAAI-SS/article/view/36912/39050"
 doi = "10.1609/aaaiss.v7i1.36912"

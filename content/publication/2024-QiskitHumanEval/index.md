@@ -7,6 +7,7 @@ abstract = "Quantum programs are typically developed using quantum Software Deve
 selected = false
 publication = "In *2024 IEEE International Conference on Quantum Computing and Engineering (QCE)* Vol. 1, pp. 1169-1176"
 tags = ["Qiskit", "Large Language Models", "Evaluation benchmarks", "Qiskit HumanEval", "HumanEval"]
+projects = ["qiskit-code-assistant"]
 url_source = "https://ieeexplore.ieee.org/abstract/document/10821459/"
 url_pdf= "https://arxiv.org/pdf/2406.14712"
 doi = "10.1109/QCE60285.2024.00137"

@@ -7,6 +7,7 @@ abstract = "We introduce a Reinforcement Learning (RL)-based method for re-synth
 selected = true
 publication = "*arXiv preprint arXiv:2503.14448*"
 tags = ["Quantum Computing","Machine Learning", "Artificial Intelligence", "Reinforcement Learning", "Circuit Synthesis", "Pauli Networks", "Clifford Circuits", "Transpiling"]
+projects = ["qiskit-ibm-transpiler", "qiskit-gym"]
 url_source = "https://arxiv.org/abs/2503.14448"
 doi = "10.48550/arXiv.2503.14448"
 +++
