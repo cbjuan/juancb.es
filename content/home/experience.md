@@ -19,14 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Senior Software Engineering Manager"
+  company = "IBM Quantum"
+  company_url = "https://quantum-computing.ibm.com/"
+  location = "Spain / Remote"
+  date_start = "2025-05-01"
+  date_end = ""
+  #description = """
+  #Responsibilities include:
+
+[[experience]]
   title = "AI for Quantum Product Owner"
   company = "IBM Quantum"
   company_url = "https://quantum-computing.ibm.com/"
   location = "Spain / Remote"
   date_start = "2024-06-26"
   date_end = ""
-  #description = """
-  #Responsibilities include:
 
 [[experience]]
   title = "Software Engineering Manager"
@@ -34,7 +42,7 @@ date_format = "Jan 2006"
   company_url = "https://quantum-computing.ibm.com/"
   location = "Spain / Remote"
   date_start = "2023-05-01"
-  date_end = ""
+  date_end = "2025-05-01"
   #description = """
   #Responsibilities include:
 
