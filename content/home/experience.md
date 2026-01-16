@@ -43,7 +43,7 @@ date_format = "Jan 2006"
   location = "Spain / Remote"
   date_start = "2023-05-01"
   date_end = "2025-05-01"
-  description = "Built and led the AI for Quantum engineering team. Shipped RL-based circuit synthesis and LLM-powered code generation tools."
+  description = "Built and led the AI for Quantum engineering team while contributing as an IC. Shipped RL-based circuit synthesis and LLM-powered code generation tools."
 
 [[experience]]
   title = "Data & Intelligence Chapter Lead"
@@ -52,7 +52,7 @@ date_format = "Jan 2006"
   location = "Spain / Remote"
   date_start = "2023-05-01"
   date_end = "2024-06-26"
-  description = "Led data and ML initiatives across IBM Quantum platform teams."
+  description = "Led and contributed to data and ML initiatives across IBM Quantum platform teams."
 
 
 [[experience]]
