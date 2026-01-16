@@ -15,6 +15,10 @@ image:
   focal_point: Smart
 
 links:
+- icon: blog
+  icon_pack: fas
+  name: Blog
+  url: https://www.ibm.com/quantum/blog/ai-transpiler-passes
 - icon: github
   icon_pack: fab
   name: GitHub
