@@ -119,3 +119,7 @@ This is just the beginning. The same pattern can extend to other quantum computi
 - PyPI: https://pypi.org/project/qiskit-gym-mcp-server/
 - qiskit-gym: https://github.com/AI4quantum/qiskit-gym
 - HF Skills Training (inspiration): https://huggingface.co/blog/hf-skills-training
+
+---
+
+*Also shared on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7420158488590561281/) on January 23, 2026*
