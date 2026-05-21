@@ -11,15 +11,15 @@ authors:
 superuser: true
 
 # Role/position
-role: AI for Quantum Product Owner & Senior Software Engineering Manager
+role: Quantum+AI Manager
 
 # Organizations/Affiliations
 organizations:
-  - name: IBM Quantum
-    url: "https://quantum-computing.ibm.com/"
+  - name: IBM Research
+    url: "https://research.ibm.com/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Building the convergence of AI and Quantum Computing. Product Owner & Senior Engineering Manager @ IBM Quantum
+bio: Working at the convergence of AI and Quantum Computing. Manager, Quantum+AI @ IBM Research
 
 interests:
   - Quantum+AI
@@ -64,9 +64,6 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0003-2045-8329
-  - icon: publons
-    icon_pack: ai
-    link: https://publons.com/author/1380426/juan-cruz-benito
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Juan_Cruz-Benito
@@ -87,8 +84,8 @@ user_groups:
   # - Visitors
 ---
 
-I build AI tools that make quantum computing accessible to developers. As AI for Quantum Product Owner at IBM Quantum, I lead projects like qiskit-ibm-transpiler and Qiskit Code Assistant—an LLM trained on quantum code.
+I research and develop AI-based systems to tackle complex problems in quantum computing and other relevant areas.
 
 My work sits at the intersection of quantum computing, machine learning, and open source. I hold IBM Master Inventor status and have contributed to tools used by millions of developers worldwide.
 
-Background: PhD in Computer Engineering (University of Salamanca, 2018), 80+ publications, 2019 SCIE-BBVA Award for best young researcher in Computer Science in Spain.
+I have a PhD in Computer Engineering from the University of Salamanca (2018), have authored 80+ publications, and received the 2019 SCIE-BBVA Award for best young researcher in Computer Science in Spain.

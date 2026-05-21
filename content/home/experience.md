@@ -17,11 +17,20 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[experience]]
+  title = "Quantum+AI Manager"
+  company = "IBM Research"
+  company_url = "https://research.ibm.com/"
+  location = "Spain / Remote"
+  date_start = "2026-01-15"
+  date_end = ""
+  description = "Leading a team on R&D at the intersection of Quantum and AI: improving LLMs for the quantum computing domain, AI for scientific discovery, and related problems."
+
 
 [[experience]]
   title = "Senior Software Engineering Manager"
-  company = "IBM Quantum"
-  company_url = "https://quantum-computing.ibm.com/"
+  company = "IBM Quantum / IBM Research"
+  company_url = "https://research.ibm.com/"
   location = "Spain / Remote"
   date_start = "2025-05-01"
   date_end = ""
@@ -33,7 +42,7 @@ date_format = "Jan 2006"
   company_url = "https://quantum-computing.ibm.com/"
   location = "Spain / Remote"
   date_start = "2024-06-26"
-  date_end = ""
+  date_end = "2026-01-14"
   description = "Driving product strategy for qiskit-ibm-transpiler and AI transpiler passes (#3 Unitary Foundation 2025, 929K+ downloads), and Qiskit Code Assistant. 9+ patents filed."
 
 [[experience]]
