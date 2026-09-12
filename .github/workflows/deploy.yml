@@ -1,0 +1,39 @@
+name: Deploy site
+
+on:
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.123.7'
+          extended: true
+
+      - name: Build site
+        run: hugo --gc --minify
+
+      - name: Deploy to cbjuan.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }}
+          external_repository: cbjuan/cbjuan.github.io
+          publish_branch: master
+          publish_dir: ./public
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 'Deploy ${{ github.repository }}@${{ github.sha }}'
