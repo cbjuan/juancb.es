@@ -147,6 +147,19 @@
 
   <link rel="canonical" href="{{ .Permalink }}">
 
+  {{/* Point agents/crawlers at the raw Markdown source for content pages, since this static site
+       can't do real Accept-header content negotiation. */}}
+  {{ if and .IsPage (in (slice "post" "publication" "project" "talk") .Type) }}
+    {{ with .File }}
+      {{ $file_path := .Path }}
+      {{ with site.Params.edit_page.repo_url }}
+        {{ $raw_base := replace . "github.com" "raw.githubusercontent.com" }}
+        {{ $branch := site.Params.edit_page.repo_branch | default "master" }}
+        <link rel="alternate" type="text/markdown" href="{{ printf "%s/%s/content/%s" $raw_base $branch $file_path }}">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
   {{ $featured_image := (.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $has_logo := fileExists "assets/images/logo.png" | or (fileExists "assets/images/logo.svg") }}
   {{ $og_image := "" }}
