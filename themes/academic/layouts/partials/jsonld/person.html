@@ -1,0 +1,55 @@
+{{/* Person structured data for the site owner (site_type = "Person"). */}}
+
+{{ $author_page := "" }}
+{{ range first 1 (where (where site.Pages "Section" "authors") "Params.superuser" true) }}
+  {{ $author_page = . }}
+{{ end }}
+
+{{ with $author_page }}
+{{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $orgs := .Params.organizations }}
+{{ $courses := .Params.education.courses }}
+{{ $social := .Params.social }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": {{ printf "%s#person" site.BaseURL }},
+  "name": {{ .Params.name | default .Title }},
+  "url": {{ site.BaseURL }},
+  {{ with $avatar }}"image": {{ .Permalink }},
+  {{ end }}
+  {{ with .Params.role }}"jobTitle": {{ . }},
+  {{ end }}
+  {{ with .Params.bio }}"description": {{ . }},
+  {{ end }}
+  {{ with $orgs }}
+  "worksFor": [
+    {{ range $i, $org := . }}{{ if $i }},{{ end }}
+    { "@type": "Organization", "name": {{ $org.name }}{{ with $org.url }}, "url": {{ . }}{{ end }} }
+    {{ end }}
+  ],
+  {{ end }}
+  {{ $institutions := slice }}
+  {{ range $courses }}
+    {{ $institutions = $institutions | append .institution }}
+  {{ end }}
+  {{ with ($institutions | uniq) }}
+  "alumniOf": [
+    {{ range $i, $inst := . }}{{ if $i }},{{ end }}
+    { "@type": "EducationalOrganization", "name": {{ $inst }} }
+    {{ end }}
+  ],
+  {{ end }}
+  "sameAs": [
+    {{ $first := true }}
+    {{ range $social }}
+      {{ if and .link (strings.Contains .link "://") }}
+        {{ if not $first }},{{ end }}{{ $first = false }}
+        {{ .link }}
+      {{ end }}
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}

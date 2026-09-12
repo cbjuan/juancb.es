@@ -28,6 +28,10 @@
   {{end}}
   "datePublished": {{ $page.PublishDate.Format "2006-01-02T15:04:05Z07:00" }},
   "dateModified": {{ $page.Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
+  {{ with $page.Params.doi }}
+  "identifier": {{ printf "https://doi.org/%s" . }},
+  "sameAs": {{ printf "https://doi.org/%s" . }},
+  {{ end }}
   {{with $author}}
   "author": {
     "@type": "Person",
