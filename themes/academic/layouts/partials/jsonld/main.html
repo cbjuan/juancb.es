@@ -6,7 +6,9 @@
 
   {{ partial "jsonld/website.html" $page }}
 
-  {{ if ne $site_type "Person" }}
+  {{ if eq $site_type "Person" }}
+    {{ partial "jsonld/person.html" $page }}
+  {{ else }}
     {{ partial "jsonld/business.html" $page }}
   {{ end }}
 
