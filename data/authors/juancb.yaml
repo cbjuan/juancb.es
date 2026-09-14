@@ -1,0 +1,202 @@
+schema: hugoblox/author/v1
+slug: juancb
+is_owner: true
+
+name:
+  display: Juan Cruz-Benito
+  given: Juan
+  family: Cruz-Benito
+  pronouns: he/him
+
+postnominals: [PhD]
+
+role: 'Quantum+AI Manager'
+
+bio: |
+  I research and develop AI-based systems to tackle complex problems in quantum
+  computing and other relevant areas.
+
+  My work sits at the intersection of quantum computing, machine learning, and
+  open source. I hold IBM Master Inventor status and have contributed to tools
+  used by millions of developers worldwide.
+
+  I have a PhD in Computer Engineering from the University of Salamanca (2018),
+  have authored 80+ publications, and received the 2019 SCIE-BBVA Award for best
+  young researcher in Computer Science in Spain.
+
+affiliations:
+  - name: IBM Research
+    url: 'https://research.ibm.com/'
+
+interests:
+  - Quantum+AI
+  - Applied Machine Learning
+  - Open Source
+
+links:
+  - icon: at-symbol
+    url: '/#contact'
+    label: Contact
+  - icon: brands/x
+    url: 'https://twitter.com/_juancb'
+  - icon: brands/github
+    url: 'https://github.com/cbjuan'
+  - icon: brands/linkedin
+    url: 'https://www.linkedin.com/in/juancb/'
+  - icon: academicons/google-scholar
+    url: 'https://scholar.google.es/citations?user=_mLnQPgAAAAJ'
+  - icon: academicons/orcid
+    url: 'https://orcid.org/0000-0003-2045-8329'
+  - icon: academicons/researchgate
+    url: 'https://www.researchgate.net/profile/Juan_Cruz-Benito'
+
+education:
+  - degree: PhD in Computer Engineering
+    institution: University of Salamanca, Spain
+    end: 2018-09-07
+  - degree: MEng in Intelligent Systems
+    institution: University of Salamanca, Spain
+    end: 2013-09-01
+  - degree: BSc Degree in Computer Engineering
+    institution: University of Salamanca, Spain
+    end: 2012-09-01
+  - degree: IT Systems Engineer
+    institution: University of Salamanca, Spain
+    end: 2011-09-01
+
+experience:
+  - role: 'Quantum+AI Manager'
+    org: IBM Research
+    org_url: 'https://research.ibm.com/'
+    location: Spain / Remote
+    start: 2026-01-15
+    summary: |
+      Leading a team on R&D at the intersection of Quantum and AI: improving
+      LLMs for the quantum computing domain, AI for scientific discovery, and
+      related problems.
+
+  - role: Senior Software Engineering Manager
+    org: IBM Quantum / IBM Research
+    org_url: 'https://research.ibm.com/'
+    location: Spain / Remote
+    start: 2025-05-01
+    summary: |
+      Leading and contributing to engineering teams building AI-powered tools
+      for quantum computing. Hands-on management delivering products for the
+      quantum computing community.
+
+  - role: AI for Quantum Product Owner
+    org: IBM Quantum
+    org_url: 'https://quantum-computing.ibm.com/'
+    location: Spain / Remote
+    start: 2024-06-26
+    end: 2026-01-14
+    summary: |
+      Driving product strategy for qiskit-ibm-transpiler and AI transpiler
+      passes (#3 Unitary Foundation 2025, 929K+ downloads), and Qiskit Code
+      Assistant. 9+ patents filed.
+
+  - role: Software Engineering Manager
+    org: IBM Quantum
+    org_url: 'https://quantum-computing.ibm.com/'
+    location: Spain / Remote
+    start: 2023-05-01
+    end: 2025-05-01
+    summary: |
+      Built and led the AI for Quantum engineering team while contributing as
+      an IC. Shipped RL-based circuit synthesis and LLM-powered code generation
+      tools.
+
+  - role: Data & Intelligence Chapter Lead
+    org: IBM Quantum
+    org_url: 'https://quantum-computing.ibm.com/'
+    location: Spain / Remote
+    start: 2023-05-01
+    end: 2024-06-26
+    summary: |
+      Led and contributed to data and ML initiatives across IBM Quantum
+      platform teams.
+
+  - role: Research Developer
+    org: IBM Quantum
+    org_url: 'https://quantum-computing.ibm.com/'
+    location: Spain / Remote
+    start: 2021-01-01
+    end: 2023-05-01
+
+  - role: Senior Software Engineer (contractor)
+    org: IBM Quantum, IBM Research
+    org_url: 'https://www.research.ibm.com/'
+    location: Yorktown Heights, NY, USA / Remote
+    start: 2018-01-01
+    end: 2020-12-31
+
+  - role: Teaching assistant. Human-Computer Interaction
+    org: Computer Science Department. University of Salamanca
+    org_url: 'https://diaweb.usal.es'
+    location: Salamanca, Spain
+    start: 2017-01-18
+    end: 2017-07-31
+
+  - role: Software engineer & researcher
+    org: GRIAL Research Group. University of Salamanca
+    org_url: 'https://grial.usal.es'
+    location: Salamanca, Spain
+    start: 2013-09-01
+    end: 2017-12-31
+
+  - role: Software engineer
+    org: Service of Professional Insertion, Practices and Employment, University of Salamanca
+    org_url: 'https://empleo.usal.es/'
+    location: Salamanca, Spain
+    start: 2012-03-05
+    end: 2012-12-19
+
+  - role: Intern. Testing Factory
+    org: Ingeniería de Software Avanzado (INSA)
+    location: Salamanca, Spain
+    start: 2011-05-20
+    end: 2011-09-30
+
+awards:
+  - title: Senior Member
+    awarder: IEEE
+    date: 2025-12-01
+    summary: |
+      Senior Member is the highest grade for which IEEE members can apply. It
+      requires significant professional experience and accomplishments.
+
+  - title: IBM Master Inventor
+    awarder: IBM
+    date: 2024-12-31
+    url: 'https://www.credly.com/badges/cf8bd032-f112-4b81-9439-41011b83c090'
+    summary: |
+      The Master Inventor recognition is given to employees who have mastered
+      the patent process, mentored broadly, added value to IBM's portfolio and
+      demonstrated sustained innovation leadership and service.
+
+  - title: Qiskit Advocate
+    awarder: Qiskit Community
+    date: 2019-10-28
+    url: 'https://www.credly.com/badges/988fca13-eb41-4db7-999a-9f3c994c9e22/linked_in_profile'
+    summary: |
+      Recognition for deep understanding of Qiskit (circuits, algorithms,
+      simulators, qubits and noise) and contributions to the Qiskit and quantum
+      community.
+
+  - title: 'Research Award: best young researchers in Computer Science in Spain'
+    awarder: Spanish Scientific Society for Computer Science (SCIE) & BBVA Foundation
+    date: 2019-05-27
+    url: 'https://www.fbbva.es/noticias/fallados-los-premios-de-investigacion-sociedad-cientifica-informatica-de-espana-scie-fundacion-bbva-2019/'
+    summary: |
+      National Award to recognize me as one of the best six young researchers
+      (under 30) in Computer Science in Spain.
+
+  - title: Cum Laude, International PhD
+    awarder: University of Salamanca
+    date: 2018-09-07
+
+  - title: Best conference paper award
+    awarder: 8th International Workshop on Software Engineering for E-learning (ISELEAR'17) / TEEM 2017
+    date: 2017-10-20
+    url: 'https://doi.org/10.1145/3144826.3145437'
