@@ -20,7 +20,10 @@ summaryLength: 30
 pagination:
   pagerSize: 10
 enableEmoji: true
-enableRobotsTXT: true
+# Disabled: when true, Hugo renders the blox module's generic
+# layouts/robots.txt template instead of copying our hand-maintained
+# static/robots.txt (with its explicit AI-crawler allowlist) verbatim.
+enableRobotsTXT: false
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles:
   - '\.ipynb$'
