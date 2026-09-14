@@ -1,0 +1,77 @@
+{{/*
+  Person structured data for the site owner.
+
+  The blox module's jsonld/main.html only emits jsonld/business.html when
+  site.Params.hugoblox.identity.type is NOT "person" -- no Person schema
+  exists anywhere in the module. This hook fills that gap, ported from the
+  old Academic theme's jsonld/person.html against the new author schema
+  (data/authors/*.yaml, via functions/get_author_profile).
+*/}}
+
+{{ $page := . }}
+{{ $site_type := site.Params.hugoblox.identity.type | humanize | default "Person" }}
+
+{{ if and $page.IsHome (eq $site_type "Person") }}
+
+  {{ $owner_slug := "" }}
+  {{ $authors := partialCached "functions/get_authors_data" . site.Language.Lang }}
+  {{ range $slug, $data := $authors }}
+    {{ if and (eq $owner_slug "") (or $data.is_owner $data.superuser) }}
+      {{ $owner_slug = $slug }}
+    {{ end }}
+  {{ end }}
+  {{ $owner_slug = $owner_slug | default "me" }}
+
+  {{ $profile := partial "functions/get_author_profile" (dict "slug" $owner_slug) }}
+
+  {{ if $profile.has_data }}
+    {{ $orgs := $profile.affiliations }}
+    {{ $institutions := slice }}
+    {{ range $profile.education }}
+      {{ with .institution }}{{ $institutions = $institutions | append . }}{{ end }}
+    {{ end }}
+    {{ $institutions = $institutions | uniq }}
+
+    {{ $same_as := slice }}
+    {{ range $profile.links }}
+      {{ if and .url (strings.Contains .url "://") }}
+        {{ $same_as = $same_as | append .url }}
+      {{ end }}
+    {{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": {{ printf "%s#person" site.BaseURL }},
+  "name": {{ $profile.title }},
+  "url": {{ site.BaseURL }},
+  {{ with $profile.avatar }}"image": {{ .Permalink }},
+  {{ end }}
+  {{ with $profile.role }}"jobTitle": {{ . }},
+  {{ end }}
+  {{ with $profile.bio }}"description": {{ . }},
+  {{ end }}
+  {{ with $orgs }}
+  "worksFor": [
+    {{ range $i, $org := . }}{{ if $i }},{{ end }}
+    { "@type": "Organization", "name": {{ $org.name }}{{ with $org.url }}, "url": {{ . }}{{ end }} }
+    {{ end }}
+  ],
+  {{ end }}
+  {{ with $institutions }}
+  "alumniOf": [
+    {{ range $i, $inst := . }}{{ if $i }},{{ end }}
+    { "@type": "EducationalOrganization", "name": {{ $inst }} }
+    {{ end }}
+  ],
+  {{ end }}
+  "sameAs": [
+    {{ range $i, $url := $same_as }}{{ if $i }},{{ end }}
+    {{ $url }}
+    {{ end }}
+  ]
+}
+</script>
+  {{ end }}
+{{ end }}
