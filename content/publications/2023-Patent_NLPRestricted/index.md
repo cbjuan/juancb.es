@@ -19,6 +19,9 @@ tags:
   - "response"
   - "neural network model"
   - "computer program"
-url_pdf: "https://patentimages.storage.googleapis.com/ec/96/35/03832588a2cfaf/US20240039919A9.pdf"
-url_source: "https://patentcenter.uspto.gov/applications/17564168"
+links:
+- type: pdf
+  url: "https://patentimages.storage.googleapis.com/ec/96/35/03832588a2cfaf/US20240039919A9.pdf"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/17564168"
 ---

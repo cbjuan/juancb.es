@@ -57,7 +57,9 @@ tags:
   - "human-computer interaction"
   - "HCI"
 math: true
-url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8240912"
+links:
+- type: pdf
+  url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8240912"
 hugoblox:
   ids:
     doi: "10.1109/ACCESS.2017.2782678"

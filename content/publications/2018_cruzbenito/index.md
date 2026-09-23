@@ -15,7 +15,9 @@ tags:
   - "Human-Machine Interaction"
   - "Software Architectures"
   - "Systematic Literature Review"
-url_source: "http://www.sciencedirect.com/science/article/pii/S0736585318305392"
+links:
+- type: source
+  url: "http://www.sciencedirect.com/science/article/pii/S0736585318305392"
 hugoblox:
   ids:
     doi: "10.1016/j.tele.2018.09.006"

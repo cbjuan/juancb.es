@@ -10,7 +10,9 @@ publication_types:
   - "paper-conference"
 selected: false
 publication: "*Proceedings of the 5th International Conference on Technological Ecosystems for Enhancing Multiculturality* TEEM'17"
-url_source: "https://dl.acm.org/citation.cfm?doid=3144826.3145437"
+links:
+- type: source
+  url: "https://dl.acm.org/citation.cfm?doid=3144826.3145437"
 hugoblox:
   ids:
     doi: "10.1145/3144826.3145437"

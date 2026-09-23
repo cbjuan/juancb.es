@@ -19,6 +19,9 @@ tags:
   - "characterization"
   - "analysis"
   - "categorization"
-url_pdf: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250217267"
-url_source: "https://patentcenter.uspto.gov/applications/18614079"
+links:
+- type: pdf
+  url: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250217267"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/18614079"
 ---

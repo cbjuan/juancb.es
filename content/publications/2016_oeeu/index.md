@@ -11,5 +11,7 @@ publication_types:
   - "book"
 selected: false
 publication: "Observatorio de Empleabilidad y Empleo Universitarios, 2016"
-url_pdf: "https://gredos.usal.es/jspui/bitstream/10366/127374/1/INFORME_OEEU_2015.pdf"
+links:
+- type: pdf
+  url: "https://gredos.usal.es/jspui/bitstream/10366/127374/1/INFORME_OEEU_2015.pdf"
 ---

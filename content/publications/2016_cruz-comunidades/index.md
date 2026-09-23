@@ -11,6 +11,9 @@ publication_types:
   - "article-journal"
 selected: false
 publication: "*VAEP RITA, 4*(2), 87-99"
-url_pdf: "https://gredos.usal.es/jspui/bitstream/10366/130174/1/201606-uploads-VAEP-RITA.2016.V4.N2.A7.pdf"
-url_source: "http://hdl.handle.net/10366/130174"
+links:
+- type: pdf
+  url: "https://gredos.usal.es/jspui/bitstream/10366/130174/1/201606-uploads-VAEP-RITA.2016.V4.N2.A7.pdf"
+- type: source
+  url: "http://hdl.handle.net/10366/130174"
 ---

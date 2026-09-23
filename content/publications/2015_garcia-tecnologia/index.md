@@ -16,5 +16,7 @@ tags:
   - "Technological support for placements management"
   - "VALS project"
   - "Virtual placements"
-url_pdf: "https://gredos.usal.es/jspui/bitstream/10366/125952/1/GRIAL_GarciaPenalvo_Tecnologia_VAEP_RITA_2015_V3_N1_A9.pdf"
+links:
+- type: pdf
+  url: "https://gredos.usal.es/jspui/bitstream/10366/125952/1/GRIAL_GarciaPenalvo_Tecnologia_VAEP_RITA_2015_V3_N1_A9.pdf"
 ---

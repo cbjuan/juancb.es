@@ -17,7 +17,9 @@ tags:
   - "Education"
   - "Assessment"
   - "Algorithmic evaluation"
-url_pdf: "https://doi.org/10.1007/978-3-030-50513-4_22"
+links:
+- type: pdf
+  url: "https://doi.org/10.1007/978-3-030-50513-4_22"
 hugoblox:
   ids:
     doi: "10.1007/978-3-030-50513-4_22"

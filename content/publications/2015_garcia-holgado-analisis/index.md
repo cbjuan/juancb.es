@@ -19,5 +19,7 @@ tags:
   - "Public administration"
   - "Análisis"
   - "Analysis"
-url_pdf: "https://repositorio.grial.eu/bitstream/grial/482/1/AnalisisComparativo.pdf"
+links:
+- type: pdf
+  url: "https://repositorio.grial.eu/bitstream/grial/482/1/AnalisisComparativo.pdf"
 ---

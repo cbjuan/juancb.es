@@ -25,7 +25,9 @@ tags:
   - "second life"
   - "transverse competencies"
   - "virtual world"
-url_pdf: "http://doi.acm.org/10.1145/2536536.2536549"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2536536.2536549"
 hugoblox:
   ids:
     doi: "10.1145/2536536.2536549"

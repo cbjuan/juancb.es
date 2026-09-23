@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the article `Avances en IA o computación cuántica logran los Premios de Informática de la Sociedad Científica Informática de España (SCIE) y la Fundación BBVA`, published by the _Conferencia de Directores y Decanos de Ingeniería Informática_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://coddii.org/avances-en-ia-o-computacion-cuantica-logran-los-premios-de-informatica-de-la-sociedad-cientifica-informatica-de-espana-scie-y-la-fundacion-bbva"
+links:
+- type: site
+  url: "https://coddii.org/avances-en-ia-o-computacion-cuantica-logran-los-premios-de-informatica-de-la-sociedad-cientifica-informatica-de-espana-scie-y-la-fundacion-bbva"
 ---

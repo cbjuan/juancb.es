@@ -24,6 +24,9 @@ tags:
   - "transpilation"
 projects:
   - "qiskit-ibm-transpiler"
-url_pdf: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20260105337"
-url_source: "https://patentcenter.uspto.gov/applications/18915476"
+links:
+- type: pdf
+  url: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20260105337"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/18915476"
 ---

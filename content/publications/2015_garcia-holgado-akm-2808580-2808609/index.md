@@ -15,7 +15,9 @@ tags:
   - "knowledge management"
   - "knowledge society"
   - "public administration"
-url_pdf: "http://doi.acm.org/10.1145/2808580.2808609"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2808580.2808609"
 hugoblox:
   ids:
     doi: "10.1145/2808580.2808609"

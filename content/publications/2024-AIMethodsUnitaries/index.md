@@ -18,8 +18,11 @@ tags:
   - "Artificial Intelligence"
   - "Unitary synthesis"
   - "Approximate compiling"
-url_pdf: "https://arxiv.org/pdf/2407.21225"
-url_source: "https://ieeexplore.ieee.org/abstract/document/10821333/"
+links:
+- type: pdf
+  url: "https://arxiv.org/pdf/2407.21225"
+- type: source
+  url: "https://ieeexplore.ieee.org/abstract/document/10821333/"
 hugoblox:
   ids:
     doi: "10.1109/QCE60285.2024.00136"

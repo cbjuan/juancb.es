@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the article `Los Premios de Informática de SCIE y Fundación BBVA reconocen a científicos que impulsan la investigación de vanguardia`, published by the news agency _Europa Press_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://www.europapress.es/epsocial/responsables/noticia-premios-informatica-scie-fundacion-bbva-reconocen-cientificos-impulsan-investigacion-vanguardia-20191105200055.html"
+links:
+- type: site
+  url: "https://www.europapress.es/epsocial/responsables/noticia-premios-informatica-scie-fundacion-bbva-reconocen-cientificos-impulsan-investigacion-vanguardia-20191105200055.html"
 ---

@@ -19,6 +19,9 @@ tags:
   - "quantum circuits"
   - "error mitigation"
   - "artificial intelligence"
-url_pdf: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250378358"
-url_source: "https://patentcenter.uspto.gov/applications/18734805"
+links:
+- type: pdf
+  url: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250378358"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/18734805"
 ---

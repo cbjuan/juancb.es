@@ -14,7 +14,9 @@ publication_types:
   - "paper-conference"
 selected: false
 publication: "*International Conference on Learning and Collaboration Technologies*. HCI International 2017"
-url_source: "https://link.springer.com/chapter/10.1007/978-3-319-58515-4_28"
+links:
+- type: source
+  url: "https://link.springer.com/chapter/10.1007/978-3-319-58515-4_28"
 hugoblox:
   ids:
     doi: "10.1007/978-3-319-58515-4_28"

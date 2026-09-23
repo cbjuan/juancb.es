@@ -15,8 +15,11 @@ publication_types:
 selected: false
 publication: "In _World Conference on Information Systems and Technologies_. WorldCIST 2018. _Trends and Advances in Information Systems and Technologies_ (pp. 971-979). Springer, Cham"
 math: true
-url_preprint: "https://repositorio.grial.eu/bitstream/grial/1204/1/Andrea-preprint.pdf"
-url_source: "https://link.springer.com/chapter/10.1007/978-3-319-77712-2_92"
+links:
+- type: preprint
+  url: "https://repositorio.grial.eu/bitstream/grial/1204/1/Andrea-preprint.pdf"
+- type: source
+  url: "https://link.springer.com/chapter/10.1007/978-3-319-77712-2_92"
 hugoblox:
   ids:
     doi: "10.1007/978-3-319-77712-2_92"

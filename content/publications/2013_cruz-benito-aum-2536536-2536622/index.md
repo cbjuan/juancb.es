@@ -16,7 +16,9 @@ tags:
   - "users' movements"
   - "users' profiles"
   - "virtual worlds"
-url_pdf: "http://doi.acm.org/10.1145/2536536.2536622"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2536536.2536622"
 hugoblox:
   ids:
     doi: "10.1145/2536536.2536622"

@@ -13,8 +13,11 @@ publication: "*Computer Science Review, Volume 51, 100619*"
 tags:
   - "Quantum Computing"
   - "Machine Learning"
-url_pdf: "https://www.sciencedirect.com/science/article/pii/S1574013724000030/pdf"
-url_source: "https://www.sciencedirect.com/science/article/pii/S1574013724000030"
+links:
+- type: pdf
+  url: "https://www.sciencedirect.com/science/article/pii/S1574013724000030/pdf"
+- type: source
+  url: "https://www.sciencedirect.com/science/article/pii/S1574013724000030"
 hugoblox:
   ids:
     doi: "https://doi.org/10.1016/j.cosrev.2024.100619"

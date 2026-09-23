@@ -17,7 +17,9 @@ tags:
   - "Behavior patterns"
   - "Engagement indicators"
   - "Educational Virtual Worlds"
-url_pdf: "http://www.sciencedirect.com/science/article/pii/S074756321400627X"
+links:
+- type: pdf
+  url: "http://www.sciencedirect.com/science/article/pii/S074756321400627X"
 hugoblox:
   ids:
     doi: "10.1016/j.chb.2014.11.028"

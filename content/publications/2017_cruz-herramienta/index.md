@@ -11,6 +11,9 @@ publication_types:
   - "report"
 selected: false
 publication: "*GRIAL Research Group, University of Salamanca*"
-url_pdf: "https://repositorio.grial.eu/bitstream/grial/1290/1/HerramientaValidacionOEEU.pdf"
-url_source: "https://repositorio.grial.eu/handle/grial/1290"
+links:
+- type: pdf
+  url: "https://repositorio.grial.eu/bitstream/grial/1290/1/HerramientaValidacionOEEU.pdf"
+- type: source
+  url: "https://repositorio.grial.eu/handle/grial/1290"
 ---

@@ -16,8 +16,11 @@ tags:
   - "Machine Learning"
   - "Programming Languages"
   - "Software Engineering"
-url_pdf: "https://www.mdpi.com/2673-2688/2/1/1/pdf"
-url_source: "https://www.mdpi.com/2673-2688/2/1/1"
+links:
+- type: pdf
+  url: "https://www.mdpi.com/2673-2688/2/1/1/pdf"
+- type: source
+  url: "https://www.mdpi.com/2673-2688/2/1/1"
 hugoblox:
   ids:
     doi: "10.3390/ai2010001"

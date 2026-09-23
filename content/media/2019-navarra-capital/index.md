@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the article `La noche de Humberto Bustince`, published in the economic news newspaper _NavarraCapital.es_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://navarracapital.es/la-noche-de-humberto-bustince/"
+links:
+- type: site
+  url: "https://navarracapital.es/la-noche-de-humberto-bustince/"
 ---

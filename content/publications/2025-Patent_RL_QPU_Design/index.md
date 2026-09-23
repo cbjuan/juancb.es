@@ -17,6 +17,9 @@ tags:
   - "neural network model"
   - "reinforcement learning"
   - "quantu, hardware"
-url_pdf: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250005368"
-url_source: "https://patentcenter.uspto.gov/applications/18463240"
+links:
+- type: pdf
+  url: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250005368"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/18463240"
 ---

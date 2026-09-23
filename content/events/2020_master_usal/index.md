@@ -10,8 +10,11 @@ event_name: "Master on Intelligent Systems. University of Salamanca"
 event_url: "https://www.meetup.com/es-ES/PyData-Salamanca/events/267803955/"
 location: "Salamanca, Spain"
 selected: false
-url_pdf: "https://github.com/cbjuan/talk-ai-mis-usal-2020/blob/master/Talk-AI-MasterIntelligentSystems-USAL-2020.pdf"
-url_code: "https://github.com/cbjuan/talk-ai-mis-usal-2020/"
+links:
+- type: pdf
+  url: "https://github.com/cbjuan/talk-ai-mis-usal-2020/blob/master/Talk-AI-MasterIntelligentSystems-USAL-2020.pdf"
+- type: code
+  url: "https://github.com/cbjuan/talk-ai-mis-usal-2020/"
 math: true
 image:
   caption: "Image credit: [**Master on Intelligent Systems. University of Salamanca**](https://twitter.com/mastersi_usal/status/1233084423408668678?s=09)"

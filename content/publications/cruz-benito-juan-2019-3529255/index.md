@@ -4,7 +4,9 @@ date: 2019-11-05
 authors:
   - "Juan Cruz-Benito"
 selected: false
-url_pdf: "https://doi.org/10.5281/zenodo.3529255"
+links:
+- type: pdf
+  url: "https://doi.org/10.5281/zenodo.3529255"
 hugoblox:
   ids:
     doi: "10.5281/zenodo.3529255"

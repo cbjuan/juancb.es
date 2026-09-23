@@ -13,7 +13,9 @@ publication_types:
   - "article-journal"
 selected: false
 publication: "*Accreditation and Quality Assurance*"
-url_pdf: "https://doi.org/10.1007/s00769-014-1065-4"
+links:
+- type: pdf
+  url: "https://doi.org/10.1007/s00769-014-1065-4"
 hugoblox:
   ids:
     doi: "10.1007/s00769-014-1065-4"

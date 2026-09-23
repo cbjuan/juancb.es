@@ -24,7 +24,9 @@ tags:
 projects:
   - "qiskit-ibm-transpiler"
   - "qiskit-gym"
-url_source: "https://arxiv.org/abs/2405.13196"
+links:
+- type: source
+  url: "https://arxiv.org/abs/2405.13196"
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2405.13196"

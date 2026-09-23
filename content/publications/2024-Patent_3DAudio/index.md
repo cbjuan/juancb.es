@@ -18,6 +18,9 @@ tags:
   - "training"
   - "memory"
   - "processing"
-url_pdf: "https://patentimages.storage.googleapis.com/ab/25/24/8a78427c7d852b/WO2024088336A1.pdf"
-url_source: "https://worldwide.espacenet.com/publicationDetails/biblio?CC=WO&NR=2024088336A1&KC=A1&FT=D"
+links:
+- type: pdf
+  url: "https://patentimages.storage.googleapis.com/ab/25/24/8a78427c7d852b/WO2024088336A1.pdf"
+- type: source
+  url: "https://worldwide.espacenet.com/publicationDetails/biblio?CC=WO&NR=2024088336A1&KC=A1&FT=D"
 ---

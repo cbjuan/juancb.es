@@ -9,7 +9,9 @@ event_name: "Talk @ SCAYLE 2021"
 event_url: "https://www.scayle.es/wp-content/uploads/Formaci%C3%B3n/2021/Curso-AI-and-Quantum-Computing.pdf"
 location: "Hybrid (physical/online) event. León, Spain"
 selected: true
-url_code: "https://github.com/cbjuan/2021-scayle-talk"
+links:
+- type: code
+  url: "https://github.com/cbjuan/2021-scayle-talk"
 math: true
 image:
   caption: "Image credit: [**SCAYLE 2021**](https://www.scayle.es/)"

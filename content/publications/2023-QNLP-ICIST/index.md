@@ -14,7 +14,9 @@ tags:
   - "Quantum Computing"
   - "Quantum Machine Learning"
   - "Quantum Natural Language Processing"
-url_source: "https://link.springer.com/chapter/10.1007/978-3-031-48981-5_19"
+links:
+- type: source
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-48981-5_19"
 hugoblox:
   ids:
     doi: "10.1007/978-3-031-48981-5_19"

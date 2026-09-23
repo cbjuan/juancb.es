@@ -14,7 +14,9 @@ publication_types:
 selected: false
 publication: "In _International Conference on Learning and Collaboration Technologies_. HCI International 2018. _Learning and Collaboration Technologies. Learning and Teaching_ (pp. 421-430). Springer, Cham"
 math: true
-url_source: "https://link.springer.com/chapter/10.1007/978-3-319-91152-6_32"
+links:
+- type: source
+  url: "https://link.springer.com/chapter/10.1007/978-3-319-91152-6_32"
 hugoblox:
   ids:
     doi: "10.1007/978-3-319-91152-6_32"

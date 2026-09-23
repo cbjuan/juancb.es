@@ -15,8 +15,11 @@ tags:
   - "Artificial Intelligence"
   - "e-assessment"
   - "Adoption"
-url_pdf: "https://www.ijimai.org/journal/sites/default/files/2020-11/ijimai_6_4_8.pdf"
-url_source: "https://www.ijimai.org/journal/bibcite/reference/2847"
+links:
+- type: pdf
+  url: "https://www.ijimai.org/journal/sites/default/files/2020-11/ijimai_6_4_8.pdf"
+- type: source
+  url: "https://www.ijimai.org/journal/bibcite/reference/2847"
 hugoblox:
   ids:
     doi: "10.9781/ijimai.2020.11.009"

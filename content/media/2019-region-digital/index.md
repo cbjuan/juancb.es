@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the article `La empresa extremeña Homeria Open Solutions reconocida por Fundación BBVA`, published by digital media _regiondigital.com_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://www.regiondigital.com/noticias/tecnologia/318345-la-empresa-extremena-homeria-open-solutions-reconocida-por-fundacion-bbva.html"
+links:
+- type: site
+  url: "https://www.regiondigital.com/noticias/tecnologia/318345-la-empresa-extremena-homeria-open-solutions-reconocida-por-fundacion-bbva.html"
 ---

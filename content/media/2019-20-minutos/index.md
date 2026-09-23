@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the article `La Fundación BBVA premia a dos jóvenes del País Vasco por su contribución a la informática`, published by digital media _20minutos.es_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://www.20minutos.es/noticia/4044792/0/la-fundacion-bbva-premia-a-dos-jovenes-del-pais-vasco-por-su-contribucion-a-la-informatica/"
+links:
+- type: site
+  url: "https://www.20minutos.es/noticia/4044792/0/la-fundacion-bbva-premia-a-dos-jovenes-del-pais-vasco-por-su-contribucion-a-la-informatica/"
 ---

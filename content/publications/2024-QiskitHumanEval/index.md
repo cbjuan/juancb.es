@@ -25,8 +25,11 @@ tags:
   - "HumanEval"
 projects:
   - "qiskit-code-assistant"
-url_pdf: "https://arxiv.org/pdf/2406.14712"
-url_source: "https://ieeexplore.ieee.org/abstract/document/10821459/"
+links:
+- type: pdf
+  url: "https://arxiv.org/pdf/2406.14712"
+- type: source
+  url: "https://ieeexplore.ieee.org/abstract/document/10821459/"
 hugoblox:
   ids:
     doi: "10.1109/QCE60285.2024.00137"

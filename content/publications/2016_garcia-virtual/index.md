@@ -11,7 +11,9 @@ publication_types:
   - "article-journal"
 selected: false
 publication: "*IEEE Revista Iberoamericana de Tecnologías del Aprendizaje, 11*(1), 47-54"
-url_source: "https://ieeexplore.ieee.org/document/7397889"
+links:
+- type: source
+  url: "https://ieeexplore.ieee.org/document/7397889"
 hugoblox:
   ids:
     doi: "10.1109/RITA.2016.2518461"

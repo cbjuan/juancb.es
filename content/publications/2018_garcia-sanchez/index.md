@@ -12,7 +12,9 @@ publication_types:
   - "chapter"
 selected: false
 publication: "*Global Implications of Emerging Technology Trends* (pp. 19-33). IGI Global"
-url_source: "https://www.igi-global.com/chapter/developing-a-research-method-to-analyze-visual-literacy-based-on-cross-cultural-characteristics/195819"
+links:
+- type: source
+  url: "https://www.igi-global.com/chapter/developing-a-research-method-to-analyze-visual-literacy-based-on-cross-cultural-characteristics/195819"
 hugoblox:
   ids:
     doi: "10.4018/978-1-5225-4944-4.ch002"

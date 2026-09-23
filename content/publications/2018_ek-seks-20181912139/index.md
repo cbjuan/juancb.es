@@ -14,7 +14,9 @@ selected: false
 publication: "*Education in the Knowledge Society (EKS), 19*(1), 21-39"
 tags:
   - "Universidades; Educación superior; Estudiantes universitarios; Empleabilidad; Empleo juvenil; Titulados universitarios; Capital humano; Competencias"
-url_pdf: "http://revistas.usal.es/~revistas_trabajo/index.php/revistatesi/article/view/eks20181912139"
+links:
+- type: pdf
+  url: "http://revistas.usal.es/~revistas_trabajo/index.php/revistatesi/article/view/eks20181912139"
 hugoblox:
   ids:
     doi: "10.14201/eks20181912139"

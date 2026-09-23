@@ -19,7 +19,9 @@ tags:
   - "eLearning"
   - "Students"
 math: true
-url_source: "https://link.springer.com/chapter/10.1007%2F978-3-030-21814-0_2"
+links:
+- type: source
+  url: "https://link.springer.com/chapter/10.1007%2F978-3-030-21814-0_2"
 hugoblox:
   ids:
     doi: "10.1007/978-3-030-21814-0_2"

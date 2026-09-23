@@ -15,7 +15,9 @@ tags:
   - "knowledge discovery"
   - "knowledge representation"
   - "learning analytics"
-url_pdf: "http://doi.acm.org/10.1145/2669711.2669977"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2669711.2669977"
 hugoblox:
   ids:
     doi: "10.1145/2669711.2669977"

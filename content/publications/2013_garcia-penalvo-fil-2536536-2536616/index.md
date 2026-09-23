@@ -15,7 +15,9 @@ tags:
   - "informal learning"
   - "knowledge management"
   - "multiculturality"
-url_pdf: "http://doi.acm.org/10.1145/2536536.2536616"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2536536.2536616"
 hugoblox:
   ids:
     doi: "10.1145/2536536.2536616"

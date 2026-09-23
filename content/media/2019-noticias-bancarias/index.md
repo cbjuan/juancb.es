@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the press release `Fundación BBVA premia la creatividad, la originalidad y la excelencia en la informática`, published by the economic news website _noticiasbancarias.com_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://noticiasbancarias.com/bancos/07/11/2019/fundacion-bbva-premia-la-creatividad-la-originalidad-y-la-excelencia-en-la-informatica/196883.html"
+links:
+- type: site
+  url: "https://noticiasbancarias.com/bancos/07/11/2019/fundacion-bbva-premia-la-creatividad-la-originalidad-y-la-excelencia-en-la-informatica/196883.html"
 ---

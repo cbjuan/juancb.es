@@ -11,7 +11,9 @@ publication_types:
   - "chapter"
 selected: false
 publication: "*Global Implications of Emerging Technology Trends* (pp. 236-255). IGI Global"
-url_source: "https://www.igi-global.com/chapter/scaffolding-the-oeeus-data-driven-ecosystem-to-analyze-the-employability-of-spanish-graduates/195832"
+links:
+- type: source
+  url: "https://www.igi-global.com/chapter/scaffolding-the-oeeus-data-driven-ecosystem-to-analyze-the-employability-of-spanish-graduates/195832"
 hugoblox:
   ids:
     doi: "10.4018/978-1-5225-4944-4.ch013"

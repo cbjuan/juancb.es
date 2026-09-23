@@ -21,6 +21,9 @@ tags:
   - "training"
 projects:
   - "qiskit-code-assistant"
-url_pdf: "https://patentimages.storage.googleapis.com/48/76/1c/d2b01371469e3b/US20240192938A1.pdf"
-url_source: "https://patentcenter.uspto.gov/applications/18165591"
+links:
+- type: pdf
+  url: "https://patentimages.storage.googleapis.com/48/76/1c/d2b01371469e3b/US20240192938A1.pdf"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/18165591"
 ---

@@ -21,8 +21,11 @@ tags:
 projects:
   - "qiskit-ibm-transpiler"
   - "qiskit-gym"
-url_pdf: "https://ojs.aaai.org/index.php/AAAI-SS/article/view/36912/39050"
-url_source: "https://ojs.aaai.org/index.php/AAAI-SS/article/view/36912"
+links:
+- type: pdf
+  url: "https://ojs.aaai.org/index.php/AAAI-SS/article/view/36912/39050"
+- type: source
+  url: "https://ojs.aaai.org/index.php/AAAI-SS/article/view/36912"
 hugoblox:
   ids:
     doi: "10.1609/aaaiss.v7i1.36912"

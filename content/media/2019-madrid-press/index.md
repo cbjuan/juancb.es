@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Mention in the article `BBVA premia a dos investigadores de universidades madrileñas por su contribución a la informática`, published by the digital newspaper _madridpress.com_. Mention related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Mention]
-external_link: "https://madridpress.com/art/263062/bbva-premia-a-dos-investigadores-de-universidades-madrilenas-por-su-contribucion-a-la-informatica"
+links:
+- type: site
+  url: "https://madridpress.com/art/263062/bbva-premia-a-dos-investigadores-de-universidades-madrilenas-por-su-contribucion-a-la-informatica"
 ---

@@ -22,5 +22,7 @@ tags:
   - "servicios web"
   - "visual literacy"
   - "web services"
-url_pdf: "https://repositorio.grial.eu/bitstream/grial/476/1/CINAIC_AnalisisComunicacionVisual_FGS_JCB.pdf"
+links:
+- type: pdf
+  url: "https://repositorio.grial.eu/bitstream/grial/476/1/CINAIC_AnalisisComunicacionVisual_FGS_JCB.pdf"
 ---

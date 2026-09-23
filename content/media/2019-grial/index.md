@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Press release published by the _GRIAL Research Group_ about my SCIE-BBVA award"
 tags: ["media"]
 categories: [Press release]
-external_link: "http://www.grial.eu/news/juan-cruz-benito-miembro-del-grupo-grial-galardonado-con-uno-de-los-premios-nacionales-j%C3%B3venes"
+links:
+- type: site
+  url: "http://www.grial.eu/news/juan-cruz-benito-miembro-del-grupo-grial-galardonado-con-uno-de-los-premios-nacionales-j%C3%B3venes"
 ---

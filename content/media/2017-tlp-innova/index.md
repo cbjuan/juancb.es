@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Interview published in the [TLP Tenerife's website](https://tlp-tenerife.com/) about my trajectory and the talk I was going to give in TLP Innova 2017"
 tags: ["media"]
 categories: [Interview]
-external_link: "https://tlp-tenerife.com/juan-cruz-informatica-poderosa/"
+links:
+- type: site
+  url: "https://tlp-tenerife.com/juan-cruz-informatica-poderosa/"
 ---

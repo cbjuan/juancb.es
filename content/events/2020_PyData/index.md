@@ -10,8 +10,11 @@ event_name: "Fly with Python. PyData Salamanca"
 event_url: "https://www.meetup.com/es-ES/PyData-Salamanca/events/267803955/"
 location: "Salamanca, Spain"
 selected: false
-url_pdf: "https://github.com/cbjuan/pydata-salamanca-talk-2020/blob/master/pydata-Salamanca-6Feb2020%20slides.pdf"
-url_code: "https://github.com/cbjuan/pydata-salamanca-talk-2020/"
+links:
+- type: pdf
+  url: "https://github.com/cbjuan/pydata-salamanca-talk-2020/blob/master/pydata-Salamanca-6Feb2020%20slides.pdf"
+- type: code
+  url: "https://github.com/cbjuan/pydata-salamanca-talk-2020/"
 math: true
 image:
   caption: "Image credit: [**PyDataSalamanca**](https://www.meetup.com/es-ES/PyData-Salamanca/events/267803955/)"

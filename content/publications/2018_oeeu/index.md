@@ -12,5 +12,7 @@ publication_types:
   - "book"
 selected: false
 publication: "Observatorio de Empleabilidad y Empleo Universitarios, 2018"
-url_pdf: "https://repositorio.grial.eu/bitstream/grial/1165/1/INFORME_OEEU_2017_FINAL_27-2-2018_rep.pdf"
+links:
+- type: pdf
+  url: "https://repositorio.grial.eu/bitstream/grial/1165/1/INFORME_OEEU_2017_FINAL_27-2-2018_rep.pdf"
 ---

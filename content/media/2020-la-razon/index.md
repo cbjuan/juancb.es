@@ -5,7 +5,9 @@ authors: []
 summary: "[ES] Interview in Spanish newspaper La Razón. Section _Innovadores by Inndux_. `El español que democratizará la computación cuántica` by [Alberto Iglesias Fraga](https://twitter.com/aiglesiasfraga)"
 tags: ["media"]
 categories: [Interview]
-external_link: "https://innovadores.larazon.es/es/el-espanol-que-democratizara-la-computacion-cuantica/"
+links:
+- type: site
+  url: "https://innovadores.larazon.es/es/el-espanol-que-democratizara-la-computacion-cuantica/"
 image:
   caption: "Overview of the published version of the interview. Copyright La Razón"
   focal_point: "top"

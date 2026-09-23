@@ -10,7 +10,9 @@ publication_types:
   - "paper-conference"
 selected: false
 publication: "*Learning and Collaboration Technologies* LCT 2016. Lecture Notes in Computer Science, vol 9753. Springer, Cham"
-url_source: "https://link.springer.com/chapter/10.1007/978-3-319-39483-1_12"
+links:
+- type: source
+  url: "https://link.springer.com/chapter/10.1007/978-3-319-39483-1_12"
 hugoblox:
   ids:
     doi: "10.1007/978-3-319-39483-1_12"

@@ -18,7 +18,9 @@ tags:
   - "visual communication"
   - "visual literacy"
   - "web services"
-url_pdf: "http://doi.acm.org/10.1145/2808580.2808629"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2808580.2808629"
 hugoblox:
   ids:
     doi: "10.1145/2808580.2808629"

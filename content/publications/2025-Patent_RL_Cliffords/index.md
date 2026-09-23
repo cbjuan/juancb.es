@@ -24,6 +24,9 @@ tags:
   - "clifford circuit"
 projects:
   - "qiskit-ibm-transpiler"
-url_pdf: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250021853"
-url_source: "https://patentcenter.uspto.gov/applications/18466323"
+links:
+- type: pdf
+  url: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/20250021853"
+- type: source
+  url: "https://patentcenter.uspto.gov/applications/18466323"
 ---

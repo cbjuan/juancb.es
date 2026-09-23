@@ -13,8 +13,11 @@ publication_types:
   - "article-journal"
 selected: true
 publication: "*International Journal of Interactive Multimedia & Artificial Intelligence, 5*(2), 39-45"
-url_pdf: "http://www.ijimai.org/journal/sites/default/files/files/2018/02/ijimai_5_2_5_pdf_12552.pdf"
-url_source: "http://www.ijimai.org/journal/node/2094"
+links:
+- type: pdf
+  url: "http://www.ijimai.org/journal/sites/default/files/files/2018/02/ijimai_5_2_5_pdf_12552.pdf"
+- type: source
+  url: "http://www.ijimai.org/journal/node/2094"
 hugoblox:
   ids:
     doi: "10.9781/ijimai.2018.02.002"

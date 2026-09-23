@@ -23,7 +23,9 @@ tags:
   - "HumanEval"
 projects:
   - "qiskit-code-assistant"
-url_source: "https://arxiv.org/abs/2508.20907"
+links:
+- type: source
+  url: "https://arxiv.org/abs/2508.20907"
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2508.20907"

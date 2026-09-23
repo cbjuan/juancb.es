@@ -20,7 +20,9 @@ tags:
   - "employment"
   - "graduate students"
   - "information systems"
-url_pdf: "http://doi.acm.org/10.1145/2808580.2808622"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2808580.2808622"
 hugoblox:
   ids:
     doi: "10.1145/2808580.2808622"

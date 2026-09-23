@@ -19,7 +19,9 @@ tags:
   - "Artificial Intelligence"
   - "Quantum Processing Unit"
   - "QPU"
-url_source: "https://arxiv.org/abs/2510.20630"
+links:
+- type: source
+  url: "https://arxiv.org/abs/2510.20630"
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2510.20630"

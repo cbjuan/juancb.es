@@ -10,7 +10,9 @@ event_name: "Geek USAL 2018"
 event_url: "https://sites.google.com/usal.es/geekusal/primera-edici%C3%B3n"
 location: "Salamanca, Spain"
 selected: false
-url_video: "https://sites.google.com/usal.es/geekusal/primera-edici%C3%B3n"
+links:
+- type: video
+  url: "https://sites.google.com/usal.es/geekusal/primera-edici%C3%B3n"
 math: true
 image:
   caption: "Image credit: [**Víctor Vicente Palacios @victorvicpal**](https://twitter.com/victorvicpal/status/974696118666833920)"

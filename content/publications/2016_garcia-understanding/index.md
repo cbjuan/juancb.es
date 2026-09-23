@@ -14,7 +14,9 @@ publication_types:
   - "article-journal"
 selected: false
 publication: "*Education in the Knowledge Society (EKS), 17*(1), 147-173"
-url_pdf: "http://revistas.usal.es/index.php/eks/article/download/eks2016171147173/14810"
+links:
+- type: pdf
+  url: "http://revistas.usal.es/index.php/eks/article/download/eks2016171147173/14810"
 hugoblox:
   ids:
     doi: "10.14201/eks2016171147173"

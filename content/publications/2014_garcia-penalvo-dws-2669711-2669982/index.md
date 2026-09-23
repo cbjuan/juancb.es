@@ -28,7 +28,9 @@ tags:
   - "open source"
   - "semester of code"
   - "virtual placements"
-url_pdf: "http://doi.acm.org/10.1145/2669711.2669982"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2669711.2669982"
 hugoblox:
   ids:
     doi: "10.1145/2669711.2669982"

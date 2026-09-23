@@ -12,5 +12,7 @@ publication_types:
   - "paper-conference"
 selected: false
 publication: "*Actas del XVII Simposio Internacional de Informática Educativa (SIIE’15)*. Setúbal, Portugal. 25-27 November 2015 (pp. 410-418)."
-url_pdf: "https://repositorio.grial.eu/bitstream/grial/489/3/SIIE15_DeteccionAprendizaje_RRSS_MOOC.pdf"
+links:
+- type: pdf
+  url: "https://repositorio.grial.eu/bitstream/grial/489/3/SIIE15_DeteccionAprendizaje_RRSS_MOOC.pdf"
 ---

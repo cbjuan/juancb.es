@@ -9,5 +9,7 @@ publication_types:
 selected: true
 publication: "_Ph.D. Thesis_. University of Salamanca, 2018"
 math: true
-url_pdf: "http://hdl.handle.net/10366/138497"
+links:
+- type: pdf
+  url: "http://hdl.handle.net/10366/138497"
 ---

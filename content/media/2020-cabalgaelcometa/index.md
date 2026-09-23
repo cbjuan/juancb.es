@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Conversation and interview in the podcast Cabalga el Cometa by [Marc Alier](https://twitter.com/granludo). We talk about Quantum Computing, AI, and tools for scientific research in an open-minded environment"
 tags: ["media"]
 categories: [Interview]
-external_link: "https://cabalgaelcometa.com/podcast/ep-18-el-grial-de-la-computacion-cuantica-con-juan-cruz-benito/"
+links:
+- type: site
+  url: "https://cabalgaelcometa.com/podcast/ep-18-el-grial-de-la-computacion-cuantica-con-juan-cruz-benito/"
 ---

@@ -20,7 +20,9 @@ tags:
   - "Web Services"
   - "eLearning"
   - "iMOOC"
-url_pdf: "http://doi.acm.org/10.1145/2829875.2829923"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/2829875.2829923"
 hugoblox:
   ids:
     doi: "10.1145/2829875.2829923"

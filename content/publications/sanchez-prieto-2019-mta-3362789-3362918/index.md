@@ -17,7 +17,9 @@ tags:
   - "Teachers"
   - "Technology acceptance model"
   - "eLearning"
-url_pdf: "http://doi.acm.org/10.1145/3362789.3362918"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/3362789.3362918"
 hugoblox:
   ids:
     doi: "10.1145/3362789.3362918"

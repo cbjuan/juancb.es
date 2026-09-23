@@ -22,5 +22,7 @@ tags:
   - "mundos virtuales"
   - "Tecnologías para la Educación"
   - "analítica de uso"
-url_pdf: "https://repositorio.grial.eu/bitstream/grial/495/1/201509-uploads-VAEP-RITA.2015.V3.N3.A4.pdf"
+links:
+- type: pdf
+  url: "https://repositorio.grial.eu/bitstream/grial/495/1/201509-uploads-VAEP-RITA.2015.V3.N3.A4.pdf"
 ---

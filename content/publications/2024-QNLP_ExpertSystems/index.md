@@ -14,8 +14,11 @@ tags:
   - "Quantum computing"
   - "Quantum Machine Learning"
   - "Quantum natural language processing"
-url_pdf: "https://www.sciencedirect.com/science/article/pii/S0957417424012934/pdfft?md5=97c5788dcf43d930dd7c41c2ee72d05e&pid=1-s2.0-S0957417424012934-main.pdf"
-url_source: "https://www.sciencedirect.com/science/article/pii/S0957417424012934"
+links:
+- type: pdf
+  url: "https://www.sciencedirect.com/science/article/pii/S0957417424012934/pdfft?md5=97c5788dcf43d930dd7c41c2ee72d05e&pid=1-s2.0-S0957417424012934-main.pdf"
+- type: source
+  url: "https://www.sciencedirect.com/science/article/pii/S0957417424012934"
 hugoblox:
   ids:
     doi: "https://doi.org/10.1016/j.eswa.2024.124427"

@@ -17,7 +17,9 @@ tags:
   - "controlling things"
   - "programming robots"
   - "using logic"
-url_pdf: "http://doi.acm.org/10.1145/3012430.3012490"
+links:
+- type: pdf
+  url: "http://doi.acm.org/10.1145/3012430.3012490"
 hugoblox:
   ids:
     doi: "10.1145/3012430.3012490"

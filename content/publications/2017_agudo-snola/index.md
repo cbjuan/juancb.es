@@ -16,8 +16,11 @@ publication_types:
   - "paper-conference"
 selected: false
 publication: "_IV Congreso Internacional sobre Aprendizaje, Innovación y Competitividad-CINAIC_"
-url_pdf: "https://zaguan.unizar.es/record/62973/files/147.pdf"
-url_source: "https://zaguan.unizar.es/record/62973/"
+links:
+- type: pdf
+  url: "https://zaguan.unizar.es/record/62973/files/147.pdf"
+- type: source
+  url: "https://zaguan.unizar.es/record/62973/"
 hugoblox:
   ids:
     doi: "10.26754/CINAIC.2017.000001_147"

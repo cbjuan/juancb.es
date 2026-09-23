@@ -43,7 +43,9 @@ tags:
   - "virtual worlds"
   - "technology-enhanced learning"
   - "usage analytics"
-url_source: "https://ieeexplore.ieee.org/document/7511684"
+links:
+- type: source
+  url: "https://ieeexplore.ieee.org/document/7511684"
 hugoblox:
   ids:
     doi: "10.1109/RITA.2016.2589719"

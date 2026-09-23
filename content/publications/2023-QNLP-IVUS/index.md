@@ -14,5 +14,7 @@ tags:
   - "Quantum Computing"
   - "Quantum Machine Learning"
   - "Quantum Natural Language Processing"
-url_source: "https://ceur-ws.org/Vol-3575/Paper24.pdf"
+links:
+- type: source
+  url: "https://ceur-ws.org/Vol-3575/Paper24.pdf"
 ---

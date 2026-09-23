@@ -17,8 +17,11 @@ tags:
   - "Quantum Computing"
 projects:
   - "qiskit-code-assistant"
-url_pdf: "https://arxiv.org/pdf/2605.27210"
-url_source: "https://arxiv.org/abs/2605.27210"
+links:
+- type: pdf
+  url: "https://arxiv.org/pdf/2605.27210"
+- type: source
+  url: "https://arxiv.org/abs/2605.27210"
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2605.27210"

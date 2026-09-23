@@ -99,7 +99,9 @@ authors:
 featured: false
 tags:
   - "Quantum Computing"
-url_pdf: "https://doi.org/10.5281/zenodo.2562111"
+links:
+- type: pdf
+  url: "https://doi.org/10.5281/zenodo.2562111"
 hugoblox:
   ids:
     doi: "10.5281/zenodo.2562111"

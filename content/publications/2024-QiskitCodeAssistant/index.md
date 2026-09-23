@@ -22,8 +22,11 @@ tags:
   - "Quantum Computing"
 projects:
   - "qiskit-code-assistant"
-url_pdf: "https://arxiv.org/abs/2405.19495"
-url_source: "https://ieeexplore.ieee.org/abstract/document/10691762/"
+links:
+- type: pdf
+  url: "https://arxiv.org/abs/2405.19495"
+- type: source
+  url: "https://ieeexplore.ieee.org/abstract/document/10691762/"
 hugoblox:
   ids:
     doi: "10.1109/LAD62341.2024.10691762"

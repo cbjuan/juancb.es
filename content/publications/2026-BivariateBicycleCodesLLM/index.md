@@ -19,8 +19,11 @@ tags:
   - "Large Language Models"
   - "Evolutionary Search"
   - "Artificial Intelligence"
-url_pdf: "https://arxiv.org/pdf/2606.02418"
-url_source: "https://arxiv.org/abs/2606.02418"
+links:
+- type: pdf
+  url: "https://arxiv.org/pdf/2606.02418"
+- type: source
+  url: "https://arxiv.org/abs/2606.02418"
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2606.02418"

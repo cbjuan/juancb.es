@@ -5,5 +5,7 @@ authors: []
 summary: "[ES] Profile by the BBVA Foundation related to the SCIE-BBVA award"
 tags: ["media"]
 categories: [Profile]
-external_link: "https://www.fbbva.es/galardonados/juan-cruz-benito/"
+links:
+- type: site
+  url: "https://www.fbbva.es/galardonados/juan-cruz-benito/"
 ---
