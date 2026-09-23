@@ -1,0 +1,29 @@
+/*
+  Reduce the gap between the sticky navbar and the homepage bio/photo section.
+  The blox module's resume-biography-3 block hardcodes generous top padding
+  (py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32, i.e. up to 128px) that is
+  independent of the hugoblox.layout.spacing token, so it can't be tuned via
+  config/_default/params.yaml. Only the top offset is trimmed here; bottom
+  padding (section separation from the next block) is left as-is.
+*/
+.resume-biography {
+  padding-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .resume-biography {
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .resume-biography {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .resume-biography {
+    padding-top: 2.5rem;
+  }
+}
