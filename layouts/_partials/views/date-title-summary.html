@@ -1,0 +1,67 @@
+{{/*
+  Override of the blox module's views/date-title-summary.html.
+
+  Upstream renders no image at all for this compact view, used e.g. by the
+  homepage's "Recent Posts" and "Recent Talks" sections. The old Academic
+  theme's equivalent "Compact" list view (li_compact.html) showed a small
+  featured-image thumbnail next to each item, so switching to Hugo Blox
+  Builder silently dropped those thumbnails. This override restores a
+  thumbnail (when a featured image resource exists) while keeping upstream's
+  text layout untouched.
+*/}}
+
+{{ $item := .item }}
+{{ $page := .page }}
+{{ $summary := partial "functions/get_summary" $item }}
+{{ $summary =  $summary | page.RenderString }}
+{{ $displayDate := .item.Params.event_start | default .item.Date }}
+
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{ $anchor := "Center" }}
+{{ if and $item.Params.image (reflect.IsMap $item.Params.image) }}
+  {{ $anchor = $item.Params.image.focal_point | default "Center" }}
+{{ end }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $canShowThumb := and $resource (and (reflect.IsImageResourceProcessable $resource) (ne $resource.MediaType.SubType "gif")) }}
+
+<div class="flex gap-4 sm:gap-6 items-start">
+  {{ if $canShowThumb }}
+    {{ $thumb := $resource.Fill (printf "160x160 %s" $anchor) }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="shrink-0 block">
+      <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }}" class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-cover ring-1 ring-zinc-900/5 dark:ring-white/10">
+    </a>
+  {{ end }}
+
+  <article class="flex-1 md:grid md:grid-cols-4 md:items-baseline">
+    <div class="md:col-span-3 group relative flex flex-col items-start">
+      <h2 class="text-base font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
+        <a href="{{$item.RelPermalink}}"><span
+          class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span><span class="relative z-10">{{$item.Title}}</span></a>
+      </h2>
+      <time
+        class="md:hidden relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500 pl-1"
+        datetime="{{ time.Format "2006-01-02" $displayDate }}">
+        {{ time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate }}
+      </time>
+      <p class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400 line-clamp-3">{{$summary}}</p>
+      <div aria-hidden="true" class="relative z-10 mt-4 flex items-center text-sm font-medium text-primary-500">
+      {{ T "read_more" | default "Read more" }}
+        <svg aria-hidden="true" class="ml-1 h-4 w-4 stroke-current" fill="none" viewBox="0 0 16 16">
+          <path d="M6.75 5.75 9.25 8l-2.5 2.25" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+        </svg>
+      </div>
+    </div>
+    <time
+      class="mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center text-sm text-zinc-400 dark:text-zinc-500"
+      datetime="{{ time.Format "2006-01-02" $displayDate }}">{{ time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") $displayDate }}
+    </time>
+  </article>
+</div>
