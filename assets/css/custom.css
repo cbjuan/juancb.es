@@ -27,3 +27,56 @@
     padding-top: 2.5rem;
   }
 }
+
+/*
+  Unified homepage type scale. Each blox block picks its own heading/body
+  sizes (Contact's h2 grows to text-5xl, award titles are text-2xl, post
+  titles text-base, etc.), so the homepage mixes many sizes for the same
+  role. These rules align them to four levels:
+    section heading 1.875rem / sub-heading 1.5rem / item title 1.125rem /
+    body 1rem / metadata 0.875rem
+*/
+
+/* Section headings: Contact's h2 scales up to text-5xl; match the others. */
+#contact > div > .text-center > h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+/* Sub-headings in the About block (Professional Summary, Education, Interests). */
+#about h2,
+#about h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* Item titles: posts, talks, projects, experience, awards, education, contact cards. */
+#posts h2,
+#talks h2,
+#projects h3[id^="card-title-"],
+#experience h3,
+#accomplishments h5,
+#about p.text-xl,
+#contact h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+/* Body text: summaries and descriptions at one size. */
+#posts h2 ~ p,
+#talks h2 ~ p,
+#projects h3[id^="card-title-"] ~ p,
+#experience .prose,
+#accomplishments .prose,
+#publications .pub-list-item {
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+/* Metadata: company names, education institutions, award issuer/date. */
+#experience h3 + p,
+#about p.text-xl + p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
