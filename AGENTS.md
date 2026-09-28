@@ -16,7 +16,7 @@ Required tooling: Hugo **extended** `0.161.1` (pinned in `hugoblox.yaml` and CI)
 - **Deploy is automatic**: `.github/workflows/deploy.yml` runs on every push to `master`. It sets up Go, pnpm and Node, runs `pnpm install --frozen-lockfile`, installs Hugo, runs `hugo --gc --minify` and then `pnpm run pagefind`, and pushes `public/` to `cbjuan/cbjuan.github.io` (`master` branch). Merging to `master` is the deploy, so don't deploy manually for a normal PR.
   - The deploy step authenticates with an SSH deploy key stored as the `PAGES_DEPLOY_KEY` secret in this repo, paired with a write-access deploy key on `cbjuan/cbjuan.github.io`. If a run fails with `Permission ... denied to deploy key`, that pairing is broken. Fix it in the settings of both repos; a code change here can't fix it.
   - The deploy mirrors `public/` onto the target branch, replacing the whole branch rather than syncing incrementally. Anything that exists only in `cbjuan.github.io` and isn't produced from this repo gets deleted on the next deploy. `static/CNAME` exists so the custom domain survives this.
-  - `./deploy-web.sh` is a legacy manual fallback. It predates the Hugo Blox migration: it runs plain `hugo`, not `pnpm run pagefind`, so it would publish a site with no search index. Don't use it unless explicitly asked, and add the Pagefind step if you do.
+  - `./deploy-web.sh` is a manual fallback. It runs the same build as CI, then commits and pushes the `public/` submodule directly. Only use it if explicitly asked to deploy outside CI. CI force-pushes `cbjuan.github.io`, so the local `public/` checkout must first be synced to `origin/master` or the push will be rejected.
 - There is no lint or test command. CI runs a real build and fails loudly if a template breaks, so validate locally the same way before pushing:
   - Run a scratch `hugo` build and check it finishes with no errors or warnings.
   - Inspect the generated HTML for the specific pages you changed, e.g. `grep`, or `python -m json.tool` on any JSON-LD you touched.
@@ -57,12 +57,7 @@ Required tooling: Hugo **extended** `0.161.1` (pinned in `hugoblox.yaml` and CI)
 - `assets/css/custom.css` holds site CSS on top of the Tailwind theme, including the homepage type scale.
 - `i18n/en.yaml` overrides specific UI strings from the module.
 - `scripts/migrate_*.py` are one-shot scripts from the Academic → Hugo Blox content migration. They're kept for reference and aren't part of the build.
-- Leftovers from the old Academic setup, not used by the build:
-  - `update_academic.sh`
-  - `academic.Rproj`
-  - `exampleSite/`
-
-  Don't rely on them. The other files in `data/` (`fonts/`, `themes/`, `page_sharer.toml`) *are* read by the module (font packs, theme packs, share buttons).
+- The files in `data/` besides `authors/` (`fonts/`, `themes/`, `page_sharer.toml`) are read by the module for font packs, theme packs and share buttons. They aren't leftovers.
 
 ## Hugo Blox gotcha: `false | default true`
 
