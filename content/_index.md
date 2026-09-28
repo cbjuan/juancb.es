@@ -68,21 +68,6 @@ sections:
     design:
       view: date-title-summary
 
-  - block: content-collection
-    id: media
-    content:
-      title: In the Media
-      filters:
-        folders:
-          - media
-      count: 6
-      archive:
-        text: See all media mentions
-        url: /media/
-    design:
-      view: card
-      columns: 3
-
   - block: resume-awards
     id: accomplishments
     content:
