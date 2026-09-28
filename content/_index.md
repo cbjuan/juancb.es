@@ -77,7 +77,6 @@ sections:
     id: contact
     content:
       title: Contact
-      email: 'cruzbenitojuan@gmail.com'
       social:
         - icon: brands/x
           url: 'https://twitter.com/_juancb'
@@ -85,4 +84,6 @@ sections:
           url: 'https://github.com/cbjuan'
         - icon: brands/linkedin
           url: 'https://www.linkedin.com/in/juancb/'
+      show_form: true
+      form_action: 'https://formspree.io/cruzbenitojuan@gmail.com'
 ---
