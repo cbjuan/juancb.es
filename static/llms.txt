@@ -27,7 +27,6 @@ Juan Cruz-Benito researches and develops AI-based systems for quantum computing 
 
 ## Optional
 
-- [ResearchGate](https://www.researchgate.net/profile/Juan_Cruz-Benito)
 - [Twitter/X](https://twitter.com/_juancb)
 - [RSS feed](https://juancb.es/index.xml)
 - [Sitemap](https://juancb.es/sitemap.xml)

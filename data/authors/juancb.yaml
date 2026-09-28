@@ -47,8 +47,6 @@ links:
     url: 'https://scholar.google.es/citations?user=_mLnQPgAAAAJ'
   - icon: academicons/orcid
     url: 'https://orcid.org/0000-0003-2045-8329'
-  - icon: academicons/researchgate
-    url: 'https://www.researchgate.net/profile/Juan_Cruz-Benito'
 
 education:
   - degree: PhD in Computer Engineering
