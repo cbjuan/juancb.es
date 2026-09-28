@@ -12,6 +12,12 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  - target:
+      path: /projects/**
+      kind: page
+    params:
+      show_date: false
+      reading_time: false
 
 build:
   writeStats: true
