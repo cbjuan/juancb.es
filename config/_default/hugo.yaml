@@ -18,6 +18,16 @@ cascade:
     params:
       show_date: false
       reading_time: false
+  - target:
+      path: /events/**
+      kind: page
+    params:
+      reading_time: false
+  - target:
+      path: /events
+      kind: section
+    params:
+      show_read_time: false
 
 build:
   writeStats: true
