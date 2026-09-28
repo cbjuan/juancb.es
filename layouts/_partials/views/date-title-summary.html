@@ -36,6 +36,9 @@
     <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="shrink-0 block">
       <img src="{{ $thumb.RelPermalink }}" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }}" class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl object-cover ring-1 ring-zinc-900/5 dark:ring-white/10">
     </a>
+  {{ else }}
+    {{/* Same-size spacer so items without an image stay aligned with the rest. */}}
+    <div class="shrink-0 w-16 h-16 sm:w-20 sm:h-20" aria-hidden="true"></div>
   {{ end }}
 
   <article class="flex-1 md:grid md:grid-cols-4 md:items-baseline">
