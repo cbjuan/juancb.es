@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_10-1007-978-3-319-77712-2-92/'
 title: "How Different Versions of Layout and Complexity of Web Forms Affect Users After They Start It? A Pilot Experience"
 date: 2018-05-01
 draft: false

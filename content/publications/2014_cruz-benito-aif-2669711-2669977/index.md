@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_cruz-benito-aif-2669711-2669977/'
 title: "Analytics of Information Flows and Decision Making in Heterogeneous Learning Ecosystems"
 date: 2014-01-01
 authors:

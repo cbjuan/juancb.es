@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-aimethodsunitaries/'
 title: "AI methods for approximate compiling of unitaries"
 date: 2024-09-15
 authors:

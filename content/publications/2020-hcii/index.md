@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2020-hcii/'
 title: "AI-Driven Assessment of Students: Current Uses and Research Trends"
 date: 2020-07-12
 authors:

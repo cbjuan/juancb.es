@@ -1,4 +1,7 @@
 ---
+aliases:
+  - '/publication/2015_michavila-aee-2808580-2808622/'
+  - '/publication/2015_michavila-aee-2808580-2808622/cite/'
 title: "Analyzing the Employability and Employment Factors of Graduate Students in Spain: The OEEU Information System"
 date: 2015-10-09
 authors:

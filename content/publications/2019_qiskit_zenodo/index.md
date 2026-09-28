@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2019_qiskit_zenodo/'
 title: "Qiskit: An Open-source Framework for Quantum Computing"
 date: 2019-01-01
 authors:

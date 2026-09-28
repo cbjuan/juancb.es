@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_garcia-sanchez-comprendiendo/'
 title: "Comprendiendo la comunicación visual en las redes sociales: una propuesta real de análisis"
 date: 2015-10-16
 authors:

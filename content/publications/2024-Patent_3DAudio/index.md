@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-patent_3daudio/'
 title: "Multimodal machine learning for generating three-dimensional audio"
 date: 2024-05-02
 authors:

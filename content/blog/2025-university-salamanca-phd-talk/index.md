@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-university-salamanca-phd-talk/'
 title: 'Returning to the University of Salamanca: Sharing My PhD Journey'
 subtitle: 'Speaking to doctoral students about the PhD experience and career development'
 summary: Returned to my alma mater, the University of Salamanca, to share my PhD journey with current doctoral students. Discussed the importance of developing critical thinking, resilience, and problem-solving skills beyond research during PhD years.

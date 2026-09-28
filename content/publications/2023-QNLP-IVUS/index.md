@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2023-qnlp-ivus/'
 title: "Using Quantum Natural Language Processing for Sentiment Classification and Next-Word Prediction in Sentences Without Fixed Syntactic Structure"
 date: 2023-05-12
 authors:

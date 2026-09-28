@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2013_garcia-vals/'
 title: "VALS: Virtual Alliances for Learning Society"
 date: 2013-01-01
 authors:

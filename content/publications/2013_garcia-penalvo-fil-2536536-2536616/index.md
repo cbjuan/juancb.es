@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2013_garcia-penalvo-fil-2536536-2536616/'
 title: "Formal and Informal Learning Experiences in Multicultural Scopes"
 date: 2013-01-01
 authors:

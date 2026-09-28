@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ai-quantum-product-owner/'
 title: 'Starting New Role: First Ever AI for Quantum Product Owner at IBM Quantum'
 subtitle: 'Pioneering the intersection of AI and quantum computing'
 summary: 'Excited to announce starting a new position at IBM Quantum as the first ever AI for Quantum Product Owner, leading initiatives at the convergence of artificial intelligence and quantum computing.'

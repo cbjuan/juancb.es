@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2022-srl_qml/'
 title: "Systematic Literature Review: Quantum Machine Learning and its applications"
 date: 2024-01-25
 authors:

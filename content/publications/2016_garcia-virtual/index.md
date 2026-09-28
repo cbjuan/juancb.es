@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_garcia-virtual/'
 title: "Virtual Placements Management Process Supported by Technology: Proposal and First Results of the Semester of Code"
 date: 2016-02-03
 authors:

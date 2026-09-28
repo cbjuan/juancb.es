@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2025_doctorado_usal/'
 title: "¿Hay vida después del doctorado? / Is there life after the PhD?"
 date: 2025-04-11T16:00:00
 draft: false

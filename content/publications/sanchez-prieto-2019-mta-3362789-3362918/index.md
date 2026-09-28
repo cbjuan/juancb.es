@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/sanchez-prieto-2019-mta-3362789-3362918/'
 title: "How to Measure Teachers' Acceptance of AI-driven Assessment in eLearning: A TAM-based Proposal"
 date: 2019-11-01
 authors:

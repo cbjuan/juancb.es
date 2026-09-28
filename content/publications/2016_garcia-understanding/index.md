@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_garcia-understanding/'
 title: "Understanding the barriers to virtual student placements in the Semester of Code"
 date: 2016-01-15
 authors:

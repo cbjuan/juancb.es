@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_cruz-detection/'
 title: "Detection of Non-Formal and Informal Learning in learning communities supported by social networks in the context of a Cooperative MOOC"
 date: 2015-11-25
 authors:

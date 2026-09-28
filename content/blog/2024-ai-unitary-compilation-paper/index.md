@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ai-unitary-compilation-paper/'
 title: 'AI Methods for Approximate Compiling of Unitaries Paper Published'
 subtitle: 'Research accepted at QCE24 exploring AI-powered quantum circuit compilation'
 summary: 'Published research paper on AI methods for approximate compiling of unitaries, accepted at QCE24. The work uses deep learning and autoencoder-like models to enhance quantum circuit transpiling, demonstrating improvements over exhaustive search and random initialization on 2 and 3-qubit unitaries.'

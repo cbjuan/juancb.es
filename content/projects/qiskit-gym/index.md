@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/project/qiskit-gym/'
 title: Qiskit Gym
 summary: Reinforcement learning environments for quantum circuit synthesis — powers the AI transpiler passes
 tags:

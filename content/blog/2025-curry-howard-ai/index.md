@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-curry-howard-ai/'
 title: 'Seeing AI Through the Curry–Howard Lens'
 subtitle: 'From pattern matching to proof-native systems'
 summary: The Curry–Howard correspondence—propositions as types, proofs as programs—offers a conceptual framework for understanding what's missing in current LLMs and what becomes possible when AI systems learn to construct and verify proofs natively.

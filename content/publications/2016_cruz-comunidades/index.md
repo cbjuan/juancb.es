@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_cruz-comunidades/'
 title: "Comunidades de Aprendizaje en Redes Sociales y su Relación con los MOOC"
 date: 2016-06-07
 authors:

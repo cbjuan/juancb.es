@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_oeeu/'
 title: "Barómetro de Empleabilidad y Empleo de los Universitarios en España, 2015 (Primer informe de resultados)"
 date: 2016-02-11
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_garcia-sanchez-dbs-2808580-2808629/'
 title: "Designing and Building Systems and Tools to Analyze Visual Communications on Social Networks"
 date: 2015-10-09
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_oeeu/'
 title: "Barómetro de empleabilidad y empleo universitarios. Edición Máster 2017"
 date: 2018-02-28
 authors:

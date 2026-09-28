@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_cruz-improving/'
 title: "Improving success/completion ratio in large surveys: a proposal based on usability and engagement"
 date: 2017-01-01
 authors:

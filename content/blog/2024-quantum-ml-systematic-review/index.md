@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-quantum-ml-systematic-review/'
 title: 'Systematic Literature Review: Quantum Machine Learning and Its Applications Published'
 subtitle: 'Comprehensive analysis of QML research from 2017-2023'
 summary: 'Published systematic literature review on quantum machine learning and its applications in Computer Science Review journal. Analyzed 94 studies from 2017-2023, identifying two primary algorithm categories and highlighting image classification as a key application area, while noting that quantum hardware improvements are necessary for QML full potential.'

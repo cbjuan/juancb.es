@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ieee-quantum-week/'
 title: 'IEEE Quantum Week 2024: Showcasing AI-Powered Quantum Tools'
 subtitle: 'Presenting cutting-edge developments in quantum computing and AI integration'
 summary: 'Attended IEEE Quantum Week 2024 highlighting four major IBM Quantum AI initiatives: Qiskit Transpiler Service with AI-powered optimization, first preview of Qiskit Code Assistant, unitary compilation research with David Kremer, and the Qiskit HumanEval benchmark presentation.'

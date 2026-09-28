@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_cruz-herramienta/'
 title: "Herramienta para la validación de elementos de mejora UX/Engagement para los cuestionarios de recogida de información de egresados en el contexto del Observatorio de Empleabilidad y Empleo Universitarios (OEEU)"
 date: 2017-02-19
 authors:

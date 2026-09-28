@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-ibm-tech-singapore/'
 title: 'Among IBM Giants and Pioneers: Reflections from IBM Tech 2025 in Singapore'
 subtitle: 'Attending the exclusive gathering of IBM top technical talent'
 summary: 'Attended IBM Tech 2025 in Singapore, an exclusive invitation-only gathering of IBM top technical talent from around the world. Deep discussions on AI, quantum computing, and emerging technologies with brilliant colleagues across different technical disciplines.'

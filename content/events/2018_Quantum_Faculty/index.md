@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2018_quantum_faculty/'
 title: "Computación cuántica. ¿Qué es? ¿Qué podemos esperar?"
 date: 2018-03-16T00:00:00
 draft: false

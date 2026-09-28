@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-david-peral-phd-quantum-nlp/'
 title: 'David Peral García Successfully Defends His PhD Thesis on Quantum NLP'
 subtitle: 'A milestone as my first doctoral thesis as an advisor'
 summary: David Peral García successfully defended his PhD thesis on Quantum Natural Language Processing, representing likely the first PhD thesis in Spain dedicated to this emerging field. A proud moment as my first doctoral thesis as an advisor.

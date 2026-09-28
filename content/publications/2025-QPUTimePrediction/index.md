@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-qputimeprediction/'
 title: "Quantum Processing Unit (QPU) Processing Time Prediction with Machine Learning"
 date: 2025-08-30
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_garcia-tecnologia/'
 title: "Tecnología al servicio de un proceso de gestión de prácticas virtuales en empresas: Propuesta y primeros resultados del Semester of Code"
 date: 2015-03-01
 authors:

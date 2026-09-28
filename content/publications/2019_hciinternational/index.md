@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2019_hciinternational/'
 title: "Measuring Students’ Acceptance to AI-Driven Assessment in eLearning: Proposing a First TAM-Based Research Model"
 date: 2019-06-01
 draft: false

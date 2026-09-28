@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-qiskit-code-assistant-introduction/'
 title: 'Introducing Qiskit Code Assistant: New Blog Post Published'
 subtitle: 'Learn how to start using Qiskit Code Assistant'
 summary: 'Published a comprehensive blog post summarizing what Qiskit Code Assistant is and how to start using it. Following the recent launch, users are actively leveraging the tool features, and the team is developing improved models with enhanced capabilities for open source release.'

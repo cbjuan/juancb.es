@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-qiskitcodeassistant/'
 title: "Qiskit Code Assistant: Training LLMs for generating Quantum Computing Code"
 date: 2024-06-28
 authors:

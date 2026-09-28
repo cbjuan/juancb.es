@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2021_bbva/'
 title: "Data-Driven Human-Computer Interaction: experimenting new user experiences using data"
 date: 2021-12-14T15:00:00
 draft: false

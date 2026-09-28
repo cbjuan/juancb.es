@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2020_pydata/'
 title: "Using Jupyter: From simple personal notebooks to large deployments with thousands of users"
 date: 2020-02-06T00:00:00
 draft: false

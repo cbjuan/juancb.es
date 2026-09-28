@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ibm-ai-quantum-link-forbes/'
 title: 'IBM Develops The AI-Quantum Link: Featured in Forbes'
 subtitle: 'Transforming industries through AI and quantum computing integration'
 summary: 'Excited about Forbes article highlighting IBM Quantum work at the intersection of AI and quantum computing. The integration of AI and Quantum Computing has the potential to transform industries and advance quantum computing capabilities significantly.'

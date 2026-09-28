@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-metafuturo-quantum-ai-keynote/'
 title: 'Keynote Speaker at Metafuturo 2025: Quantum Computing + AI Convergence'
 subtitle: 'Sharing insights on the intersection of quantum technologies and artificial intelligence'
 summary: Thrilled to have been a keynote speaker at Metafuturo 2025, sharing insights on the convergence of Quantum Computing and AI. From LLMs and agentic AI applications for quantum computing to AI-optimized quantum circuits at IBM Quantum.

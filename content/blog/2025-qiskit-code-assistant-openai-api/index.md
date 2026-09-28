@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-qiskit-code-assistant-openai-api/'
 title: 'Qiskit Code Assistant Now Compatible with OpenAI Completions API'
 subtitle: 'Seamless integration with existing LLM libraries'
 summary: 'Exciting update: Qiskit Code Assistant service now exposes compatible endpoints with OpenAI Completions API. This enables seamless usage via existing libraries like OpenAI and LiteLLM, making it easy to infuse Qiskit knowledge into your LLM pipelines.'

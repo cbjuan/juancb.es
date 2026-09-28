@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-patent-characterization-quantumprograms/'
 title: "Characterization, analysis and categorization of quantum programs without executing them"
 date: 2025-07-03
 authors:

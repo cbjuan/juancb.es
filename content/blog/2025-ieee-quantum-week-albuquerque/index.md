@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-ieee-quantum-week-albuquerque/'
 title: 'IEEE Quantum Week in Albuquerque: AI and Quantum Computing at IBM Quantum'
 subtitle: 'Paper presentations, tutorials, and live demos on AI for Quantum'
 summary: Attending IEEE Quantum Week in Albuquerque, New Mexico, sharing IBM Quantum's work at the intersection of AI and Quantum Computing. Presenting on QPU time prediction with ML, AI methods for quantum circuit optimization, and demoing AI-powered quantum development environments.

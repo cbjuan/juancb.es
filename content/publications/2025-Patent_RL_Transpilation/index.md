@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-patent_rl_transpilation/'
 title: "Reinforcement learning based transpilation of quantum circuits"
 date: 2025-06-05
 authors:

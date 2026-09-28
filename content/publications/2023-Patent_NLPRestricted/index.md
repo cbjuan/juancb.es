@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2023-patent_nlprestricted/'
 title: "Natural language processing for restricting user access to systems"
 date: 2023-06-29
 authors:

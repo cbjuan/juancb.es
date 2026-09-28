@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ibm-master-inventor/'
 title: 'Honored to Receive IBM Master Inventor Recognition'
 subtitle: 'Recognition for sustained innovation leadership and service'
 summary: 'Proud to receive the IBM Master Inventor recognition, awarded to employees who have mastered the patent process, mentored broadly, added value to IBM portfolio and demonstrated sustained innovation leadership and service.'

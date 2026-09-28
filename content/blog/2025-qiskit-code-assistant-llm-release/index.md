@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-qiskit-code-assistant-llm-release/'
 title: 'Qiskit Code Assistant: New Open-Source LLM Models Released'
 subtitle: 'Enhanced capabilities with Qiskit 2.0 compatibility and expanded model selection'
 summary: Announcing the latest open-source LLM releases from the Qiskit Code Assistant team, featuring Qiskit 2.0 compatibility, enhanced text understanding, and new models including Granite 3.3, Granite 3.2, and Qwen2.5-Coder series.

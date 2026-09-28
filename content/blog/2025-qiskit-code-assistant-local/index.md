@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-qiskit-code-assistant-local/'
 title: 'Run Qiskit Code Assistant Locally easily!'
 subtitle: 'No IBM Quantum Premium plan required'
 summary: You can now run the Qiskit Code Assistant locally easily. Download optimized models in GGUF format, install Ollama, and configure your VSCode or JupyterLab extension with a single command.

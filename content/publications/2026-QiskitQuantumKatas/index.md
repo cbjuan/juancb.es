@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2026-qiskitquantumkatas/'
 title: "Qiskit QuantumKatas: Adapting Microsoft's Quantum Computing exercises for LLM evaluation"
 date: 2026-05-26
 authors:

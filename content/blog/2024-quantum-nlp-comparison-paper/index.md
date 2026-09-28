@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-quantum-nlp-comparison-paper/'
 title: 'Comparing Natural Language Processing and Quantum NLP: Research Published'
 subtitle: 'Peer-reviewed study in Expert Systems with Applications'
 summary: 'Published peer-reviewed research comparing classical and quantum approaches to natural language processing in Expert Systems with Applications. Demonstrated that quantum NLP models can obtain the same or better results for simpler text classification tasks, with experiments utilizing up to 7 qubits across multiple classification scenarios.'

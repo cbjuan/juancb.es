@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-patent-quantumcodegeneration/'
 title: "Quantum source code generation based on a modeling system"
 date: 2025-08-28
 authors:

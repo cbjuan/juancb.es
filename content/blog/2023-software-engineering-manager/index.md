@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2023-software-engineering-manager/'
 title: 'Starting New Role: Software Engineering Manager'
 subtitle: 'Career milestone at IBM'
 summary: 'Happy to share that I am starting a new position as Software Engineering Manager at IBM, marking an important career milestone in my journey.'

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ai-quantum-releases-announcement/'
 title: 'Optimize Quantum Circuits with AI-Powered Transpiler Passes'
 subtitle: 'Major releases unlocking the potential of AI in quantum computing'
 summary: 'Announcing multiple major releases at the convergence of AI and quantum computing: beta version of Qiskit transpiler service (unveiled at THINK24), research paper on AI-powered transpiler passes, and Qiskit Code Assistant with LLMs and the Qiskit HumanEval benchmark. Both projects recognized through IBM Quantum Challenge.'

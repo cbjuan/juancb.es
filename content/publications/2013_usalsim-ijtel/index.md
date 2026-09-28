@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2013_usalsim-ijtel/'
 title: "USALSIM: learning, professional practices and employability in a 3D virtual world"
 date: 2013-01-01
 authors:

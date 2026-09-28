@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_agudo-snola/'
 title: "SNOLA: creando una Red sobre Analíticas de Aprendizaje en España"
 date: 2017-11-07
 authors:

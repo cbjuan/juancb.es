@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_6877097/'
 title: "Monitoring and feedback of learning processes in virtual worlds through analytics architectures: A real case"
 date: 2014-06-01
 authors:

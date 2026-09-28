@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_garcia-holgado-akm-2808580-2808609/'
 title: "Analysis of Knowledge Management Experiences in Spanish Public Administration"
 date: 2015-10-09
 authors:

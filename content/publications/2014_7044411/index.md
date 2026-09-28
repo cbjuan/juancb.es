@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_7044411/'
 title: "Virtual placements for informatics students in open source business across Europe"
 date: 2014-10-01
 authors:

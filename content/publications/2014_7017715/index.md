@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_7017715/'
 title: "Using software architectures to retrieve interaction information in eLearning environments"
 date: 2014-11-01
 authors:

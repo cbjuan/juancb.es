@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_cruz-learning/'
 title: "Learning communities in social networks and their relationship with the MOOCs"
 date: 2017-01-19
 authors:

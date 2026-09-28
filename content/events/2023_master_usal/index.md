@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2023_master_usal/'
 title: "What does an engineer like you do in a quantum place like this?"
 date: 2023-04-11T16:00:00
 draft: false

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-qiskit-sdk-v1-release/'
 title: 'Qiskit SDK v1.0 Released: Including Qiskit Transpiler and Code Assistant'
 subtitle: 'Massive release featuring AI transpiling passes and Code Assistant'
 summary: 'Extremely proud of the massive Qiskit SDK v1.0 release including two projects from my team: the Qiskit Transpiler with AI transpiling passes and the Qiskit Code Assistant. This full-stack software for quantum computing brings together cutting-edge AI and quantum technologies.'

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/project/qiskit-code-assistant/'
 title: Qiskit Code Assistant
 summary: Family of open-source LLMs (8B–24B) for quantum code generation, plus the Qiskit HumanEval* benchmarks
 tags:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2021_scayle/'
 title: "Modern tools to work in AI & Quantum computing"
 date: 2021-05-28T11:30:00
 draft: false

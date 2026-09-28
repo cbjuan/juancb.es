@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_cruzbenito-usalpharma/'
 title: "Usalpharma: Una arquitectura software al servicio del aprendizaje en Mundos Virtuales"
 date: 2015-09-01
 authors:
