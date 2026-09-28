@@ -1,0 +1,99 @@
+title: 'Juan Cruz-Benito'
+baseURL: 'https://juancb.es/'
+copyright: '&copy; {year} Juan Cruz-Benito'
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+cascade:
+  - target:
+      path: /slides/**
+      kind: page
+    outputs: [HTML, present]
+  - target:
+      path: /projects/**
+      kind: page
+    params:
+      show_date: false
+      reading_time: false
+
+build:
+  writeStats: true
+enableGitInfo: true
+summaryLength: 30
+pagination:
+  pagerSize: 10
+enableEmoji: true
+# Disabled: when true, Hugo renders the blox module's generic
+# layouts/robots.txt template instead of copying our hand-maintained
+# static/robots.txt (with its explicit AI-crawler allowlist) verbatim.
+enableRobotsTXT: false
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles:
+  - '\.ipynb$'
+  - '.ipynb_checkpoints$'
+  - '\.Rmd$'
+  - '\.Rmarkdown$'
+  - '_files$'
+  - '_cache$'
+disableAliases: true
+
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
+
+outputs:
+  home: [HTML, RSS, backlinks]
+  section: [HTML, RSS]
+
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+  hint: picture
+
+timeout: 600000
+
+taxonomies:
+  author: authors
+  tag: tags
+  category: categories
+  publication_type: publication_types
+
+markup:
+  _merge: deep
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: false
+    codeFences: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+
+related:
+  threshold: 80.0
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: title
+      weight: 60.0
+    - name: summary
+      weight: 50.0
+    - name: tags
+      weight: 80.0
+    - name: categories
+      weight: 70.0
+    - name: authors
+      weight: 20.0
+
+security:
+  _merge: deep
+sitemap:
+  _merge: deep

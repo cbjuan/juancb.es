@@ -18,14 +18,36 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.3.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.123.7'
+          hugo-version: '0.161.1'
           extended: true
 
       - name: Build site
         run: hugo --gc --minify
+
+      - name: Build search index
+        run: pnpm run pagefind
 
       - name: Deploy to cbjuan.github.io
         uses: peaceiris/actions-gh-pages@v4

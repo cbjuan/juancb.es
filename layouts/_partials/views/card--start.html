@@ -1,0 +1,9 @@
+{{/* Override: upstream hardcodes a single 65ch column and ignores design.columns. */}}
+{{ $columns := .config.columns | default 1 }}
+{{ $grid := "max-w-[65ch] grid-cols-1" }}
+{{ if eq $columns 2 }}
+  {{ $grid = "max-w-5xl grid-cols-1 md:grid-cols-2" }}
+{{ else if ge $columns 3 }}
+  {{ $grid = "max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3" }}
+{{ end }}
+<div class="container {{ $grid }} mx-auto grid gap-6 my-5">

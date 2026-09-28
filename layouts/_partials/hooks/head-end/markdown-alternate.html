@@ -1,0 +1,25 @@
+{{/*
+  Point agents/crawlers at the raw Markdown source for content pages, since
+  this static site can't do real Accept-header content negotiation. Ported
+  from the old Academic theme's site_head.html (same behavior, new type
+  names and new repository.* config keys).
+
+  Gated only on repository.url being set -- like the old theme, this is an
+  unconditional SEO/agent-readiness feature, not the "edit this page" UI
+  link (which is a separate, per-page opt-in via .Params.editable).
+*/}}
+
+{{ $page := . }}
+{{ $repo := site.Params.hugoblox.repository | default dict }}
+
+{{ if and $page.IsPage (in (slice "blog" "publications" "projects" "events") $page.Type) }}
+  {{ with $page.File }}
+    {{ $file_path := .Path }}
+    {{ with $repo.url }}
+      {{ $raw_base := replace . "github.com" "raw.githubusercontent.com" }}
+      {{ $branch := $repo.branch | default "master" }}
+      {{ $content_dir := $repo.content_dir | default "content" }}
+      <link rel="alternate" type="text/markdown" href="{{ printf "%s/%s/%s/%s" $raw_base $branch $content_dir $file_path }}">
+    {{ end }}
+  {{ end }}
+{{ end }}

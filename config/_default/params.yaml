@@ -1,0 +1,105 @@
+hugoblox:
+  schema: '2.0'
+
+  identity:
+    name: 'Juan Cruz-Benito'
+    organization: ''
+    type: person
+    tagline: ''
+    description: 'Juan Cruz-Benito, Ph.D.'
+    social:
+      twitter: '_juancb'
+
+  theme:
+    mode: light
+    pack: 'default'
+    colors: {}
+    colors_light: {}
+    colors_dark: {}
+    surfaces: {}
+
+  typography:
+    pack: 'academic'
+
+  layout:
+    radius: 'md'
+    spacing: 'spacious'
+    avatar_shape: circle
+
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: right
+    search: true
+    theme_toggle: false
+    theme_picker: false
+    language_switcher: false
+    cta:
+      enable: false
+      text: ''
+      url: ''
+
+  footer:
+    style: minimal
+    language_switcher: false
+    text: ''
+
+  copyright:
+    notice: '© {year} {name}'
+    license:
+      type: cc
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+  seo:
+    title: ''
+
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: apa
+
+  search:
+    enable: true
+    suggestions: []
+    quick_actions: []
+
+  comments:
+    enable: false
+    provider: ''
+
+  analytics:
+    google:
+      measurement_id: 'G-SQLRQNR881'
+    google_tag_manager:
+      container_id: ''
+
+  verification:
+    google: ''
+    bing: ''
+
+  repository:
+    enable: false
+    url: 'https://github.com/cbjuan/juancb.es'
+    branch: master
+    content_dir: content
+
+  locale:
+    date_format: 'Jan 2, 2006'
+    time_format: '3:04 PM'
+    address_format: en-us
+
+  privacy:
+    enable: true
+    anonymize_analytics: true
+
+  pro:
+    hide_attribution: false
+    affiliate_code: ''
