@@ -71,6 +71,7 @@ sections:
   - block: resume-awards
     id: accomplishments
     content:
+      title: Awards & Accomplishments
       username: juancb
 
   - block: contact-info
