@@ -77,7 +77,7 @@ hugoblox:
 
   analytics:
     google:
-      measurement_id: ''
+      measurement_id: 'G-SQLRQNR881'
     google_tag_manager:
       container_id: ''
 
