@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/project/qiskit-mcp-servers/'
 title: Qiskit MCP Servers
 summary: Model Context Protocol servers connecting AI assistants to IBM Quantum services
 tags:

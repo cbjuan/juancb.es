@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-synthesisrl/'
 title: "Practical and efficient quantum circuit synthesis and transpiling with Reinforcement Learning"
 date: 2024-05-21
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-qiskit-ibm-transpiler-unitary-fund-survey/'
 title: 'qiskit-ibm-transpiler Ranks #4 in Unitary Fund 2024 Survey'
 subtitle: '4th most used quantum computing development tool globally'
 summary: 'Celebrating qiskit-ibm-transpiler recognition as the 4th most used quantum computing development tool globally in the 2024 Unitary Fund survey. A remarkable achievement for a project with just 1 year of public existence, combining Qiskit heuristic algorithms with novel AI transpiler passes.'

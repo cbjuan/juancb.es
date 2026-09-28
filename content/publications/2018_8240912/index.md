@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_8240912/'
 title: "Enabling Adaptability in Web Forms Based on User Characteristics Detection Through A/B Testing and Machine Learning"
 date: 2018-01-01
 draft: false

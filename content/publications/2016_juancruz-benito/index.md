@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_juancruz-benito/'
 title: "Systematic Literature Review & Mapping"
 date: 2016-11-08
 authors:

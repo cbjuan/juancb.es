@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2013_10-1007-978-3-319-00554-6-10/'
 title: "USALSIM: Learning and Professional Practicing in a 3D Virtual World"
 date: 2013-01-01
 authors:

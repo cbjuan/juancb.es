@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-qnlp_expertsystems/'
 title: "Comparing Natural Language Processing and Quantum Natural Processing approaches in text classification tasks"
 date: 2024-06-06
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2018_quantum_pintofscience/'
 title: "Computación cuántica. ¿humo, realidad o futuro? ¿Todo a la vez?"
 date: 2018-05-16T00:00:00
 draft: false

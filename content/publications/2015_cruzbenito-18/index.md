@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_cruzbenito-18/'
 title: "Discovering usage behaviors and engagement in an Educational Virtual World"
 date: 2015-06-01
 authors:

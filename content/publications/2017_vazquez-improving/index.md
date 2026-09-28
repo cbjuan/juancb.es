@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_vazquez-improving/'
 title: "Improving the OEEU's data-driven technological ecosystem's interoperability with GraphQL"
 date: 2017-10-01
 authors:

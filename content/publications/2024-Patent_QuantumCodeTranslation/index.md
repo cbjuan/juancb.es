@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-patent_quantumcodetranslation/'
 title: "Quantum and non-quantum source code translation"
 date: 2024-06-13
 authors:

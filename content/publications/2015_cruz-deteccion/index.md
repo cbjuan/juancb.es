@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_cruz-deteccion/'
 title: "Detección de aprendizaje no formal e informal en Comunidades de Aprendizaje soportadas por Redes Sociales en el contexto de un MOOC Cooperativo"
 date: 2015-11-25
 authors:

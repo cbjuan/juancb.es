@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-patent_rl_cliffords/'
 title: "Reinforcement Learning based Clifford Circuit Synthesis"
 date: 2025-01-16
 authors:

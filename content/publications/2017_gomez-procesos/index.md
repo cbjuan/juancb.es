@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_gomez-procesos/'
 title: "Procesos colaborativos de crítica y reflexión para la coevaluación de proyectos artísticos de alumnos de Bellas Artes mediante el uso de las tecnologías móviles"
 date: 2017-11-07
 authors:

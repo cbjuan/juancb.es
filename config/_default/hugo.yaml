@@ -38,7 +38,9 @@ ignoreFiles:
   - '\.Rmarkdown$'
   - '_files$'
   - '_cache$'
-disableAliases: true
+# Aliases redirect the old Academic-theme URLs (/post/, /publication/,
+# /project/, /talk/) to their new locations.
+disableAliases: false
 
 permalinks:
   authors: '/author/:slug/'

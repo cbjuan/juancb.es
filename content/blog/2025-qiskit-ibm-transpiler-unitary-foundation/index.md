@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-qiskit-ibm-transpiler-unitary-foundation/'
 title: 'qiskit-ibm-transpiler Ranks #3 in Unitary Foundation 2025 Survey'
 subtitle: 'Major milestone: 929K downloads in under two years'
 summary: The qiskit-ibm-transpiler library advanced to `#3` in the Unitary Foundation 2025 Survey for full-stack development platforms, surpassing 929K downloads in under two years. AI transpiler passes now run in local mode without requiring an IBM Quantum premium plan.

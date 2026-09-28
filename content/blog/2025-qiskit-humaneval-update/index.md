@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-qiskit-humaneval-update/'
 title: 'New Qiskit HumanEval Release: Qiskit 1.4 Compatibility and Benchmark Improvements'
 subtitle: 'Enhanced robustness and accuracy for evaluating LLM-generated quantum code'
 summary: 'Released a new version of Qiskit HumanEval compatible with Qiskit 1.4, featuring significant improvements to the benchmark including more robust and rigorous code execution tests for more accurate evaluations of LLM-generated quantum code.'

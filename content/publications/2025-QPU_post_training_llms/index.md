@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-qpu_post_training_llms/'
 title: "Quantum Verifiable Rewards for Post-Training Qiskit Code Assistant"
 date: 2025-08-28
 authors:

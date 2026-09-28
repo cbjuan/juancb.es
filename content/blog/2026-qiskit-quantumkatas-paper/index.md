@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2026-qiskit-quantumkatas-paper/'
 title: "Qiskit QuantumKatas: A Benchmark for Evaluating LLMs on Quantum Code"
 subtitle: ""
 summary: "We adapted Microsoft's QuantumKatas from Q# to Qiskit and turned them into a 350-task benchmark for evaluating how well LLMs write quantum code. We ran 16 models across 7 prompting setups — 39,200 runs — and the results say a lot about where these models are strong and where they still fall short."

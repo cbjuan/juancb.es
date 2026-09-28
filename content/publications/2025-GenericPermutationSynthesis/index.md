@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-genericpermutationsynthesis/'
 title: "AI Methods for Permutation Circuit Synthesis Across Generic Topologies"
 date: 2025-11-23
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-qiskithumaneval/'
 title: "Qiskit HumanEval: An Evaluation Benchmark For Quantum Code Generative Models"
 date: 2024-09-15
 authors:

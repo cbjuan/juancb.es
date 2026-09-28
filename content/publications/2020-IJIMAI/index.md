@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2020-ijimai/'
 title: "Assessed by Machines: Development of a TAM-Based Tool to Measure AI-based Assessment Acceptance Among Students"
 date: 2020-12-01
 authors:

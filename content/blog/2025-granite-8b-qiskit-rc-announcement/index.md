@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-granite-8b-qiskit-rc-announcement/'
 title: 'Shipping Granite-8B-Qiskit-RC-0.10: The Final Model of Current Training Era'
 subtitle: 'Empowering Qiskit Code Assistant with expanded synthetic dataset'
 summary: 'Shipped granite-8b-qiskit-rc-0.10, the latest revision of LLMs empowering Qiskit Code Assistant. Trained on significantly expanded Qiskit synthetic dataset, marking the end of an era as the final model using current training approach before pivoting to newer Granite base models.'

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2017_cruz-autopublicacion/'
 title: "Autopublicación y difusión de resultados científicos a través de Internet. Plan de Formación Docente 2017 de la Universidad de Salamanca"
 date: 2017-05-24
 authors:

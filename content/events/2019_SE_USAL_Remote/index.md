@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2019_se_usal_remote/'
 title: "Trabajo en remoto. What?"
 date: 2019-04-11T00:00:00
 draft: false

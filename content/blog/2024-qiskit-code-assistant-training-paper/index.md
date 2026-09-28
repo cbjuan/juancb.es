@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-qiskit-code-assistant-training-paper/'
 title: 'Qiskit Code Assistant: Training LLMs for Quantum Code Generation Paper Published'
 subtitle: 'Research on specialized language models for quantum programming'
 summary: 'Published research paper on training specialized LLMs for quantum computing code generation using Qiskit. Addresses unique challenges in quantum programming, including scarcity of quantum code examples and rapid field evolution. Our model outperforms existing state-of-the-art quantum computing models.'

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-ai-transpiler-quantum-volume-achievement/'
 title: 'AI Transpiler Passes Enable Quantum Volume Breakthrough on IBM Hardware'
 subtitle: 'Proud of our work on AI-powered transpilation that pushed quantum hardware limits'
 summary: Celebrating the impact of AI transpiler passes on IBM's quantum hardware achievements. Our team's work on AI-powered transpilation helped enable quantum volume milestones of 1024 and 2048 on IBM's r3 beta QPU (ibm_pittsburgh).

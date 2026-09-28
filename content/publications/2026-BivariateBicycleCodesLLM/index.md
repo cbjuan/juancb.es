@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2026-bivariatebicyclecodesllm/'
 title: "Evolutionary Discovery of Bivariate Bicycle Codes with LLM-Guided Search"
 date: 2026-06-01
 authors:

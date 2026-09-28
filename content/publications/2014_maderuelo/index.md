@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_maderuelo/'
 title: "Facility-based inspection training in a virtual 3D laboratory"
 date: 2014-10-01
 authors:

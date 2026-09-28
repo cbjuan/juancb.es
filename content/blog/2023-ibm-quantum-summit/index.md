@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2023-ibm-quantum-summit/'
 title: 'IBM Quantum Summit 2023: Major Announcements on Quantum Utility'
 subtitle: 'Thrilled by hardware and software advances toward quantum utility'
 summary: 'Honored by major announcements from IBM Quantum Summit 2023, including IBM Heron chip with 3-5x performance improvement, 1,121-processor Condor system, operational Quantum System Two, Qiskit 1.0 release, Quantum Serverless beta, and AI integration for automated code development and enhanced transpiler tools.'

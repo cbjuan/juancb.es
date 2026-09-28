@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_6901482/'
 title: "Defining Generic Data Collectors for Learning Analytics: Facing Up the Heterogeneous Data from Heterogeneous Environments"
 date: 2014-07-01
 authors:

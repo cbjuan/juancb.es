@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_cruz-benito-phd/'
 title: "On data-driven systems analyzing, supporting and enhancing users' interaction and experience"
 date: 2018-09-03
 draft: false

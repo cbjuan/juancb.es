@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-mistral-qiskit-code-assistant-upgrade/'
 title: 'Qiskit Code Assistant Upgraded to Mistral-Small-3.2-24B-Qiskit'
 subtitle: 'Better accuracy and improved UX for quantum programming'
 summary: We've upgraded the Qiskit Code Assistant! Last month, we introduced mistral-small-3.2-24b-qiskit, replacing granite-3.3-8b-qiskit, delivering better accuracy across key benchmarks and more precise responses for quantum programming tasks.

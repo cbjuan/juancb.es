@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2020_se_usal_remotertools/'
 title: "Trabajando en remoto. Herramientas"
 date: 2020-03-04T00:00:00
 draft: false

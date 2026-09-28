@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2020-lms-ai/'
 title: "Automated Source Code Generation and Auto-Completion Using Deep Learning: Comparing and Discussing Current Language Model-Related Approaches"
 date: 2021-01-16
 authors:

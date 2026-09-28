@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ibm-quantum-ai-internship/'
 title: 'IBM Quantum Recruiting AI Engineer Interns in Spain'
 subtitle: 'BlueCamp Internship Program for AI and quantum computing'
 summary: 'IBM Quantum team recruiting AI Engineer interns based in Spain to work on introducing new AI-based capabilities in the software stack, including AI circuit transpilers compatible with Qiskit and LLM-powered code assistants. Interns will support AI model training, deployment, software service development, and MLOps work.'

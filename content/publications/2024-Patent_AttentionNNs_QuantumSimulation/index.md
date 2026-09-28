@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2024-patent_attentionnns_quantumsimulation/'
 title: "Attention-based neural networks for quantum computing simulations"
 date: 2024-09-19
 authors:

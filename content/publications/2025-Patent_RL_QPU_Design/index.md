@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-patent_rl_qpu_design/'
 title: "Reinforced Learning for Quantum Design"
 date: 2025-02-01
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_garcia-penalvo-dws-2669711-2669982/'
 title: "Developing Win-win Solutions for Virtual Placements in Informatics: The VALS Case"
 date: 2014-01-01
 authors:

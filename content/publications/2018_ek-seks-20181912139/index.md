@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_ek-seks-20181912139/'
 title: "Empleabilidad de los titulados universitarios en España. Proyecto OEEU"
 date: 2018-04-25
 authors:

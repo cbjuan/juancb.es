@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-rl-quantum-transpiling-paper/'
 title: 'Reinforcement Learning for Quantum Transpiling: Research Paper Published'
 subtitle: 'Achieving near-optimal circuit synthesis and routing with RL'
 summary: 'Published research demonstrating integration of Reinforcement Learning into quantum transpiling workflows for Qiskit transpiler service. Achieves near-optimal circuit synthesis and routing with significant performance improvements over traditional optimization methods, handling Linear Function, Clifford, and Permutation circuits up to 65 qubits.'

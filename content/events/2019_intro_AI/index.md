@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2019_intro_ai/'
 title: "Introducción a la Inteligencia Artificial"
 date: 2019-06-27T00:00:00
 draft: false

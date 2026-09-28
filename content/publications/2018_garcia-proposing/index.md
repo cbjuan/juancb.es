@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_garcia-proposing/'
 title: "Proposing a Machine Learning Approach to Analyze and Predict Employment and its Factors"
 date: 2018-09-01
 authors:

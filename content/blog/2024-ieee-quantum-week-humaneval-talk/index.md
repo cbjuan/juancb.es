@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-ieee-quantum-week-humaneval-talk/'
 title: 'Presenting Qiskit HumanEval at IEEE Quantum Week 2024'
 subtitle: 'Benchmarking LLMs for quantum computing applications'
 summary: 'Presenting the Qiskit HumanEval benchmark for LLMs at IEEE Quantum Week 2024 in the SYS-BNCH Benchmarking session. Available afterwards at the IBM Quantum booth to discuss AI and quantum computing initiatives.'

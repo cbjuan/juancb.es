@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2025_metafuturo_bizkaia/'
 title: "Bring useful quantum computing to the world"
 date: 2025-09-24T12:00:00
 draft: false

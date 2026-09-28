@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_10-1007-978-3-319-20609-7-44/'
 title: "Evolution of the Conversation and Knowledge Acquisition in Social Networks Related to a MOOC Course"
 date: 2015-07-01
 authors:

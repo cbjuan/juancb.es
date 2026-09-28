@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_10-1007-978-3-319-91152-6-32/'
 title: "A Deep-Learning-Based Proposal to Aid Users in Quantum Computing Programming"
 date: 2018-06-01
 draft: false

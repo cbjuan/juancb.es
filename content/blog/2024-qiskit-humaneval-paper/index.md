@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-qiskit-humaneval-paper/'
 title: 'Qiskit HumanEval: Evaluation Benchmark for Quantum Code Generation Published'
 subtitle: 'New research paper introducing comprehensive benchmark for LLMs in quantum computing'
 summary: 'Published research paper introducing Qiskit HumanEval dataset for evaluating Large Language Models capability to generate quantum computing code. The dataset comprises more than 100 quantum computing tasks with prompts, solutions, test cases, and difficulty ratings, establishing benchmarks for generative AI tools in quantum code development.'

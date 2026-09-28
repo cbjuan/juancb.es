@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2013_suarez-vcp-2536536-2536549/'
 title: "Virtual Congresses for Pharmaceutical Learning"
 date: 2013-01-01
 authors:

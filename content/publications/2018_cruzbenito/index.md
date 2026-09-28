@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_cruzbenito/'
 title: "Analyzing the software architectures supporting HCI/HMI processes through a systematic review of the literature"
 date: 2019-05-01
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2026-qiskit-gym-mcp-server/'
 title: 'We Got AI Agents to Train RL Models for Quantum Transpilation'
 subtitle: 'Introducing qiskit-gym-mcp-server: autonomous reinforcement learning training for quantum circuit synthesis'
 summary: 'A new MCP server that enables AI agents to autonomously train reinforcement learning models for quantum circuit synthesis - including permutation, linear function, and Clifford circuits.'

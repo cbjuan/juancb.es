@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2025_qiskit_ai_hackathon/'
 title: "AI for Qiskit. Hackathon starter pack"
 date: 2025-11-05T16:00:00
 draft: false

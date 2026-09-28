@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2026-senior-software-engineering-manager/'
 title: 'Certified as Senior Software Engineering Manager at IBM'
 subtitle: 'New role certification after acting in the position'
 summary: 'After a few months acting as an in-country Senior Manager, I got officially certified for the Senior Software Engineering Manager role at IBM.'

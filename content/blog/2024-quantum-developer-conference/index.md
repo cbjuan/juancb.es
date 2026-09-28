@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2024-quantum-developer-conference/'
 title: 'Quantum Developer Conference 2024: Showcasing AI-Powered Quantum Tools'
 subtitle: 'Presenting Qiskit Code Assistant and AI transpiler passes at IBM Watson Research Center'
 summary: 'Excited to participate in the Quantum Developer Conference 2024 at IBM Thomas J. Watson Research Center, networking with quantum computing professionals and showcasing new developments at the intersection of AI and quantum computing - featuring the Qiskit Code Assistant and AI-powered transpiler passes.'

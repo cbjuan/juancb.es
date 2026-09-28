@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-patent-quantumproblemsolving/'
 title: "Intelligent and automated system for solving computational problems using quantum computation"
 date: 2025-12-11
 authors:

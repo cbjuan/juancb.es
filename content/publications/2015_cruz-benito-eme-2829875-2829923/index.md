@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_cruz-benito-eme-2829875-2829923/'
 title: "Extending MOOC Ecosystems Using Web Services and Software Architectures"
 date: 2015-09-07
 authors:

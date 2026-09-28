@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-granite-8b-qiskit-model-release/'
 title: 'Granite-8B-Qiskit-RC-0.10: Updated Checkpoint Using Current Training Approach'
 subtitle: 'Latest revision of LLMs powering Qiskit Code Assistant'
 summary: 'Released granite-8b-qiskit-rc-0.10, the latest revision of the LLMs that empower Qiskit Code Assistant. Trained on significantly expanded Qiskit synthetic dataset, this marks the final model using the current training approach as we pivot to newer Granite base models and cutting-edge techniques.'

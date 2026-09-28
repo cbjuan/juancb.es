@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2025-paulinetworkssynthesisrl/'
 title: "Pauli Network Circuit Synthesis with Reinforcement Learning"
 date: 2025-03-18
 authors:

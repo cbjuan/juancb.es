@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2013_cruz-benito-aum-2536536-2536622/'
 title: "Analyzing Users' Movements in Virtual Worlds: Discovering Engagement and Use Patterns"
 date: 2013-01-01
 authors:

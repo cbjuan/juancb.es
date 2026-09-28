@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_7511684/'
 title: "Usalpharma: A Software Architecture to Support Learning in Virtual Worlds"
 date: 2016-08-01
 authors:

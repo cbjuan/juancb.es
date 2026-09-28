@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_garcia-holgado-analisis/'
 title: "Análisis comparativo de la gestión del conocimiento en la administración pública española"
 date: 2015-10-16
 authors:

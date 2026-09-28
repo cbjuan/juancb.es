@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/project/qiskit-ibm-transpiler/'
 title: qiskit-ibm-transpiler
 summary: AI-powered quantum circuit optimization library — Ranking 3rd in Unitary Foundation 2025 Survey, 929K+ downloads
 tags:

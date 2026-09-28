@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2026-patent-intelligentunitarysynthesis/'
 title: "Intelligent unitary synthesis for quantum computing"
 date: 2026-04-16
 authors:

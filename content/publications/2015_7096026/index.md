@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2015_7096026/'
 title: "Semester of Code: Piloting virtual placements for informatics across Europe"
 date: 2015-03-01
 authors:

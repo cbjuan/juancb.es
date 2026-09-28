@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2014_martin-scientific/'
 title: "Scientific Knowledge Transfer Training Through a Virtual World"
 date: 2014-01-01
 authors:

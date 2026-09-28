@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_garcia-penalvo-ctp-3012430-3012490/'
 title: "Computational Thinking in Pre-university Education"
 date: 2016-11-02
 authors:

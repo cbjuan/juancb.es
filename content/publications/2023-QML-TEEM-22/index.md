@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2023-qml-teem-22/'
 title: "Development of Algorithms and Methods for the Simulation and Improvement in the Quantum Natural Language Processing Area"
 date: 2023-05-04
 authors:

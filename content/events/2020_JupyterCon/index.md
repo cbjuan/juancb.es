@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/talk/2020_jupytercon/'
 title: "IBM Quantum Experience Notebooks. Serving JupyterHub at scale for the Quantum Computing Community"
 date: 2020-10-14T00:00:00
 draft: false

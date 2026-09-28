@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2016_10-1007-978-3-319-39483-1-12/'
 title: "Software Architectures Supporting Human-Computer Interaction Analysis: A Literature Review"
 date: 2016-06-21
 authors:

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/publication/2018_vazquez-ingelmo/'
 title: "Scaffolding the OEEU's Data-Driven Ecosystem to Analyze the Employability of Spanish Graduates"
 date: 2018-01-01
 authors:

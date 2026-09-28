@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-pauli-network-circuit-synthesis/'
 title: 'Pauli Network Circuit Synthesis with Reinforcement Learning Paper Published'
 subtitle: 'AI-powered transpiler pass available in Qiskit Transpiler Service since November 2024'
 summary: 'Celebrating the arxiv publication of the Pauli Network Circuit Synthesis with Reinforcement Learning paper. The AI-powered transpiler pass has been available in the Qiskit Transpiler Service since November 2024, as presented at Quantum Developer Conference 2024.'

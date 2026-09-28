@@ -1,4 +1,6 @@
 ---
+aliases:
+  - '/post/2025-quantum-verifiable-rewards-qiskit/'
 title: 'Quantum Verifiable Rewards for Post-Training Qiskit Code Assistant'
 subtitle: 'Training AI models to write better quantum code with quantum hardware verification'
 summary: Released a new paper on a novel approach to train AI models that can write better quantum code using Qiskit. The approach uses quantum verification at the core, smart training pipeline with DPO and GRPO, and real quantum feedback to ensure generated code works in practice.
