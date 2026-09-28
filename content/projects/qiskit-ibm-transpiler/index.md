@@ -15,21 +15,17 @@ image:
   focal_point: Smart
 
 links:
-- icon: blog
-  icon_pack: fas
-  name: Blog
+- icon: hero/newspaper
+  label: Blog
   url: https://www.ibm.com/quantum/blog/ai-transpiler-passes
-- icon: github
-  icon_pack: fab
-  name: GitHub
+- icon: brands/github
+  label: GitHub
   url: https://github.com/Qiskit/qiskit-ibm-transpiler
-- icon: book
-  icon_pack: fas
-  name: Docs
+- icon: hero/book-open
+  label: Docs
   url: https://docs.quantum.ibm.com/transpile/qiskit-ibm-transpiler
-- icon: robot
-  icon_pack: fas
-  name: Models
+- icon: emoji/hugs
+  label: Models
   url: https://huggingface.co/collections/Qiskit/qiskit-ai-transpiler-models
 
 url_code: ""

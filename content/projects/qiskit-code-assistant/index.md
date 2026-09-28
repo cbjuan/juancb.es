@@ -15,21 +15,17 @@ image:
   focal_point: Smart
 
 links:
-- icon: blog
-  icon_pack: fas
-  name: Blog
+- icon: hero/newspaper
+  label: Blog
   url: https://www.ibm.com/quantum/blog/qiskit-code-assistant
-- icon: robot
-  icon_pack: fas
-  name: Models
+- icon: emoji/hugs
+  label: Models
   url: https://huggingface.co/collections/Qiskit/qiskit-llms-67337b513e8718191b0a6ff6
-- icon: database
-  icon_pack: fas
-  name: HumanEval
+- icon: hero/circle-stack
+  label: HumanEval
   url: https://huggingface.co/datasets/Qiskit/qiskit_humaneval
-- icon: database
-  icon_pack: fas
-  name: HumanEval Hard
+- icon: hero/circle-stack
+  label: HumanEval Hard
   url: https://huggingface.co/datasets/Qiskit/qiskit_humaneval_hard
 
 url_code: ""

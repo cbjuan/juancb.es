@@ -15,9 +15,8 @@ image:
   focal_point: Smart
 
 links:
-- icon: github
-  icon_pack: fab
-  name: GitHub
+- icon: brands/github
+  label: GitHub
   url: https://github.com/Qiskit/mcp-servers
 
 url_code: ""
