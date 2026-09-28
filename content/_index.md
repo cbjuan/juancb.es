@@ -77,6 +77,8 @@ sections:
     id: contact
     content:
       title: Contact
+      connect_title: Get in touch
+      text: "Happy to talk about research collaborations, open source, Quantum+AI, or speaking opportunities. Use the form below or reach me on any of these networks."
       social:
         - icon: brands/x
           url: 'https://twitter.com/_juancb'
