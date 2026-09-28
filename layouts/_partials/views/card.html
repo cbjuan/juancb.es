@@ -26,10 +26,12 @@
   {{ $anchor = $item.Params.image.focal_point | default "Center" }}
 {{ end }}
 {{ $fill_image := .config.fill_image | default true }}
-{{ $showDate := .config.show_date | default true }}
-{{ $showReadTime := .config.show_read_time | default true }}
-{{ $showReadMore := .config.show_read_more | default true }}
-{{ $hasMeta := or $showDate $showReadTime $showReadMore }}
+{{/* Override: `false | default true` yields true in Hugo, so upstream ignored show_* = false. */}}
+{{ $showDate := true }}{{ if isset .config "show_date" }}{{ $showDate = .config.show_date }}{{ end }}
+{{ $showReadTime := true }}{{ if isset .config "show_read_time" }}{{ $showReadTime = .config.show_read_time }}{{ end }}
+{{ $showReadMore := true }}{{ if isset .config "show_read_more" }}{{ $showReadMore = .config.show_read_more }}{{ end }}
+{{ $hasInfoRow := or $showDate $showReadTime $item.Params.authors }}
+{{ $hasMeta := or $hasInfoRow $showReadMore }}
 {{ $index := .index }}
 {{ $isEvent := eq $item.Type "events" }}
 {{ $event_dates := "" }}
@@ -172,6 +174,7 @@
       <!-- Metadata section -->
       {{ if $hasMeta }}
       <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        {{ if $hasInfoRow }}
         <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
           {{ if $item.Params.authors }}
           <div class="flex items-center gap-2 min-w-0">
@@ -212,10 +215,11 @@
             <span class="hidden sm:inline whitespace-nowrap">{{ $readTime }} {{ i18n "minute_read" }}</span>
           {{ end }}
         </div>
+        {{ end }}
 
         <!-- Read More with arrow - properly separated -->
         {{ if $showReadMore }}
-        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
+        <div class="{{ if $hasInfoRow }}pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50{{ end }}">
           <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
             <span>{{ i18n "read_more" | default "Read more" }}</span>
             <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

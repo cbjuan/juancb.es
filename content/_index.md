@@ -20,6 +20,8 @@ sections:
     design:
       view: card
       columns: 2
+      show_date: false
+      show_read_time: false
 
   - block: content-collection
     id: posts
