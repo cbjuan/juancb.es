@@ -30,3 +30,9 @@ npm-debug.log*
 
 # Migration backups
 *.bak
+
+# CV: private contact details and private build
+cv/contact.tex
+cv/cv-private.pdf
+cv/*.aux
+cv/*.out
