@@ -10,7 +10,17 @@
 {{ $view := .Params.view | default "card" }}
 {{ $block := . }}
 
-{{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+{{/* Same false|default true gotcha: `paginate: false` (e.g. for /publications, so the
+     archive shows every item on one page instead of repeating the homepage's first 10)
+     must be checked with `eq ... false`, not `.Params.paginate | default true`.
+     .Paginate can only be called once per page, hence the assign-in-branch dance below
+     rather than computing a page size up front. */}}
+{{ $paginator := "" }}
+{{ if eq .Params.paginate false }}
+  {{ $paginator = .Paginate .Pages.ByDate.Reverse (len .Pages) }}
+{{ else }}
+  {{ $paginator = .Paginate .Pages.ByDate.Reverse }}
+{{ end }}
 {{/* Override: upstream used `.Params.x | default true`, which turns false into true. */}}
 {{ $config := dict
   "columns" (.Params.columns | default 2)
@@ -29,13 +39,72 @@
   {{ end }}
 {{ end }}
 
-<div class="flex flex-col items-center">
+{{/* Client-side filter by publication type (e.g. for /publications, whose only
+     "category" is publication_types, unlike tags on blog/projects). Buttons and
+     labels are built from whatever types are actually present, reusing the same
+     pub_<type> i18n keys and jsonify-compared Alpine pattern as the portfolio
+     block's tag filter, so it looks consistent with the rest of the site. */}}
+{{ $show_type_filter := eq .Params.show_type_filter true }}
+{{/* Fixed display order (roughly most- to least-common in this CV), rather than
+     alphabetical, so the button row reads the same way each time regardless of
+     which types happen to be present. Anything not listed here sorts last. */}}
+{{ $type_order := slice "article-journal" "paper-conference" "patent" "article" "report" "chapter" "book" "thesis" }}
+{{ $type_rows := slice }}
+{{ if $show_type_filter }}
+  {{ $.Store.Set "has_alpine" true }}
+  {{ $type_counts := dict }}
+  {{ range $paginator.Pages }}
+    {{ with .Params.publication_types }}
+      {{ if reflect.IsSlice . }}
+        {{ with index . 0 }}
+          {{ $csl := printf "%v" . }}
+          {{ $type_counts = merge $type_counts (dict $csl (add (index $type_counts $csl | default 0) 1)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ range $csl, $count := $type_counts }}
+    {{ $label := i18n (printf "pub_%s" (strings.Replace $csl "-" "_")) | default (strings.Title $csl) }}
+    {{ $order := 999 }}
+    {{ range $i, $key := $type_order }}
+      {{ if eq $key $csl }}{{ $order = $i }}{{ end }}
+    {{ end }}
+    {{ $type_rows = $type_rows | append (dict "csl" $csl "label" $label "count" $count "order" $order) }}
+  {{ end }}
+  {{ $type_rows = sort $type_rows "order" }}
+{{ end }}
+{{ $filter_button_class := "px-5 py-2.5 rounded-full text-sm font-medium border backdrop-blur-sm transition-all duration-300 ease-out cursor-pointer" }}
+{{ $filter_button_active := "bg-primary-600 text-white border-primary-600 shadow-lg shadow-primary-500/25" }}
+{{ $filter_button_inactive := "bg-gray-100 dark:bg-white/5 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/10 hover:border-gray-300 dark:hover:border-white/20" }}
+
+<div class="flex flex-col items-center"{{ if $show_type_filter }} x-data="{ pubFilter: '*' }"{{ end }}>
+
+  {{ if $show_type_filter }}
+  <div class="flex flex-wrap justify-center gap-2 mt-8 mb-8">
+    <button @click="pubFilter = '*'" :class="pubFilter === '*' ? {{ $filter_button_active | jsonify }} : {{ $filter_button_inactive | jsonify }}" class="{{ $filter_button_class }}">
+      All ({{ len $paginator.Pages }})
+    </button>
+    {{ range $type_rows }}
+    <button @click="pubFilter = {{ .csl | jsonify }}" :class="pubFilter === {{ .csl | jsonify }} ? {{ $filter_button_active | jsonify }} : {{ $filter_button_inactive | jsonify }}" class="{{ $filter_button_class }}">
+      {{ .label }} ({{ .count }})
+    </button>
+    {{ end }}
+  </div>
+  {{ end }}
 
   {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
 
   {{ range $index, $item := $paginator.Pages }}
-  {{ partial "functions/render_view" (dict "page" . "item" . "view" $view "index" $index "config" $config) }}
-  {{end}}
+    {{ $item_csl := "" }}
+    {{ if $show_type_filter }}
+      {{ with $item.Params.publication_types }}
+        {{ if reflect.IsSlice . }}{{ with index . 0 }}{{ $item_csl = printf "%v" . }}{{ end }}{{ end }}
+      {{ end }}
+    {{ end }}
+    <div{{ if $show_type_filter }} x-show="pubFilter === '*' || pubFilter === {{ $item_csl | jsonify }}"{{ end }}>
+      {{ partial "functions/render_view" (dict "page" $item "item" $item "view" $view "index" $index "config" $config) }}
+    </div>
+  {{ end }}
 
   {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
 

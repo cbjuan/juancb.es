@@ -28,6 +28,23 @@ cascade:
       kind: section
     params:
       show_read_time: false
+  - target:
+      path: /publications
+      kind: section
+    params:
+      # Upstream's card view assumes a featured image per item; none of our
+      # publications have one. citation renders an APA-style reference list
+      # instead, matching the homepage preview (content/_index.md) and the
+      # old Academic theme's publication list.
+      view: citation
+      # With the default page size (10), page 1 of the archive was just a
+      # repeat of the homepage's "Recent Publications" preview. Show the
+      # full reference list on one page instead — it's a plain-text citation
+      # list, not image cards, so ~90 entries is a normal CV-length page.
+      paginate: false
+      # Client-side filter buttons by publication_types (see layouts/list.html),
+      # replacing the old Academic theme's publication-list filters.
+      show_type_filter: true
 
 build:
   writeStats: true
