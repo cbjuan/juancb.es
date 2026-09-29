@@ -37,12 +37,12 @@ links:
   - icon: at-symbol
     url: '/#contact'
     label: Contact
-  - icon: brands/x
-    url: 'https://twitter.com/_juancb'
-  - icon: brands/github
-    url: 'https://github.com/cbjuan'
   - icon: brands/linkedin
     url: 'https://www.linkedin.com/in/juancb/'
+  - icon: brands/github
+    url: 'https://github.com/cbjuan'
+  - icon: brands/x
+    url: 'https://twitter.com/_juancb'
   - icon: academicons/google-scholar
     url: 'https://scholar.google.es/citations?user=_mLnQPgAAAAJ'
   - icon: academicons/orcid

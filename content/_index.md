@@ -90,12 +90,12 @@ sections:
       connect_title: Get in touch
       text: "Happy to talk about research collaborations, open source, Quantum+AI, or speaking opportunities. Use the form below or reach me on any of these networks."
       social:
-        - icon: brands/x
-          url: 'https://twitter.com/_juancb'
-        - icon: brands/github
-          url: 'https://github.com/cbjuan'
         - icon: brands/linkedin
           url: 'https://www.linkedin.com/in/juancb/'
+        - icon: brands/github
+          url: 'https://github.com/cbjuan'
+        - icon: brands/x
+          url: 'https://x.com/_juancb'
       show_form: true
       form_action: 'https://formspree.io/f/mrpbjkpa'
 ---
