@@ -27,7 +27,7 @@ Google Analytics sets these cookies:
 
 Google may process this data outside the EU. Such transfers are covered by the EU–US Data Privacy Framework and Google's standard contractual clauses. See [Google's privacy policy](https://policies.google.com/privacy).
 
-If you click **Reject**, or haven't chosen yet, Google Analytics isn't loaded at all, no request is sent to Google Analytics and no analytics cookies are set. Browsers that send a [Global Privacy Control](https://globalprivacycontrol.org) signal are treated as having rejected, unless the visitor accepts explicitly.
+If you click **Reject**, or haven't chosen yet, Google Analytics isn't loaded at all, no request is sent to Google Analytics and no analytics cookies are set.
 
 Your choice is saved in your browser's local storage (key `cookie-consent`) so the banner doesn't reappear on every page. That entry is strictly necessary to remember your decision, is never sent to any server, and is renewed after 12 months.
 
