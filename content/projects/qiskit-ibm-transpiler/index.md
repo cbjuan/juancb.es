@@ -2,7 +2,7 @@
 aliases:
   - '/project/qiskit-ibm-transpiler/'
 title: qiskit-ibm-transpiler
-summary: AI-powered quantum circuit optimization library — Ranking 3rd in Unitary Foundation 2025 Survey, 929K+ downloads
+summary: AI-powered quantum circuit optimization library — Ranking 3rd in Unitary Foundation 2025 Survey, 981K+ downloads
 tags:
 - Quantum Computing
 - AI
@@ -43,4 +43,4 @@ Supports hardware-aware routing up to 133 qubits and works as a drop-in replacem
 **Achievements:**
 - [#3 in Unitary Foundation 2025 Survey](https://unitaryfoundation.github.io/survey-2025/#full-stack-development-platforms-compilers-and-simulators-used-currently-or-in-the-future) (full-stack platforms)
 - [#4 in Unitary Fund 2024 Survey](https://unitaryfoundation.github.io/survey-2024/#full-stack-development-platforms-compilers-and-simulators-used-currently-or-in-the-future) (after just 1 year public)
-- [929K+ downloads](https://pepy.tech/projects/qiskit-ibm-transpiler) • 56 releases • Apache 2.0
+- [981K+ downloads](https://pepy.tech/projects/qiskit-ibm-transpiler) • 56 releases • Apache 2.0
