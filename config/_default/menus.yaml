@@ -17,3 +17,10 @@ main:
   - name: Contact
     url: '/#contact'
     weight: 6
+footer:
+  - name: Privacy
+    url: '/privacy/'
+    weight: 1
+  - name: Cookie settings
+    url: '#cookie-settings'
+    weight: 2

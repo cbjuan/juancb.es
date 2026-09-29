@@ -1,0 +1,101 @@
+{{/* Override of the analytics module's google_analytics.html: gate GA4 behind cookie consent.
+     Upstream loads gtag.js on every page view, which sets _ga cookies before the visitor has
+     agreed to anything (not allowed under GDPR/LSSI). Here nothing is requested from Google
+     until consent is granted. The banner that asks for it lives in
+     layouts/_partials/hooks/body-end/cookie-consent.html and calls window.hbxConsent.grant(). */}}
+{{ $ga := site.Params.hugoblox.analytics.google.measurement_id | default "" }}
+
+{{ if hugo.IsProduction | and $ga }}
+
+{{ $gtag_config := cond (site.Params.hugoblox.privacy.anonymize_analytics | default true) "{ 'anonymize_ip': true }" "{}" }}
+<script>
+  (function () {
+    var KEY = 'cookie-consent';
+    var MAX_AGE = 365 * 24 * 60 * 60 * 1000; // Ask again after 12 months.
+    var loaded = false;
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+
+    function trackOutboundLink(url, target) {
+      gtag('event', 'click', {
+           'event_category': 'outbound',
+           'event_label': url,
+           'transport_type': 'beacon',
+           'event_callback': function () {
+             if (target !== '_blank') {
+               document.location = url;
+             }
+           }
+      });
+    }
+
+    function onClickCallback(event) {
+      if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+        return;
+      }
+      trackOutboundLink(event.target, event.target.getAttribute('target'));  // Send GA event.
+    }
+
+    function loadGA() {
+      if (loaded) { return; }
+      loaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id={{$ga}}';
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', '{{$ga}}', {{$gtag_config|safeJS}});
+      gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+      // Outbound link tracking.
+      document.addEventListener('click', onClickCallback, false);
+    }
+
+    function read() {
+      try {
+        var v = JSON.parse(localStorage.getItem(KEY));
+        if (v && (v.value === 'granted' || v.value === 'denied') && Date.now() - v.ts < MAX_AGE) {
+          return v.value;
+        }
+      } catch (e) {}
+      return null;
+    }
+
+    function write(value) {
+      try { localStorage.setItem(KEY, JSON.stringify({ value: value, ts: Date.now() })); } catch (e) {}
+    }
+
+    function clearGACookies() {
+      var host = location.hostname;
+      var domains = ['', host, '.' + host, '.' + host.replace(/^www\./, '')];
+      document.cookie.split(';').forEach(function (c) {
+        var name = c.split('=')[0].trim();
+        if (/^_ga/.test(name) || name === '_gid') {
+          domains.forEach(function (d) {
+            document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + (d ? '; domain=' + d : '');
+          });
+        }
+      });
+    }
+
+    // Global Privacy Control is a legally meaningful opt-out signal: treat it as a rejection
+    // unless the visitor has explicitly made a choice on this site.
+    var gpc = navigator.globalPrivacyControl === true;
+
+    window.hbxConsent = {
+      // 'granted', 'denied', or null when the visitor still has to choose.
+      status: function () { return read() || (gpc ? 'denied' : null); },
+      grant: function () { write('granted'); loadGA(); },
+      deny: function () {
+        var wasLoaded = loaded;
+        write('denied');
+        clearGACookies();
+        // gtag.js can't be unloaded; reload so it stops running on this page too.
+        if (wasLoaded) { location.reload(); }
+      }
+    };
+
+    if (window.hbxConsent.status() === 'granted') { loadGA(); }
+  })();
+</script>
+{{ end }}
