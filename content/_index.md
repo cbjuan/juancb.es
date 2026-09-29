@@ -7,6 +7,9 @@ sections:
     id: about
     content:
       username: juancb
+    design:
+      name:
+        size: sm
 
   - block: content-collection
     id: projects
