@@ -97,5 +97,5 @@ sections:
         - icon: brands/linkedin
           url: 'https://www.linkedin.com/in/juancb/'
       show_form: true
-      form_action: 'https://formspree.io/cruzbenitojuan@gmail.com'
+      form_action: 'https://formspree.io/f/mrpbjkpa'
 ---
