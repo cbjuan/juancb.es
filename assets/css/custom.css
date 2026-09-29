@@ -1,29 +1,57 @@
 /*
-  Reduce the gap between the sticky navbar and the homepage bio/photo section.
-  The blox module's resume-biography-3 block hardcodes generous top padding
-  (py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32, i.e. up to 128px) that is
-  independent of the hugoblox.layout.spacing token, so it can't be tuned via
-  config/_default/params.yaml. Only the top offset is trimmed here; bottom
-  padding (section separation from the next block) is left as-is.
+  Reduce the gap around the homepage bio/photo section (navbar above, Projects
+  below). The blox module's resume-biography-3 block hardcodes generous
+  padding (py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32, i.e. up to 128px per
+  side) that is independent of the hugoblox.layout.spacing token, so it can't
+  be tuned via config/_default/params.yaml. That padding is on top of, not
+  instead of, the .hbb-section padding every homepage block already gets, so
+  both top and bottom are trimmed here to leave just the token-driven gap.
 */
 .resume-biography {
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 640px) {
   .resume-biography {
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
   .resume-biography {
     padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .resume-biography {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+/*
+  Same issue on the Contact block: its inner wrapper hardcodes
+  py-12 sm:py-16 lg:py-20 (up to 80px) on top of .hbb-section's own padding.
+  Only the top is trimmed -- bottom is the last thing on the page, not a gap
+  between two sections. No class of its own, so targeted via the #contact
+  section id (same pattern as the h2 override below).
+*/
+#contact > div.max-w-7xl {
+  padding-top: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  #contact > div.max-w-7xl {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #contact > div.max-w-7xl {
     padding-top: 2.5rem;
   }
 }
