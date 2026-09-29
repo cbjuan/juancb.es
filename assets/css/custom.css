@@ -156,3 +156,44 @@
 .dark .cookie-consent a {
   color: var(--color-primary-300);
 }
+
+/*
+  Download CV button in the homepage biography block. Upstream hardcodes a
+  large primary-to-secondary gradient with a hover zoom (the only gradient
+  and only teal on the site), and the block has no style option. Restyle it
+  as an outline button in the site's primary colour. Targeted by the PDF
+  link rather than by Tailwind utility classes, which may change upstream.
+*/
+.resume-biography a[href$=".pdf"] {
+  padding: 0.5rem 1.25rem;
+  border: 2px solid var(--color-primary-700);
+  border-radius: 0.5rem;
+  background: transparent;
+  color: var(--color-primary-700);
+  font-size: 1rem;
+  box-shadow: none;
+  scale: none;
+  transition: background-color 150ms, color 150ms;
+}
+
+.resume-biography a[href$=".pdf"]:hover {
+  background: var(--color-primary-700);
+  color: #fff;
+  box-shadow: none;
+  scale: none;
+}
+
+.resume-biography a[href$=".pdf"]:focus-visible {
+  outline: 2px solid var(--color-primary-400);
+  outline-offset: 2px;
+}
+
+.dark .resume-biography a[href$=".pdf"] {
+  border-color: var(--color-primary-300);
+  color: var(--color-primary-300);
+}
+
+.dark .resume-biography a[href$=".pdf"]:hover {
+  background: var(--color-primary-300);
+  color: rgb(15 23 42);
+}
