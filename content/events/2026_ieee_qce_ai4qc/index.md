@@ -21,7 +21,7 @@ links:
   url: "https://github.com/qiskit-community/qcode-discovery"
 math: false
 image:
-  caption: "Image credit: [**IEEE Quantum Week 2026**](https://qce.quantum.ieee.org/2026)"
+  caption: "Image credit: [**AILAB-Udine**](https://www.linkedin.com/posts/ieeequantumweek-qce2026-quantumcomputing-ugcPost-7510625105777950720-dfFU/)"
   focal_point: "Smart"
 ---
 
