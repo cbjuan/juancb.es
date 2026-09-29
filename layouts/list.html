@@ -45,6 +45,10 @@
      pub_<type> i18n keys and jsonify-compared Alpine pattern as the portfolio
      block's tag filter, so it looks consistent with the rest of the site. */}}
 {{ $show_type_filter := eq .Params.show_type_filter true }}
+{{/* Fixed display order (roughly most- to least-common in this CV), rather than
+     alphabetical, so the button row reads the same way each time regardless of
+     which types happen to be present. Anything not listed here sorts last. */}}
+{{ $type_order := slice "article-journal" "paper-conference" "patent" "article" "report" "chapter" "book" "thesis" }}
 {{ $type_rows := slice }}
 {{ if $show_type_filter }}
   {{ $.Store.Set "has_alpine" true }}
@@ -61,9 +65,13 @@
   {{ end }}
   {{ range $csl, $count := $type_counts }}
     {{ $label := i18n (printf "pub_%s" (strings.Replace $csl "-" "_")) | default (strings.Title $csl) }}
-    {{ $type_rows = $type_rows | append (dict "csl" $csl "label" $label "count" $count) }}
+    {{ $order := 999 }}
+    {{ range $i, $key := $type_order }}
+      {{ if eq $key $csl }}{{ $order = $i }}{{ end }}
+    {{ end }}
+    {{ $type_rows = $type_rows | append (dict "csl" $csl "label" $label "count" $count "order" $order) }}
   {{ end }}
-  {{ $type_rows = sort $type_rows "label" }}
+  {{ $type_rows = sort $type_rows "order" }}
 {{ end }}
 {{ $filter_button_class := "px-5 py-2.5 rounded-full text-sm font-medium border backdrop-blur-sm transition-all duration-300 ease-out cursor-pointer" }}
 {{ $filter_button_active := "bg-primary-600 text-white border-primary-600 shadow-lg shadow-primary-500/25" }}
@@ -72,7 +80,7 @@
 <div class="flex flex-col items-center"{{ if $show_type_filter }} x-data="{ pubFilter: '*' }"{{ end }}>
 
   {{ if $show_type_filter }}
-  <div class="flex flex-wrap justify-center gap-2 mb-8">
+  <div class="flex flex-wrap justify-center gap-2 mt-8 mb-8">
     <button @click="pubFilter = '*'" :class="pubFilter === '*' ? {{ $filter_button_active | jsonify }} : {{ $filter_button_inactive | jsonify }}" class="{{ $filter_button_class }}">
       All ({{ len $paginator.Pages }})
     </button>
