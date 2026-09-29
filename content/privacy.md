@@ -37,7 +37,7 @@ The legal basis is your consent (Art. 6(1)(a) GDPR and Art. 22.2 of the Spanish 
 
 ## Web fonts
 
-Pages use fonts served by Google Fonts. To deliver them, your browser connects to Google's servers, which receive your IP address and browser information. Google Fonts doesn't set cookies. See the [Google Fonts privacy FAQ](https://developers.google.com/fonts/faq/privacy).
+The fonts are served from this website itself, so loading a page doesn't contact Google Fonts or any other font service.
 
 ## Hosting
 
@@ -64,7 +64,7 @@ I hold very little data about visitors:
 
 For this data, you have the right to access, rectify and erase it, to restrict or object to its processing, and to data portability. You can also withdraw your analytics consent at any time with <a href="#cookie-settings">Cookie settings</a>. Withdrawing doesn't affect anything processed before. To exercise any of these rights, use the [contact form](/#contact).
 
-Google (for Google Fonts and its own use of analytics data) and GitHub (for hosting logs) process some data as independent controllers. For that processing, contact them directly through the privacy policies linked above.
+Google (for its own use of analytics data) and GitHub (for hosting logs) process some data as independent controllers. For that processing, contact them directly through the privacy policies linked above.
 
 You can also lodge a complaint with the Spanish Data Protection Agency ([AEPD](https://www.aepd.es)).
 
