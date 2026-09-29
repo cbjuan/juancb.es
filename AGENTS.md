@@ -71,6 +71,16 @@ Hugo Blox has no consent feature (`privacy.enable` in `params.yaml` is read by n
 - `layouts/_partials/hooks/body-end/cookie-consent.html` is the banner (styles in `assets/css/custom.css`). Any link to `#cookie-settings`, such as the footer menu entry, reopens it.
 - Both render whenever a measurement ID is set, so the banner works under `hugo server`, but gtag.js is only loaded in production builds. If you add another tracker or third-party embed, gate it the same way and update `content/privacy.md`.
 
+## Self-hosted fonts
+
+The fonts are served from the site, not from Google Fonts, so a page view contacts no third party before consent. The blox module's `functions/typography.html` looks for `assets/dist/font/<FamilyNameWithoutSpaces>*` and only falls back to Google Fonts when no such file exists, so no override is needed:
+
+- `Montserrat.var.woff2` is the upstream variable font (`wght` 100–900), subset to Latin + Latin Extended. The `.var.` in the name tells the module it's variable.
+- `SourceCodePro-Regular.ttf.woff2` is Adobe's release build, **unmodified**. Its license reserves the name "Source", so a subset or otherwise modified copy couldn't ship under that name.
+- The license texts are published next to the fonts, from `static/dist/font/`.
+
+If you change `typography.pack` in `params.yaml`, bundle the new families the same way. Otherwise the site silently goes back to loading them from Google, and the privacy policy's "Web fonts" section becomes wrong.
+
 ## Content conventions worth knowing
 
 - Front matter is YAML (`---` delimiters).
