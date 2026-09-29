@@ -69,7 +69,7 @@ Hugo Blox has no consent feature (`privacy.enable` in `params.yaml` is read by n
 
 - `layouts/_partials/blox-analytics/services/google_analytics.html` overrides the analytics module so gtag.js is only injected after consent. It exposes `window.hbxConsent` (`status`/`grant`/`deny`), stores the choice in `localStorage` under `cookie-consent` for 12 months, and treats Global Privacy Control as a rejection.
 - `layouts/_partials/hooks/body-end/cookie-consent.html` is the banner (styles in `assets/css/custom.css`). Any link to `#cookie-settings`, such as the footer menu entry, reopens it.
-- Both only render in production builds with a measurement ID set. If you add another tracker or third-party embed, gate it the same way and update `content/privacy.md`.
+- Both render whenever a measurement ID is set, so the banner works under `hugo server`, but gtag.js is only loaded in production builds. If you add another tracker or third-party embed, gate it the same way and update `content/privacy.md`.
 
 ## Content conventions worth knowing
 

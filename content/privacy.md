@@ -12,7 +12,7 @@ This is the personal website of Juan Cruz-Benito. It is a static site with no us
 
 ## Who is responsible
 
-Juan Cruz-Benito is the data controller for this website. For any privacy question or request, email [cruzbenitojuan@gmail.com](mailto:cruzbenitojuan@gmail.com).
+Juan Cruz-Benito is the data controller for this website. For any privacy question or request, use the [contact form](/#contact).
 
 ## Analytics (only with your consent)
 
@@ -57,7 +57,16 @@ Pages link to other websites, such as publishers, GitHub, LinkedIn and Hugging F
 
 ## Your rights
 
-Under the GDPR you have the right to access, rectify and erase your personal data, and to restrict or object to its processing. You also have the right to data portability and to withdraw consent at any time. To exercise any of these rights, email the address above. You also have the right to lodge a complaint with the Spanish Data Protection Agency ([AEPD](https://www.aepd.es)).
+I hold very little data about visitors:
+
+- **Contact messages**: if you used the contact form, I have your message and email address in my inbox and in Formspree's records.
+- **Analytics data**: if you accepted analytics, your usage data is in my Google Analytics property, which Google processes on my behalf. That data is tied to a random cookie ID rather than to your name, so I usually can't tell which records are yours (Art. 11 GDPR). If you send me the value of your `_ga` cookie, I can find that data and delete it.
+
+For this data, you have the right to access, rectify and erase it, to restrict or object to its processing, and to data portability. You can also withdraw your analytics consent at any time with <a href="#cookie-settings">Cookie settings</a>. Withdrawing doesn't affect anything processed before. To exercise any of these rights, use the [contact form](/#contact).
+
+Google (for Google Fonts and its own use of analytics data) and GitHub (for hosting logs) process some data as independent controllers. For that processing, contact them directly through the privacy policies linked above.
+
+You can also lodge a complaint with the Spanish Data Protection Agency ([AEPD](https://www.aepd.es)).
 
 ## Changes
 

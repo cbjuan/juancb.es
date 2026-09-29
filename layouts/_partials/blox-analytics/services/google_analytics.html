@@ -2,10 +2,12 @@
      Upstream loads gtag.js on every page view, which sets _ga cookies before the visitor has
      agreed to anything (not allowed under GDPR/LSSI). Here nothing is requested from Google
      until consent is granted. The banner that asks for it lives in
-     layouts/_partials/hooks/body-end/cookie-consent.html and calls window.hbxConsent.grant(). */}}
+     layouts/_partials/hooks/body-end/cookie-consent.html and calls window.hbxConsent.grant().
+     Outside production the consent logic still runs (so the banner can be tested with
+     `hugo server`), but gtag.js is never loaded. */}}
 {{ $ga := site.Params.hugoblox.analytics.google.measurement_id | default "" }}
 
-{{ if hugo.IsProduction | and $ga }}
+{{ if $ga }}
 
 {{ $gtag_config := cond (site.Params.hugoblox.privacy.anonymize_analytics | default true) "{ 'anonymize_ip': true }" "{}" }}
 <script>
@@ -40,6 +42,7 @@
     function loadGA() {
       if (loaded) { return; }
       loaded = true;
+      if (!{{ hugo.IsProduction }}) { console.debug('Analytics consent granted (GA not loaded outside production).'); return; }
       var s = document.createElement('script');
       s.async = true;
       s.src = 'https://www.googletagmanager.com/gtag/js?id={{$ga}}';
