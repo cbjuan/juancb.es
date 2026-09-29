@@ -63,6 +63,14 @@ Required tooling: Hugo **extended** `0.161.1` (pinned in `hugoblox.yaml` and CI)
 
 In Hugo, `false | default true` evaluates to `true`, because `default` treats `false` as "unset". Several upstream templates read boolean options as `.Params.show_x | default true`, so setting `show_date: false`, `show_read_time: false` etc. silently does nothing. When a `false` option is ignored, this is almost always why. The fix is an override that uses `ne .Params.show_x false` or `isset` instead. `layouts/single.html`, `layouts/list.html` and `layouts/_partials/views/card.html` exist for exactly this reason.
 
+## Analytics and cookie consent
+
+Hugo Blox has no consent feature (`privacy.enable` in `params.yaml` is read by nothing), so GA4 is gated locally to comply with GDPR/LSSI:
+
+- `layouts/_partials/blox-analytics/services/google_analytics.html` overrides the analytics module so gtag.js is only injected after consent. It exposes `window.hbxConsent` (`status`/`grant`/`deny`), stores the choice in `localStorage` under `cookie-consent` for 12 months, and treats Global Privacy Control as a rejection.
+- `layouts/_partials/hooks/body-end/cookie-consent.html` is the banner (styles in `assets/css/custom.css`). Any link to `#cookie-settings`, such as the footer menu entry, reopens it.
+- Both render whenever a measurement ID is set, so the banner works under `hugo server`, but gtag.js is only loaded in production builds. If you add another tracker or third-party embed, gate it the same way and update `content/privacy.md`.
+
 ## Content conventions worth knowing
 
 - Front matter is YAML (`---` delimiters).

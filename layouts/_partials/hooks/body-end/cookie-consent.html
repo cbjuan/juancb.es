@@ -1,0 +1,42 @@
+{{/* Cookie consent banner for Google Analytics (GDPR/LSSI). Hugo Blox has no consent feature.
+     Shown to every visitor until they choose; Accept and Reject are equally prominent, as the
+     Spanish DPA (AEPD) requires. The GA loader and window.hbxConsent live in the override at
+     layouts/_partials/blox-analytics/services/google_analytics.html; both render whenever a GA
+     measurement ID is set (GA itself only loads in production). Any link to #cookie-settings
+     (e.g. in the footer menu) reopens the banner.
+     Styles are in assets/css/custom.css. */}}
+{{ if site.Params.hugoblox.analytics.google.measurement_id }}
+<div id="cookie-consent" class="cookie-consent" role="region" aria-label="Cookie consent" hidden>
+  <p>
+    With your consent, this site uses Google Analytics cookies to count visits and see which pages are read.
+    Nothing is sent to Google unless you accept. <a href="{{ "privacy/" | relLangURL }}">Privacy policy</a>
+  </p>
+  <div class="cookie-consent-actions">
+    <button type="button" data-consent="deny">Reject</button>
+    <button type="button" data-consent="grant">Accept</button>
+  </div>
+</div>
+<script>
+  (function () {
+    var consent = window.hbxConsent;
+    var banner = document.getElementById('cookie-consent');
+    if (!consent || !banner) { return; }
+
+    function show() { banner.hidden = false; }
+    function hide() { banner.hidden = true; }
+
+    banner.addEventListener('click', function (e) {
+      var action = e.target.getAttribute && e.target.getAttribute('data-consent');
+      if (action === 'grant') { consent.grant(); hide(); }
+      if (action === 'deny') { hide(); consent.deny(); }
+    });
+
+    document.addEventListener('click', function (e) {
+      var link = e.target.closest && e.target.closest('a[href$="#cookie-settings"]');
+      if (link) { e.preventDefault(); show(); banner.querySelector('button').focus(); }
+    });
+
+    if (consent.status() === null) { show(); }
+  })();
+</script>
+{{ end }}
