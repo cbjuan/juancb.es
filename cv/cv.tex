@@ -1,0 +1,218 @@
+%-------------------------
+% CV for Juan Cruz-Benito
+% Build: see cv/README.md (./build.sh publishes the public PDF to static/uploads/)
+% Adapted from the "NIT Warangal Resume" Overleaf template (CC BY 4.0)
+% https://es.overleaf.com/latex/templates/nit-warangal-resume/gtsrbjvffcjn
+%------------------------
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{cmap}               % searchable / copyable text for ATS
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\input{glyphtounicode}
+\pdfgentounicode=1              % map ligatures (fi, fl) to real text
+
+\hypersetup{
+  pdftitle={Juan Cruz-Benito - CV},
+  pdfauthor={Juan Cruz-Benito},
+  pdfsubject={Curriculum Vitae},
+  pdfkeywords={Quantum Computing, AI, LLM, Reinforcement Learning, Engineering Manager, Research Manager, Qiskit, IBM}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[R]{\scriptsize\color{gray} Juan Cruz-Benito -- page \thepage}
+\geometry{left=1.5cm, top=1.1cm, right=1.5cm, bottom=1.4cm}
+
+\definecolor{accent}{HTML}{1F3A5F}
+\definecolor{band}{gray}{0.90}
+
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    left=0pt, right=0pt, top=0pt, bottom=0pt,
+    colback=band,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    boxsep=3pt,
+    arc=0pt, outer arc=0pt,
+}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+
+%-------------------------
+% Commands (adapted from the template)
+\newcommand{\cvsection}[1]{%
+  \vspace{2.5mm}%
+  \begin{tcolorbox}\textbf{\large\color{accent} #1}\end{tcolorbox}%
+  \vspace{-1.5mm}%
+}
+
+% Employer line: Company | Location
+\newcommand{\employer}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{\large #1} & \footnotesize #2
+  \end{tabularx}\par\vspace{0.6mm}}
+
+% Role line under an employer: Title | Dates
+\newcommand{\role}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{\textit{#1}} & \textit{\footnotesize #2}
+  \end{tabularx}\par}
+
+% Generic two-row heading (education, etc.)
+\newcommand{\resumeSubheading}[4]{%
+  \begin{tabularx}{\linewidth}{@{}X r@{}}
+    \textbf{#1} & \textit{\footnotesize #4} \\
+    \textit{\footnotesize #3} & \footnotesize #2
+  \end{tabularx}\par\vspace{1mm}}
+
+% Single-line entry: left | right
+\newcommand{\entry}[2]{%
+  \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{4mm}}r@{}}
+    #1 & \textit{\footnotesize #2}
+  \end{tabularx}\par\vspace{0.4mm}}
+
+\renewcommand{\labelitemi}{$\bullet$}
+\newenvironment{bullets}
+  {\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=0.5ex, noitemsep, topsep=0.8mm, labelsep=1.2mm]\small}
+  {\end{itemize}\end{justify}\vspace{1.2mm}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  {\Huge \textbf{\color{accent}Juan Cruz-Benito, PhD}}\\[1.8mm]
+  {\large Quantum + AI Research \& Engineering Leader}\\[1.6mm]
+  \small
+  % Private contact details live in contact.tex, which is git-ignored.
+  % Without it, the public build links to the website's contact form instead.
+  \IfFileExists{contact.tex}{\input{contact.tex}\def\sitelink{\href{https://juancb.es}{juancb.es}}}{\def\sitelink{\href{https://juancb.es/\#contact}{juancb.es (contact form)}}}%
+  Spain -- open to remote \ $\vert$ \
+  \sitelink\\[0.6mm]
+  \href{https://www.linkedin.com/in/juancb/}{linkedin.com/in/juancb} \ $\vert$ \
+  \href{https://github.com/cbjuan}{github.com/cbjuan} \ $\vert$ \
+  \href{https://huggingface.co/cbjuan}{huggingface.co/cbjuan} \ $\vert$ \
+  \href{https://scholar.google.es/citations?user=_mLnQPgAAAAJ}{Google Scholar} \ $\vert$ \
+  \href{https://orcid.org/0000-0003-2045-8329}{ORCID}
+\end{center}
+\vspace{-2mm}
+
+%-----------SUMMARY-----------
+\cvsection{Summary}
+\begin{justify}\small
+Research and engineering leader who turns AI research into production tools for quantum computing. Manages the Quantum+AI team at IBM Research (10 reports: 7 direct across 3 countries plus 3 in-country) that improves \textbf{IBM Granite} LLMs for the quantum domain, with 8+ years at IBM Quantum and 13+ years in software engineering and research. Led the teams behind \textbf{qiskit-ibm-transpiler} (981K+ downloads, \#3 in the Unitary Foundation 2025 survey) and the open-source \textbf{Qiskit Code Assistant} LLMs (8B--24B, 30K+ downloads). \textbf{IBM Master Inventor}, \textbf{IEEE Senior Member}, 80+ publications (7,100+ citations, h-index 42) and 12 patent filings, including a granted US patent. PhD in Computer Engineering (Cum Laude, International).
+\end{justify}
+
+\vspace{1mm}
+{\small
+\textbf{Core strengths:} LLMs for code \& science $\cdot$ Reinforcement learning $\cdot$ Quantum circuit synthesis \& transpilation $\cdot$ AI agents \& MCP $\cdot$ Benchmarks \& evaluation $\cdot$ Team building \& people management $\cdot$ Product strategy $\cdot$ Open source $\cdot$ IP strategy
+}
+
+%-----------EXPERIENCE-----------------
+\cvsection{Experience}
+
+\employer{IBM Research / IBM Quantum}{Spain (Remote) $\vert$ Jan 2018 -- Present}
+
+\role{Quantum+AI Manager, IBM Research}{Jan 2026 -- Present}
+\begin{bullets}
+  \item Lead the team responsible for improving \textbf{IBM Granite} LLMs in the quantum domain, extending our Qiskit Code Assistant work into IBM's flagship open model family.
+  \item Manage \textbf{10 people}: 7 direct reports across 3 countries plus 3 in-country (non-functional) reports; certified as Senior Software Engineering Manager (Jan 2026).
+  \item Created \textbf{Qiskit QuantumKatas}, a 350-task benchmark for LLM-generated quantum code; evaluated 16 models across 7 prompting setups (39,200 runs).
+  \item Led an LLM-guided evolutionary search for quantum error-correcting codes: screened $\sim$200K candidates and discovered \textbf{465 distinct bivariate-bicycle codes} (arXiv, 2026; invited keynote, IEEE Quantum Week 2026).
+\end{bullets}
+
+\role{AI for Quantum Product Owner \textnormal{\&} Software Engineering Manager, IBM Quantum}{May 2023 -- Jan 2026}
+\begin{bullets}
+  \item Built the AI for Quantum engineering team from the ground up and led projects with \textbf{up to 15 individual contributors across 4 countries}, while staying hands-on as an individual contributor.
+  \item Owned product strategy for \textbf{\href{https://github.com/Qiskit/qiskit-ibm-transpiler}{qiskit-ibm-transpiler}} and its AI transpiler passes: \textbf{981K+ downloads}, ranked \#3 in the Unitary Foundation 2025 survey; 20\% average (up to 60\%) two-qubit gate reduction on Benchpress.
+  \item Shipped \textbf{\href{https://huggingface.co/collections/Qiskit/qiskit-llms-67337b513e8718191b0a6ff6}{Qiskit Code Assistant}}, a family of open-source LLMs (8B--24B) for quantum code with \textbf{30K+ downloads} on Hugging Face, plus the Qiskit HumanEval benchmarks; released local GGUF/Ollama versions for VS Code and JupyterLab.
+  \item Supervised post-training with quantum-verifiable rewards (checked by execution on quantum hardware) to improve generated Qiskit code.
+  \item Released \textbf{Qiskit Gym} (RL environments for circuit synthesis) and \textbf{Qiskit MCP servers} that connect AI assistants and agents to IBM Quantum services.
+  \item Co-invented further patent applications on intelligent unitary synthesis and automated quantum problem solving; named \textbf{IBM Master Inventor} (2024).
+\end{bullets}
+
+\role{Data \& Intelligence Chapter Lead, IBM Quantum}{May 2023 -- Jun 2024}
+\begin{bullets}
+  \item Led data and machine-learning projects across IBM Quantum platform teams, including ML models that \textbf{predict QPU processing time} for user jobs (IEEE QCE 2025).
+  \item Kickstarted the \textbf{AI transpiler} effort, which grew into qiskit-ibm-transpiler; co-invented patent applications on RL-based circuit synthesis and transpilation, attention-based neural networks for quantum simulation, quantum source-code generation, and static analysis of quantum programs.
+\end{bullets}
+
+\role{Research Developer \textnormal{(2021--23)} \& Senior Software Engineer, contractor \textnormal{(2018--20)}}{Jan 2018 -- May 2023}
+\begin{bullets}
+  \item Designed and implemented the \textbf{fair-share queue} that schedules \textbf{every job run on every IBM Quantum QPU}, still in production today.
+  \item Led development of \textbf{IBM Quantum Lab}, a JupyterHub-on-Kubernetes notebook platform open to \textbf{$\sim$240K enrolled users}, with peaks of $\sim$800 concurrent user servers (presented at JupyterCon 2020).
+  \item Led development and deployment of IBM Quantum's \textbf{first deep-learning platform}, which screened users against export regulations; resulted in \textbf{US Patent 12,244,596} (granted 2025).
+\end{bullets}
+
+\vspace{0.5mm}
+\employer{University of Salamanca -- GRIAL Research Group}{Salamanca, Spain}
+\role{Software Engineer \& Researcher; Teaching Assistant, Human-Computer Interaction}{Sep 2013 -- Dec 2017}
+\begin{bullets}
+  \item Researched data-driven human-computer interaction and applied machine learning; built research software and taught HCI. Best Conference Paper Award, TEEM 2017.
+\end{bullets}
+
+%-----------PUBLICATIONS-----------------
+\newpage
+\cvsection{Selected Publications \& Patents}
+{\small 80+ publications, \textbf{7,100+ citations, h-index 42} (Google Scholar, Sep 2026), and 12 patent filings (1 granted) -- full list on \href{https://scholar.google.es/citations?user=_mLnQPgAAAAJ}{\underline{Google Scholar}}. \textit{Last-author entries: work I led as team lead / senior author.}}
+\begin{bullets}
+  \item \textbf{Cruz-Benito, J.}, Cross, A.\,W., Kremer, D., Faro, I. \textit{Evolutionary Discovery of Bivariate Bicycle Codes with LLM-Guided Search.} arXiv:2606.02418, 2026.
+  \item Vishwakarma, S., et al., \textbf{Cruz-Benito, J.} \textit{Qiskit HumanEval: An Evaluation Benchmark for Quantum Code Generative Models.} IEEE QCE, 2024.
+  \item Dupuis, N., et al., \textbf{Cruz-Benito, J.} \textit{Qiskit Code Assistant: Training LLMs for Generating Quantum Computing Code.} IEEE LLM Aided Design Workshop (LAD), 2024.
+  \item Dupuis, N., Tiwari, A., Mroueh, Y., Kremer, D., Faro, I., \textbf{Cruz-Benito, J.} \textit{Quantum Verifiable Rewards for Post-Training Qiskit Code Assistant.} arXiv:2508.20907, 2025.
+  \item Kremer, D., Villar, V., Paik, H., Duran, I., Faro, I., \textbf{Cruz-Benito, J.} \textit{Practical and Efficient Quantum Circuit Synthesis and Transpiling with Reinforcement Learning.} arXiv:2405.13196, 2024.
+  \item Peral-Garc\'ia, D., \textbf{Cruz-Benito, J.}, Garc\'ia-Pe\~nalvo, F.\,J. \textit{Systematic Literature Review: Quantum Machine Learning and its Applications.} Computer Science Review, 2024. \textbf{(470+ citations)}
+  \item \textbf{Cruz-Benito, J.}, Vishwakarma, S., Martin-Fernandez, F., Faro, I. \textit{Automated Source Code Generation and Auto-Completion Using Deep Learning: Comparing and Discussing Current Language Model-Related Approaches.} AI, 2021.
+  \item Aleksandrowicz, G., et al. (incl. \textbf{Cruz-Benito, J.}) \textit{Qiskit: An Open-source Framework for Quantum Computing.} Zenodo, 2019. \textbf{(2,250+ citations)}
+  \item \textbf{Cruz-Benito, J.}, et al. \textit{Natural Language Processing for Restricting User Access to Systems.} \textbf{US Patent 12,244,596 B2}, granted 2025.
+  \item Patent applications (US, 2024--2026): RL-based transpilation of quantum circuits; intelligent unitary synthesis; quantum code generation from a modeling system; static characterization of quantum programs.
+\end{bullets}
+
+%-----------AWARDS-----------------
+\cvsection{Honors \& Awards}
+\entry{\textbf{IEEE Senior Member}}{2025}
+\entry{\textbf{IBM Master Inventor}}{2024 -- 2027}
+\entry{\textbf{SCIE--BBVA Foundation Research Award} -- top 6 young researchers in Computer Science, Spain}{2019}
+\entry{\textbf{Qiskit Advocate}, Qiskit Community}{2019}
+\entry{\textbf{Best Conference Paper Award}, ISELEAR'17 / TEEM 2017}{2017}
+
+%-----------TALKS-----------------
+\cvsection{Selected Talks}
+\entry{\textbf{Invited keynote:} \textit{Quantum Error Correction Meets AI for Science: Lessons from LLM-Guided Code Discovery} -- AI4QC Workshop, IEEE Quantum Week, Toronto}{2026}
+\entry{\textbf{Full-day tutorial:} \textit{AI Methods for Quantum Circuit Optimization} (co-presenter) -- IEEE Quantum Week, Albuquerque}{2025}
+\entry{\textit{Bring useful quantum computing to the world} -- Metafuturo Bizkaia Quantum, Bilbao}{2025}
+\entry{\textit{AI for Qiskit: hackathon starter pack} -- BasQ Qiskit Fall Fest, Bilbao}{2025}
+\entry{\textit{IBM Quantum Experience Notebooks: serving JupyterHub at scale for the quantum community} -- JupyterCon}{2020}
+
+%-----------EDUCATION-----------
+\cvsection{Education}
+\resumeSubheading{PhD in Computer Engineering -- University of Salamanca}{Cum Laude, International Doctorate}{}{2018}
+\entry{\textbf{MEng in Intelligent Systems -- University of Salamanca}}{2013}
+\entry{\textbf{BSc in Computer Engineering -- University of Salamanca}}{2012}
+
+%-----------SKILLS-----------------
+\cvsection{Skills \& Languages}
+{\small
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+\textbf{AI / ML:\ } & LLM training \& post-training, evaluation \& benchmarks, reinforcement learning, AI agents, Model Context Protocol (MCP) \\
+\textbf{Quantum:\ } & Qiskit, circuit synthesis \& transpilation, quantum error-correcting codes, IBM Quantum platform \\
+\textbf{Engineering:\ } & Python, open-source libraries, JupyterHub, Kubernetes, Hugging Face, Ollama / GGUF, VS Code \& JupyterLab extensions \\
+\textbf{Leadership:\ } & Hiring and growing teams, product ownership, research-to-product transfer, patent portfolio \\
+\textbf{Languages:\ } & Spanish (native), English (professional) \\
+\end{tabularx}
+}
+
+\end{document}

@@ -7,6 +7,10 @@ sections:
     id: about
     content:
       username: juancb
+      # Built from cv/cv.tex with cv/build.sh (public version, no email/phone).
+      button:
+        text: Download CV
+        url: uploads/juan-cruz-benito-cv.pdf
     design:
       name:
         size: sm
