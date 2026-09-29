@@ -17,7 +17,7 @@
     {{ $file_path := .Path }}
     {{ with $repo.url }}
       {{ $raw_base := replace . "github.com" "raw.githubusercontent.com" }}
-      {{ $branch := $repo.branch | default "master" }}
+      {{ $branch := $repo.branch | default "main" }}
       {{ $content_dir := $repo.content_dir | default "content" }}
       <link rel="alternate" type="text/markdown" href="{{ printf "%s/%s/%s/%s" $raw_base $branch $content_dir $file_path }}">
     {{ end }}

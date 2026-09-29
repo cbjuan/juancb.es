@@ -39,7 +39,7 @@ python3 -m http.server --directory /tmp/juancb-preview
 
 ## Deployment
 
-Every push to `master` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). It builds the site with Hugo and Pagefind and publishes it to [`cbjuan/cbjuan.github.io`](https://github.com/cbjuan/cbjuan.github.io), which serves `juancb.es` through GitHub Pages. The `public/` folder is a submodule pointing at that repository.
+Every push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). It builds the site with Hugo and Pagefind and publishes it to [`cbjuan/cbjuan.github.io`](https://github.com/cbjuan/cbjuan.github.io), which serves `juancb.es` through GitHub Pages. The `public/` folder is a submodule pointing at that repository.
 
 `./deploy-web.sh` does the same build and deploy manually, for when CI isn't available.
 

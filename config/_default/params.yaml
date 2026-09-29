@@ -88,7 +88,7 @@ hugoblox:
   repository:
     enable: false
     url: 'https://github.com/cbjuan/juancb.es'
-    branch: master
+    branch: main
     content_dir: content
 
   locale:
