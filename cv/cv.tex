@@ -1,12 +1,20 @@
 %-------------------------
 % CV for Juan Cruz-Benito
 % Build: see cv/README.md (./build.sh publishes the public PDF to static/uploads/)
+% Engine: XeLaTeX. Headings use the site's Montserrat, instanced into fonts/ by build.sh.
 % Adapted from the "NIT Warangal Resume" Overleaf template (CC BY 4.0)
 % https://es.overleaf.com/latex/templates/nit-warangal-resume/gtsrbjvffcjn
 %------------------------
 
 \documentclass[a4paper,10pt]{article}
-\usepackage{cmap}               % searchable / copyable text for ATS
+\usepackage{fontspec}
+% Body: Carlito (OFL, ships with TeX Live). Compact enough to keep the CV at two pages.
+\setmainfont{Carlito}[Extension=.ttf, UprightFont=*-Regular, BoldFont=*-Bold,
+  ItalicFont=*-Italic, BoldItalicFont=*-BoldItalic]
+% Headings: Montserrat, the website's font. build.sh generates these static
+% weights from assets/dist/font/Montserrat.var.woff2 so both share one source.
+\newfontfamily\headfont{Montserrat}[Path=fonts/, Extension=.ttf, Ligatures=TeX,
+  UprightFont=*-Medium, BoldFont=*-Bold]
 \usepackage{xcolor}
 \usepackage{ragged2e}
 \usepackage{tabularx}
@@ -15,8 +23,6 @@
 \usepackage{enumitem}
 \usepackage{fancyhdr}
 \usepackage[hidelinks]{hyperref}
-\input{glyphtounicode}
-\pdfgentounicode=1              % map ligatures (fi, fl) to real text
 
 \hypersetup{
   pdftitle={Juan Cruz-Benito - CV},
@@ -55,14 +61,14 @@
 % Commands (adapted from the template)
 \newcommand{\cvsection}[1]{%
   \vspace{2.5mm}%
-  \begin{tcolorbox}\textbf{\large\color{accent} #1}\end{tcolorbox}%
+  \begin{tcolorbox}{\headfont\bfseries\large\color{accent} #1}\end{tcolorbox}%
   \vspace{-1.5mm}%
 }
 
 % Employer line: Company | Location
 \newcommand{\employer}[2]{%
   \begin{tabularx}{\linewidth}{@{}X r@{}}
-    \textbf{\large #1} & \footnotesize #2
+    {\headfont\bfseries\large #1} & \footnotesize #2
   \end{tabularx}\par\vspace{0.6mm}}
 
 % Role line under an employer: Title | Dates
@@ -94,8 +100,8 @@
 
 %----------HEADING-----------------
 \begin{center}
-  {\Huge \textbf{\color{accent}Juan Cruz-Benito, PhD}}\\[1.8mm]
-  {\large Quantum + AI Research \& Engineering Leader}\\[1.6mm]
+  {\headfont\Huge\bfseries\color{accent}Juan Cruz-Benito, PhD}\\[1.8mm]
+  {\headfont\large Quantum + AI Research \& Engineering Leader}\\[1.6mm]
   \small
   % Private contact details live in contact.tex, which is git-ignored.
   % Without it, the public build links to the website's contact form instead.
