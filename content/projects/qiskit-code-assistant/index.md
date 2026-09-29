@@ -2,7 +2,7 @@
 aliases:
   - '/project/qiskit-code-assistant/'
 title: Qiskit Code Assistant
-summary: Family of open-source LLMs (8B–24B) for quantum code generation, plus the Qiskit HumanEval* benchmarks
+summary: Family of open-source LLMs (8B–24B) for quantum code generation, plus the Qiskit HumanEval* benchmarks — 30K+ downloads on Hugging Face
 tags:
 - AI
 - Quantum Computing
@@ -22,7 +22,7 @@ links:
   url: https://www.ibm.com/quantum/blog/qiskit-code-assistant
 - icon: emoji/hugs
   label: Models
-  url: https://huggingface.co/collections/Qiskit/qiskit-llms-67337b513e8718191b0a6ff6
+  url: https://huggingface.co/collections/Qiskit/qiskit-llms
 - icon: hero/circle-stack
   label: HumanEval
   url: https://huggingface.co/datasets/Qiskit/qiskit_humaneval
@@ -43,6 +43,8 @@ A family of LLMs (8B–24B parameters) specialized for quantum code generation. 
 - **Qwen2.5 Coder 14B** — Strong coding foundation
 - **Granite 3.x 8B** — Efficient, multiple versions
 - GGUF quantized versions available for local deployment
+
+[30K+ downloads on Hugging Face](https://huggingface.co/collections/Qiskit/qiskit-llms) across 11 model repositories, including the GGUF versions.
 
 Achieves **46.53% on Qiskit HumanEval**—significantly outperforming competing models (24.75%–39.6%). Supports natural language to code ("define a Bell circuit and run it on ibm_brisbane") and intelligent autocomplete.
 
