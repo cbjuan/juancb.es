@@ -1,0 +1,36 @@
+# HugoBlox Font Pack: Montserrat for headings and body text.
+# Selected via hugoblox.typography.pack in config/_default/params.yaml.
+
+hugoblox:
+  meta:
+    format: "hugoblox-font@1"
+    name: "Montserrat"
+    vendor: "juancb"
+    version: "1.0.0"
+    license: "OFL-1.1"
+    style: "sans"
+    description: "Montserrat throughout, with Source Code Pro for code"
+
+  families:
+    heading: "Montserrat"
+    body: "Montserrat"
+    code: "Source Code Pro"
+
+  weights:
+    heading: [600, 700]
+    body: [400, 500, 600]
+    code: [400]
+
+  leading:
+    heading: 1.2
+    body: 1.65
+    code: 1.5
+
+  tracking:
+    heading: "-0.01em"
+    body: "0"
+
+  variable:
+    heading: true
+    body: true
+    code: false

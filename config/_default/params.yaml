@@ -19,7 +19,7 @@ hugoblox:
     surfaces: {}
 
   typography:
-    pack: 'academic'
+    pack: 'montserrat'
 
   layout:
     radius: 'md'
