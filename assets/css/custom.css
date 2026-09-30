@@ -1,13 +1,17 @@
 /*
-  Reduce the gap between the sticky navbar and the homepage bio/photo section.
-  The blox module's resume-biography-3 block hardcodes generous top padding
-  (py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32, i.e. up to 128px) that is
-  independent of the hugoblox.layout.spacing token, so it can't be tuned via
-  config/_default/params.yaml. Only the top offset is trimmed here; bottom
-  padding (section separation from the next block) is left as-is.
+  Reduce the gap around the homepage bio/photo section (navbar above, Projects
+  below). The blox module's resume-biography-3 block hardcodes generous
+  padding (py-8 sm:py-12 md:py-16 lg:py-24 xl:py-32, i.e. up to 128px per
+  side) that is independent of the hugoblox.layout.spacing token, so it can't
+  be tuned via config/_default/params.yaml. That padding is on top of, not
+  instead of, the .hbb-section padding every homepage block already gets.
+  The top is trimmed to a small residual so the bio doesn't sit flush under
+  the navbar; the bottom is zeroed out so the About->Projects gap matches
+  every other section boundary, which is governed solely by the token.
 */
 .resume-biography {
   padding-top: 1rem;
+  padding-bottom: 0;
 }
 
 @media (min-width: 640px) {
@@ -26,6 +30,33 @@
   .resume-biography {
     padding-top: 2.5rem;
   }
+}
+
+/*
+  Same issue on the Contact block: its inner wrapper hardcodes
+  py-12 sm:py-16 lg:py-20 (up to 80px) on top of .hbb-section's own padding.
+  Zeroed out (rather than just trimmed) so the Awards->Contact gap matches
+  every other boundary -- bottom is left alone since it's the last thing on
+  the page, not a gap to a following section. No class of its own, so
+  targeted via the #contact section id (same pattern as the h2 override
+  below).
+*/
+#contact > div.max-w-7xl {
+  padding-top: 0;
+}
+
+/*
+  The content-collection block's own "See all X" archive-link wrapper adds
+  pb-5 lg:pb-8 (up to 32px) below the item grid/list, on top of the
+  .hbb-section padding. Only blocks with an archive link (Posts, Publications,
+  Talks -- Projects has none, since its count is 0) get this, which made
+  those three boundaries bigger than Projects->Posts. Zeroed out so all
+  content-collection boundaries match.
+*/
+#posts > div.container.mx-auto.max-w-screen-lg,
+#publications > div.container.mx-auto.max-w-screen-lg,
+#talks > div.container.mx-auto.max-w-screen-lg {
+  padding-bottom: 0;
 }
 
 /*
