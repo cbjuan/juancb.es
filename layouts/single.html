@@ -144,6 +144,9 @@
         <div class="mt-3">
           {{ partial "page_links_div.html" . }}
         </div>
+
+        {{/* Override: former/archived project notice (layouts/_partials/project_status.html). */}}
+        {{ partial "project_status.html" (dict "page" . "mode" "note") }}
       </div>
 
 

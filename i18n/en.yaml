@@ -1,2 +1,18 @@
 - id: block_contact_form_title
   translation: Send me a message
+
+# Former / archived projects (layouts/_partials/project_status.html)
+- id: project_status_former
+  translation: Former project
+- id: project_status_former_text
+  translation: I'm no longer involved in this project; it continues without me.
+- id: project_status_former_since
+  translation: I moved on from this project in {{ .Since }}; it continues without me.
+- id: project_status_archived
+  translation: Archived
+- id: project_status_archived_text
+  translation: This project has been closed.
+- id: project_status_archived_since
+  translation: This project was closed in {{ .Since }}.
+- id: project_status_section
+  translation: Former & archived projects

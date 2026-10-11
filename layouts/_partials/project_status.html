@@ -1,0 +1,40 @@
+{{/*
+  Former / archived project marker (project-level partial, not an override).
+
+  Set in a project's front matter:
+
+    project_status: former     # I moved on; the project itself continues
+    project_status: archived   # the project has been closed / retired
+    project_status_since: 2024-05-15   # optional: when that happened
+    project_status_note: "…"           # optional: one line of context (Markdown)
+
+  Any project with `project_status` is hidden from the homepage Projects block
+  (filters.exclude_inactive in content/_index.md) and listed under its own
+  heading on /projects/ (layouts/list.html).
+
+  Call with (dict "page" $page "mode" "badge") for the small pill on cards, or
+  (dict "page" $page "mode" "note") for the notice on the project's own page.
+  Renders nothing for pages without a valid `project_status`.
+*/}}
+{{ $p := .page }}
+{{ $status := lower (printf "%v" ($p.Params.project_status | default "")) }}
+{{ if in (slice "former" "archived") $status }}
+  {{ $since := "" }}
+  {{ with $p.Params.project_status_since }}{{ $since = time.Format "January 2006" (time .) }}{{ end }}
+
+  {{ if eq .mode "badge" }}
+    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 ring-1 ring-zinc-900/10 dark:ring-white/10">
+      {{ i18n (printf "project_status_%s" $status) }}
+    </span>
+  {{ else if eq .mode "note" }}
+    <div class="max-w-prose my-6 rounded-lg border-l-4 border-zinc-400 dark:border-zinc-500 bg-zinc-50 dark:bg-zinc-800/60 px-4 py-3 text-sm text-zinc-700 dark:text-zinc-300" role="note">
+      <strong>{{ i18n (printf "project_status_%s" $status) }}.</strong>
+      {{ if $since }}
+        {{ i18n (printf "project_status_%s_since" $status) (dict "Since" $since) }}
+      {{ else }}
+        {{ i18n (printf "project_status_%s_text" $status) }}
+      {{ end }}
+      {{ with $p.Params.project_status_note }} {{ . | $p.RenderString }}{{ end }}
+    </div>
+  {{ end }}
+{{ end }}

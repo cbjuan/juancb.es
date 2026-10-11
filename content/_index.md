@@ -23,7 +23,12 @@ sections:
         folders:
           - projects
         featured_only: false
+        # Hide projects marked `project_status: former|archived` (shown on /projects/ instead).
+        exclude_inactive: true
       count: 0
+      archive:
+        enable: true
+        text: See all projects, including former ones
     design:
       view: card
       columns: 2

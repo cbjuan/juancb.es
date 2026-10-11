@@ -27,4 +27,6 @@ links:
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2510.20630"
+projects:
+  - ibm-quantum-job-scheduling
 ---

@@ -92,9 +92,19 @@
   </div>
   {{ end }}
 
+  {{/* Former/archived projects (front matter `project_status`, see
+       layouts/_partials/project_status.html) are pulled out of the main grid
+       and listed under their own heading after the current ones. */}}
+  {{ $list_pages := $paginator.Pages }}
+  {{ $inactive_pages := slice }}
+  {{ if eq .Section "projects" }}
+    {{ $inactive_pages = where $paginator.Pages "Params.project_status" "!=" nil }}
+    {{ $list_pages = where $paginator.Pages "Params.project_status" "==" nil }}
+  {{ end }}
+
   {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
 
-  {{ range $index, $item := $paginator.Pages }}
+  {{ range $index, $item := $list_pages }}
     {{ $item_csl := "" }}
     {{ if $show_type_filter }}
       {{ with $item.Params.publication_types }}
@@ -107,6 +117,15 @@
   {{ end }}
 
   {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+
+  {{ with $inactive_pages }}
+    <h2 class="mt-16 mb-2 text-3xl font-bold text-gray-900 dark:text-white">{{ i18n "project_status_section" }}</h2>
+    {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" $ "view" $view "config" $config) }}
+    {{ range $index, $item := . }}
+      {{ partial "functions/render_view" (dict "page" $item "item" $item "view" $view "index" $index "config" $config) }}
+    {{ end }}
+    {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" $ "view" $view) }}
+  {{ end }}
 
   {{ partial "components/paginator" . }}
 

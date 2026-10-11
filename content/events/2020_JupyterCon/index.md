@@ -16,4 +16,6 @@ math: true
 image:
   caption: "Image credit: [**JupyterCon 2020**](https://jupytercon.com/)"
   focal_point: "Left"
+projects:
+  - ibm-quantum-lab
 ---

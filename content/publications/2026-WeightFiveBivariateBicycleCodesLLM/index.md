@@ -24,4 +24,6 @@ links:
 hugoblox:
   ids:
     doi: "10.48550/arXiv.2610.06623"
+projects:
+  - qcode-discovery
 ---
