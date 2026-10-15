@@ -132,8 +132,11 @@
         {{ end }}
       {{ end }}
 
-      {{ if and $item.Params.tags (gt (len $item.Params.tags) 0) }}
-      <div class="flex items-center gap-2">
+      {{/* Override: also show a former/archived pill (layouts/_partials/project_status.html). */}}
+      {{ $hasTags := and $item.Params.tags (gt (len $item.Params.tags) 0) }}
+      {{ if or $hasTags $item.Params.project_status }}
+      <div class="flex items-center gap-2 flex-wrap">
+        {{ if $hasTags }}
         {{ with index ($item.GetTerms "tags") 0 }}
         <a href="{{ .RelPermalink }}">
           <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-primary-100 text-primary-800 dark:bg-primary-900/40 dark:text-primary-300">
@@ -141,6 +144,8 @@
           </span>
         </a>
         {{ end }}
+        {{ end }}
+        {{ partial "project_status.html" (dict "page" $item "mode" "badge") }}
       </div>
       {{ end }}
 

@@ -48,4 +48,6 @@ A family of LLMs (8B–24B parameters) specialized for quantum code generation. 
 
 Achieves **46.53% on Qiskit HumanEval**—significantly outperforming competing models (24.75%–39.6%). Supports natural language to code ("define a Bell circuit and run it on ibm_brisbane") and intelligent autocomplete.
 
+**Post-training with quantum-verifiable rewards:** a synthetic pipeline generates quantum problem–unit test pairs, used for DPO preference data and for GRPO training with rewards checked by execution on quantum systems. The combined DPO + GRPO model beats the strongest open-source baselines on Qiskit HumanEval Hard ([paper](https://arxiv.org/abs/2508.20907)).
+
 We created and open-sourced **Qiskit HumanEval** and **Qiskit HumanEval Hard**—benchmarks with 150+ tasks each, now used industry-wide for evaluating quantum code LLMs. Integrated into VS Code and JupyterLab.

@@ -23,6 +23,8 @@ math: false
 image:
   caption: "Image credit: [**AILAB-Udine**](https://www.linkedin.com/posts/ieeequantumweek-qce2026-quantumcomputing-ugcPost-7510625105777950720-dfFU/)"
   focal_point: "Smart"
+projects:
+  - qcode-discovery
 ---
 
 Related paper: [Evolutionary Discovery of Bivariate Bicycle Codes with LLM-Guided Search](https://arxiv.org/abs/2606.02418) (arXiv:2606.02418).
