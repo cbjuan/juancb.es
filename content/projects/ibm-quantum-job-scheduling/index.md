@@ -30,4 +30,4 @@ url_video: ""
 
 Designed and implemented the **fair-share queue** that decides the order in which jobs run on IBM Quantum hardware. It balances access across users and organizations according to their allocations, and it schedules **every job run on every IBM Quantum QPU** — still in production today.
 
-Later, as Data & Intelligence Chapter Lead, I led work on **predicting QPU processing time** for user jobs. Using a dataset of ~150,000 jobs following the IBM Quantum schema, gradient-boosting models (LightGBM) forecast how long each job will take on the hardware, giving scheduling and resource management a better signal than static estimates. Published at IEEE QCE 2025.
+Later, as Data & Intelligence Chapter Lead, I led work on **predicting QPU processing time** for user jobs, which has been deployed on production since 2023. Based on this experience, we published a paper at IEEE QCE 2025 in which we used a dataset of ~150,000 jobs following the IBM Quantum schema, gradient-boosting models (LightGBM) forecast how long each job will take on the hardware, giving scheduling and resource management a better signal than static estimates. 
