@@ -2,7 +2,7 @@
 aliases:
   - '/publication/2023-patent_nlprestricted/'
 title: "Natural language processing for restricting user access to systems"
-date: 2023-06-29
+date: 2025-03-04
 authors:
   - "Juan Cruz-Benito"
   - "Iván Durán Martínez"
@@ -14,7 +14,7 @@ abstract: "A method and system determine network based access to restricted syst
 publication_types:
   - "patent"
 selected: false
-publication: "*US Patent App. 17/564,168*"
+publication: "*US Patent 12,244,596 B2* (granted March 4, 2025; published as US20230208841A1)"
 tags:
   - "Natural Language Processing"
   - "method"
@@ -23,7 +23,7 @@ tags:
   - "computer program"
 links:
 - type: pdf
-  url: "https://patentimages.storage.googleapis.com/ec/96/35/03832588a2cfaf/US20240039919A9.pdf"
+  url: "https://ppubs.uspto.gov/pubwebapp/authorize.html?redirect=print/pdfRedirectDownload/12244596"
 - type: source
   url: "https://patentcenter.uspto.gov/applications/17564168"
 ---
