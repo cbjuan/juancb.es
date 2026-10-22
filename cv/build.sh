@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Build the CV with XeLaTeX.
+# Build the CV with XeLaTeX, falling back to Tectonic if xelatex isn't installed.
 #   ./build.sh           public build -> ../static/uploads/juan-cruz-benito-cv.pdf
 #   ./build.sh private   private build (needs contact.tex) -> ./cv-private.pdf, never published
 #
-# Requires: xelatex (TeX Live, with the Carlito font) and python3 with fonttools + brotli
-# (pip install fonttools brotli), used to cut static Montserrat weights from the site's
-# variable font so the CV and the website share a single font file.
+# Requires either xelatex (TeX Live, with the Carlito font) or tectonic, plus python3
+# with fonttools + brotli (pip install fonttools brotli), used to cut static Montserrat
+# weights from the site's variable font so the CV and the website share a single font file.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -36,8 +36,16 @@ else
   out="../static/uploads/juan-cruz-benito-cv.pdf"
 fi
 
-(cd "$tmp" && xelatex -interaction=nonstopmode -halt-on-error cv.tex >/dev/null && xelatex -interaction=nonstopmode -halt-on-error cv.tex >/dev/null) \
-  || { echo "xelatex failed; see the log by running it manually in cv/" >&2; exit 1; }
+if command -v xelatex >/dev/null; then
+  (cd "$tmp" && xelatex -interaction=nonstopmode -halt-on-error cv.tex >/dev/null && xelatex -interaction=nonstopmode -halt-on-error cv.tex >/dev/null) \
+    || { echo "xelatex failed; see the log by running it manually in cv/" >&2; exit 1; }
+elif command -v tectonic >/dev/null; then
+  (cd "$tmp" && tectonic -X compile cv.tex >/dev/null) \
+    || { echo "tectonic failed; see the log by running it manually in cv/" >&2; exit 1; }
+else
+  echo "Neither xelatex nor tectonic found; install one of them (see the comment at the top of this script)" >&2
+  exit 1
+fi
 mkdir -p "$(dirname "$out")"
 cp "$tmp/cv.pdf" "$out"
 
