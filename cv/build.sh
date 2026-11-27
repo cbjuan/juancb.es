@@ -2,6 +2,8 @@
 # Build the CV with XeLaTeX, falling back to Tectonic if xelatex isn't installed.
 #   ./build.sh           public build -> ../static/uploads/juan-cruz-benito-cv.pdf
 #   ./build.sh private   private build (needs contact.tex) -> ./cv-private.pdf, never published
+#   ./build.sh private cv-foo.tex   private build of a tailored variant -> ./cv-foo.pdf
+#                        (cv-*.tex and cv-*.pdf are git-ignored, so variants stay local)
 #
 # Requires either xelatex (TeX Live, with the Carlito font) or tectonic, plus python3
 # with fonttools + brotli (pip install fonttools brotli), used to cut static Montserrat
@@ -10,9 +12,14 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 mode="${1:-public}"
+src="${2:-cv.tex}"
+[[ -f "$src" ]] || { echo "$src not found" >&2; exit 1; }
+if [[ "$mode" != "private" && "$src" != "cv.tex" ]]; then
+  echo "Variants can only be built in private mode: ./build.sh private $src" >&2; exit 1
+fi
 tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
-cp cv.tex "$tmp/"
+cp "$src" "$tmp/cv.tex"
 
 python3 - "$tmp/fonts" <<'PY'
 import sys, os
@@ -31,7 +38,7 @@ PY
 if [[ "$mode" == "private" ]]; then
   [[ -f contact.tex ]] || { echo "contact.tex not found (see contact.tex.example)"; exit 1; }
   cp contact.tex "$tmp/"
-  out="cv-private.pdf"
+  if [[ "$src" == "cv.tex" ]]; then out="cv-private.pdf"; else out="${src%.tex}.pdf"; fi
 else
   out="../static/uploads/juan-cruz-benito-cv.pdf"
 fi

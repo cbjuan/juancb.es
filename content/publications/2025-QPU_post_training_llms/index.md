@@ -14,7 +14,7 @@ abstract: "Qiskit is an open-source quantum computing framework that allows user
 publication_types:
   - "article"
 selected: false
-publication: "*arXiv preprint arXiv:2406.14712*"
+publication: "*arXiv preprint arXiv:2508.20907*"
 tags:
   - "Qiskit"
   - "Large Language Models"

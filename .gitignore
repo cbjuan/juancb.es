@@ -36,3 +36,5 @@ cv/contact.tex
 cv/cv-private.pdf
 cv/*.aux
 cv/*.out
+cv/cv-*.tex
+cv/cv-*.pdf
